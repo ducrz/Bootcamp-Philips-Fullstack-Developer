@@ -1,0 +1,13 @@
+Introdução ao Portugol
+
+Aprenda como utilizar uma estrutura de repetição
+
+O que são linguagens de programação?
+
+Aprenda a utilizar desvios condicionais e boas práticas em programação
+
+Trabalhando com laços de repetição em Portugol
+
+Aplicação prática com matrizes e vetores
+
+Certifique seu conhecimento

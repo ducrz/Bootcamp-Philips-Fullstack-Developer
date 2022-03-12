@@ -1,0 +1,14 @@
+Lógica de Programação Essencial
+
+Entendendo o que é lógica
+
+O que são algoritmos e pseudocódigo
+
+Aprendendo fluxograma, variáveis e constantes
+
+Tomadas de decisões e expressões
+
+Como utilizar a concatenação
+
+
+

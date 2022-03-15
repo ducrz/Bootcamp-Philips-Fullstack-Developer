@@ -2,13 +2,387 @@ Lógica de Programação Essencial
 
 Entendendo o que é lógica
 
+Programar é resolver problemas.
+
+
+Lógica é "coerência de raciocínio, de ideias".
+
+"sequência coerente, regular e necessária de acontecimentos, coisas. "
+
+
+"Lógica de programação significa apenas contextualizar a lógica na programação de computadores, 
+buscando a melhor sequência de ações para solucionar um problema".
+
+
+Metacognição
+
+"Pensar como você pensa".
+
+
+Abstração
+
+"Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais".
+
+
+Exercício Final
+
+Crie um mapa mental para resolver um determinado problema, por exemplo, calcular a média aritmética de 4 notas,
+sabendo que as notas são as seguintes:
+
+Nota 1: 5
+Nota 2: 7
+Nota 3: 10
+Nota 4: 3
+
+
+Resolução
+
+Contar quantidade de elementos. Elementos = 4
+Somar todos os elementos. Somar = 25
+Dividir valor da soma pela quantidade de elementos.
+Média é igual a 6.25.
+
+Abstração do Exercício
+
+Elementos = 4;
+Soma= 25;
+Media= (Soma / Elementos);
+
+
 O que são algoritmos e pseudocódigo
+
+Algoritmo é uma sequência de passos para resolver um problema.
+
+Exemplo Algoritmo
+
+INÍCIO-DIA
+	Acordar
+	Levantar da cama
+	Escovar os dentes
+	Ir a padaria
+	Tomar Café
+	Escovar os dentes
+	Ir Trabalho
+	Trabalhar
+	Ir para o Restaurante
+	Almoçar
+	Retonar para o Trabalho
+	Trabalhar
+	Voltar para Casa
+	...
+FIM-DIA
+
+
+
+CODE.ORG
+
+https://studio.code.org/s/mc/stage/1/puzzle/1
+
+
+PSEUDOCÓDIGO
+
+"Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples
+(nativa, ou seja, em português, de forma a ser entendida por qualquer pessoa)".
+
+Pseudocódigo é utilizado para "aprender a programar".
+
+Exemplo
+
+Jogo Lobo, Ovelha e Repolho
+https://www.proprofs.com/games/wolf-sheep-and-cabbage
+
+INÍCIO JOGO
+	OVELHA ENTRA BARCO
+	BARCO VAI PARA OUTRA MARGEM
+	OVELHA SAI BARCO
+	BARCO VOLTA
+	REPOLHO ENTRA BARCO
+	BARCO VAI PARA OUTRA MARGEM
+	REPOLHO SAI BARCO
+	OVELHA ENTRA BARCO
+	BARCO VOLTA
+	OVELHA SAI BARCO
+	LOBO ENTRA BARCO
+	BARCO VAI PARA OUTRA MARGEM
+	LOBO SAI BARCO
+	BARCO VOLTA
+	OVELHA ENTRA BARCO
+	BARCO VAI PARA OUTRA MARGEM
+	OVELHA SAI BARCO
+FIM JOGO
+
+
+Jogo Pinguins em uma Fria
+
+https://rachacuca.com.br/jogos/pinguins-numa-fria
+
+Filhotes ficam assustados e fogem se seus pais não estiverem na mesma margem que eles
+e se houver adultos de outras famílias por perto.
+
+INÍCIO JOGO
+	Filhote cachecol vermelho entra gelo
+	Pai cachecol vermelho entra gelo
+	Gelo vai para outra margem
+	Pai cachecol vermelho sai gelo
+	Gelo retorna
+	Filhote cachecol verde entra gelo
+	Gelo vai para outra margem
+	Filhote cachecol vermelho sai gelo
+	Gelo retorna
+	Pai Cachecol verde entra gelo
+	Gelo vai para outra margem
+	Pai cachecol Verde sai gelo
+	Gelo retorna
+	Filhote cachecol azul entra gelo
+	Gelo vai para outra margem
+	Filhote cachecol verde sai gelo
+	Gelo retorna
+	Pai cachecol azul entra gelo
+	Gelo vai para outra margem
+	Pai cachecol azul sai gelo
+	Filhote cachecol azul sai gelo
+FIM JOGO
+
 
 Aprendendo fluxograma, variáveis e constantes
 
+FLUXOGRAMA
+
+"Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo, isto é,
+a sequência lógica e coerente do fluxo de dados".
+
+INÍCIO
+
+ENTRADA
+
+PROCESSAMENTO
+
+SAÍDA
+
+FIM
+
+
+"Fluxograma é um tipo de diagrama e pode ser entendido como uma representação esquemática de um processo.
+Podemos entendê-lo, na prática, como a documentação dos passos necessários para a execução de um processo qualquer".
+
+INÍCIO
+
+PEGAR A ESCOVA DE DENTES
+PEGAR A PASTA DE DENTES
+COLOCAR A PASTA DE DENTES SOBRE A ESCOVA
+ESCOVAR OS DENTES
+
+FIM
+
+
+DIAGRAMA DE BLOCOS
+
+Utilizado para representar o método de um fluxograma
+
+Não existe um padrão para estes desenhos.
+
+
+Exemplo
+
+PRINCIPAL
+
+REAL nota1,nota2,nota3,nota4,media
+ENTRADA nota1
+Entrada nota2
+Entrada nota3
+Entrada nota4
+media = (nota1+nota2+nota3+nota4)/4
+SAÍDA media
+
+FIM
+
+
+
+VARIÁVEIS E CONSTANTES
+
+"VARIÁVEL é um objeto(uma posição, frequentemente localizada na memória)
+capaz de reter e representar um valor ou expressão".
+
+
+Exemplo: Aluno = "Eduardo"
+
+"Uma variável é um espaço na memória do computador destinado a um dado que é alterado
+durante a execição do algoritmo".
+
+
+DECLARAÇÃO DE VARIÁVEIS
+
+INÍCIO
+	DECLARA nota1: número
+	DECLARA nota2: número
+	DECLARA nota3: número
+	DECLARA nota4: número
+	DECLARA media: número
+	LEIA(nota1)
+	LEIA(nota2)
+	LEIA(nota3)
+	LEIA(nota4)
+	media=(nota1+nota2+nota3+nota4)/4
+	IMPRIMIR(media)
+FIM
+
+
+TIPOS DE VARIÁVEIS
+
+As variáveis e as constantes podem ser classificadas basicamente em quatro tipos:
+Numéricas, Caracteres, Alfanuméricas ou Lógicas.
+
+
+DECLARAÇÃO DE CONSTANTES
+
+INÍCIO
+
+DECLARA pi=4,14
+DECLARA raio: número
+FIM
+
+
+FLOWGORITHM
+http://www.flowgorithm.org
+
+DIA Diagram Editor
+
+http://dia-installer.de
+
+
+
 Tomadas de decisões e expressões
 
+
+EXPRESSÕES ARITMÉTICAS
+
+"São expressões que utilizam operadores aritméticos e funções aritméticas
+envolvendo constantes e variáveis."
+
+Exemplo:
+50 + 50
+total + 50
+
+OPERADORES ARITMÉTICOS
+
+SOMA +
+
+SUBTRAÇÃO -
+
+MULTIPLICAÇÃO *
+
+DIVISÃO /
+
+POTENCIAÇÃO ^
+
+PORCENTAGEM %
+
+
+EXPRESSÕES LITERAIS
+
+"São expressões com constantes e/ou variáveis que tem como resultado valores literais."
+
+Iremos utilizar as expressões literais na atribuição de valor para uma variável ou constante.
+
+Exemplos:
+
+nome ="Eduardo Monteiro"
+nome <- "Eduardo Monteiro"
+media = (nota1+nota2+nota3+nota4)/4
+
+
+Exemplos
+
+
+Variáveis
+A,B,C
+
+Comando de Atribuição / Operação
+A=2
+Armazenar o valor 2 na variável A
+
+B=A +3
+Somar o valor de A(2) com 3 e armazenar em B(5)
+
+C= A+B
+Somar o valor de A(2) e o valor de B(5) e armazenar em C(7)
+
+
+EXPRESSÕES RELACIONAIS
+
+"São expressões compostas por outras expressões ou variáveis numéricas
+com operadores relacionais. As expressões relacionais retornam valores lógicos (verdadeiro/falso)".
+
+
+OPERADORES RELACIONAIS
+
+> Maior que
+>= Maior ou Igual
+< Menor que
+<= Menor ou igual
+== Igualdade
+!= Diferente de
+
+
+Exemplo
+x> y
+x é maior que y?
+
+x >= y
+x é maior ou igual a y?
+
+x< y
+x é menor que y?
+
+x<= y
+x é menor ou igual a y?
+
+x == y
+x é igual a y?
+
+x != y
+x é diferente de y?
+
+
+TOMADAS DE DECISÃO
+
+"Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer
+dependendo de alguma condição encontrada durante a execução."
+
+
+EXERCÍCIO MEDIA-VENDAS
+
+Variáveis de valor de vendas: Janeiro, Fevereiro, Março, Abril.
+Calcular Média
+media > = 5000 
+(Parabéns, abono de 10%)
+(Infelizmente, abono será de 3%)
+
+
+
 Como utilizar a concatenação
+
+CONCATENAÇÃO
+
+
+Concatenação é um termo usado em computação para designar a operação de unir o conteúdo
+de duas strings.
+
+String é uma sequência de caracteres.
+
+
+exemplo
+
+string nome = "Eduardo"
+string sobrenome = "Monteiro"
+
+string nomeCompleto = nome+sobrenome;
+
+
+Definição
+
+Agrupamento de duas ou mais células que, incluíndo fórmulas, textos ou outras informações
+contidas em seu interior, dá origem a um único resultado.
 
 
 

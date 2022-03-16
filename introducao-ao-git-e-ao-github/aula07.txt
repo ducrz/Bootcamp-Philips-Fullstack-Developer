@@ -1,0 +1,65 @@
+Resolvendo Conflitos
+
+Como os conflitos acontecem no GitHub e como resolvê-los
+
+
+
+Resolvendo Conflitos
+
+
+Códigos podem estar fora de sincronia, códigos diferentes com edição na mesma linha.
+
+CONFLITO DE MERGE
+
+Neste caso, precisa resolver os conflitos antes.
+
+
+
+Editar README
+
+git status
+
+git add .
+
+git commit -m "Adicionado Receita Bife à Parmegiana"
+
+git push -u origin master 
+
+
+
+
+Caso exista conflito vai aparecer mensagem de rejected
+
+Como resolver
+
+git pull origin master -puxar
+
+
+"Puxar o Arquivo", Editar o(s) arquivo(s) com problemas e remover/editar os problemas. Depois comitar.
+
+git status
+
+git add *
+
+git commit -m "Resolvendo conflitos"
+
+git push -u origin master
+
+
+Como Baixar Repositórios
+
+Clonar
+
+git clone urlrepositorio
+
+Quando clonado, já vem com .git.
+
+
+
+Fim do Curso Introdução ao Git e ao GitHub.
+
+
+
+
+
+

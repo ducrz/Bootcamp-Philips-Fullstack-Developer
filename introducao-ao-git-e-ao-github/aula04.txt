@@ -1,0 +1,46 @@
+Primeiros comandos com Git
+
+Iniciando o Git e criando um commit
+
+
+Iniciar o GIT
+Iniciar o Versionamento
+Criar um Commit
+
+
+git init
+git add
+git commit
+
+
+mkdir workspace
+cd workspace
+mkdir livro-receitas
+cd livro-receitas
+
+Iniciando Git
+git init
+
+ls -a
+
+cd .git
+
+Configurando
+git config user.email "ducatolico@gmail.com"
+git config user.name "ducrz"
+
+
+
+Adicionando um arquivo
+
+Adicionando um Markdown
+
+
+Commitando
+
+git add *
+git commit -m "Commit inicial."
+
+SHA1 -> 3a04b99
+
+

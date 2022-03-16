@@ -1,0 +1,42 @@
+Introdução ao GitHub
+
+Trabalhando com o GitHub
+
+git config --list
+
+
+Caso seja necessário a alteração, usuário ou e-mail diferentes do Github:
+
+git config --global --unset user.email
+
+git config --global --unset user.name
+
+
+
+git config --global user.email ""
+
+git config --global user.name ""
+
+
+
+Criando Repositório GitHub
+
+https://github.com/new
+
+
+Apontando o repositório local para o GitHub
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/ducrz/Livro-Receitas.git
+git remote -v
+
+git status
+
+
+git branch -M main
+git push -u origin master - Colocar usuário e Token Pessoal
+
+https://github.com/ducrz/Livro-Receitas
+
+

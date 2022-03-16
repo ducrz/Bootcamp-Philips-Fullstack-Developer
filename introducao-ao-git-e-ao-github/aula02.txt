@@ -1,0 +1,53 @@
+Navegação via commando line interface e instalação
+
+Comandos básicos para um bom desempenho no terminal
+
+GUI X CLI
+
+Command line interface
+
+
+Mudar de pastas
+Listar as pastas
+Criar pastas/arquivos
+Deletar pastas / arquivos
+
+
+Windows
+cd
+dir
+mkdir
+del / rmdir
+cls
+
+Unix
+cd
+ls
+mkdir
+rm -rf
+clear (ctrl + l)
+
+
+mkdir workspace
+
+
+Windows
+echo hello > hello.txt
+
+Linux
+echo hello > hello.txt
+
+Windows
+rmdir workspace /S /Q
+
+Linux
+rm -rf workspace
+
+
+Realizando a instalação do GIT
+
+
+GIT
+https://git-scm.com
+
+

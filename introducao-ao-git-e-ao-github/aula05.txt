@@ -1,0 +1,105 @@
+Ciclo de vida dos arquivos no Git
+
+Passo a passo no ciclo de vida
+
+
+GIT INIT
+
+TRACKED e UNTRACKED
+
+TRACKED
+
+UNTRACKED
+
+UNMODIFIED
+
+MODIFIED
+
+STAGED
+
+
+
+Untracked -> Git add -> Adiciona arquivo -> Staged
+
+Unmodified -> Edita o Arquivo -> Modified -> git add -> Staged
+
+Unmodified -> Remove arquivo -> Untracked
+
+Staged -> Commit -> Acabei as alterações / Snapshot -> Unmodified
+
+
+REPOSITÓRIOS
+
+SERVIDOR
+
+Remote Repository
+
+AMBIENTE DE DESENVOLVIMENTO
+
+Working Directory
+Staging Area
+Local Repository
+
+
+Verifica estado dos arquivos
+
+git status
+
+
+mkdir receitas
+mv mousse-chocolate.md receitas/
+cd receitas
+cd ..
+
+git status
+
+
+Changes not staged for commit:
+  (utilize "git add/rm <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    mousse-chocolate.md
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+	receitas/
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+
+Existem arquivos UNTRACKED
+
+git add mousse-chocolate.md receitas/
+
+Caso a intenção fosse remover: git restore <file>
+
+git status
+
+No ramo master
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    mousse-chocolate.md -> receitas/mousse-chocolate.md
+
+git commit -m "Criando pasta receitas, movendo arquivo para receitas"	
+
+git status
+
+No ramo master
+nothing to commit, working tree clean
+
+echo > README.md
+
+
+git status
+
+git add *
+
+git status
+
+No ramo master
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   README.md
+
+git commit -m "Criando README"
+
+
+

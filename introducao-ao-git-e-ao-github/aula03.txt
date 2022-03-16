@@ -1,0 +1,142 @@
+Entendendo com o Git funciona por baixo dos panos
+
+Tópicos fundamentais para entender o funcionamento do Git
+
+SHA1 - Secure Hash Algorithm (Algoritmo de Hash Seguro)
+
+A encriptação gera conjunto de caracteres identificador de 40 dígitos.
+
+É uma forma curta de representar um arquivo.
+
+echo "ola mundo" | openssl sha1
+> (stdin)= f9...
+
+Git Bash
+
+openssl sha1 texto.txt
+
+
+
+Objetos fundamentais
+
+BLOBS
+
+TREES
+
+COMMITS
+
+
+
+BLOBS -
+
+echo 'conteudo' | git hash-object --stdin
+
+echo -e 'blob 9\0conteudo' | openssl sha1
+
+Objeto blob contêm metadados
+
+Blob    Tamanho 42
+
+\0
+Ola Mundo
+
+
+
+TREE
+Tree armazenam Blobs
+
+Tree <tamanho>
+\0
+blob sa4d8s texto.txt
+
+
+COMMIT
+
+Objeto que junta "tudo"
+
+
+Commit   <tamanho>
+
+tree  s4a5sq1
+parente a98acq1
+autor  eduardo
+mensagem "inicia"
+timastamp
+
+O SHA1 desse commit é o hash de toda essa informação.
+
+
+
+Sistema distribuído
+
+Sistema distribuído seguro.
+
+
+Segurança
+
+
+Objetos internos do Git
+
+Chave SSH e Token
+
+
+Git password authentication is shutting down
+https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/
+
+
+Chave SSH é uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas.
+
+Github SSH Keys
+https://github.com/settings/keys
+
+
+Gerando a chave SSH
+
+
+Windows
+
+ssh-keygen -t ed25519 -C ducatolico@gmail.com
+
+cat id_ed25519.pub
+
+eval $(ssh-agent -s)
+
+ssh-add caminhodachaveprivada
+
+
+Importante: não é possível clonar via HTTPS quando o SSH está configurado na máquina.
+Sendo assim tem que ser Clone -> SSH
+
+
+
+Linux
+
+ssh-keygen -t ed25519 -C ducatolico@gmail.com
+
+cd /home/eduardo/.ssh/
+
+cat id_ed25519.pub
+
+https://github.com/settings/keys
+
+
+eval $(ssh-agent -s) 
+
+ssh-add id_ed25519
+
+
+MAC
+
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+
+TOKEN DE ACESSO PESSOAL
+
+https://github.com/settings/tokens
+
+Clone -> HTTPS
+
+
+
+

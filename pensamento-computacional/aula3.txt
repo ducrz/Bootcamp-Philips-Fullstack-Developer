@@ -1,0 +1,160 @@
+ESTUDOS DE CASO
+
+Estudo de caso
+
+Utilizando os pilares do pensamento computacional.
+
+
+Caso: Perdido em uma floresta.
+
+Como resolver o problema utilizando o pensamento computacional?
+
+
+Como sobreviver na floresta?
+
+Identificar os mecanismos
+Recursos Comuns
+Detalhes mais importantes
+
+
+
+Sobrevivência - água, comida e abrigo
+
+
+Decomposição do problema original
+
+água - chuva ou nascente
+
+Comida - Coletar ou caçar
+
+Abrigo - Localização(Mapa - Características do local, pontos mais importantes), Proteção, quente e seco
+
+Fogo(repetição em várias necessidades, detalhe mais importante) - Tornar água potável, Assar alimento, Espantar animais, aquecer abrigo
+
+
+FOCO: Nos aspectos principais, não precisa de detalhadamento.
+
+Até agora...
+
+Decomposição
+Reconhecimento de padrões
+Abstração
+
+
+
+Situação: Determinar instruções passo a passo para cozinhar
+
+
+Preparando a comida
+
+Pegar o peixe
+Colocar água na panela
+Ferver a água
+Limpar o peixe
+Fazer o cozido
+Assar o filé
+
+Mesmo processo para
+
+Encontrar água
+Construir abrigo
+Maximizar as chances de resgate
+
+
+
+
+Estudo de caso 2
+
+
+SOMA DE INTERVALOR
+
+Ex: soma de números entre 1 e 200
+
+200+1
+199+2
+198+3
+197+4 ...
+
+Decomposição
+
+200+1= 201
+199+2= 201
+198+3= 201
+197+ 4= 201
+Padrão
+
+
+Como expressar de uma forna generalista.
+
+Valor se repete, quantas vezes? 200/2 = 100
+
+Resultado 201x100: 20.100
+
+Expressando em variáveis
+
+[x,y] -> Intervalo
+
+y+x= resultado parcial
+(y-1) + (x+1)= resultado_parcial   -> 200 + 1 = 201 ...
+
+y / 2 = total  >  200/2= 100
+
+total x resultado_parcial = resultado  -> 100x201= 20.100
+
+
+Algoritmo
+
+Passo 1 - Recebe os valores (x e y)
+Passo 2 - Resolva: y/1= total
+Passo 3 - Resolva: y+x = resultado_parcial
+Passo 4 - Ache o total. Final = total x resultado_parcial
+Passo 5 - Imprima o resultado
+
+
+
+Outro exemplo: Adivinhe o Número
+
+O problema consiste em determinar o número escolhido por uma pessoa dentro de um intervalo
+Perguntas com respostas sim e não.
+
+
+Possível solução 
+
+O número é 1?
+O número é 2? ...
+Ineficiente e desperdiça tempo
+
+
+Outra abordagem
+
+O número é maior que 50?
+O número é menor que 20?..
+
+
+BUSCA BINÁRIA
+
+Método de Busca - Mais eficiente que busca por varredura
+
+Ordenação
+
+Passo 1 - Ordenar o vetor
+Passo 2 - Módulo de L/2
+Passo 3 - Acessar estrutura
+Passo 4 - Comparar valores
+Passo 5 - Repita até encontrar o número
+Passo 6 - Imprima "Busca bem sucedida"
+
+Habilidade
+
+Como aprimorar essa habilidade?
+
+Permitindo que seus alunos expliquem suas decisões e seu processo de desenvolvimento.
+(Brennan & Renesck)
+
+Para um problema proposto.
+
+
+
+Conclusão do curso
+
+

@@ -1,0 +1,290 @@
+PILARES DO PENSAMENTO COMPUTACIONAL
+
+Decomposição
+
+Primeiro passo da resolução de problemas dentro do conceito de pensamento computacional.
+
+"Dado um problema complexo, devemos quebrá-lo em problemas menores.
+Portanto, problemas mais fáceis e gerenciáveis."
+
+
+
+Estratégia
+
+Análise -> Estudar, explorar - Relizar exame detalhado - Decompor em elementos constituintes
+
+Síntese -> Combinar elementos recompondo o problema original
+
+
+Ordem de execução de tarefas menores 
+
+Sequencial - Ordem "em fila"
+
+Paralelo - Executadas concomitantemente
+
+
+
+Pequenos problemas
+
+Variáveis
+
+Segmentação
+
+
+Desenvolver a decomposição "by yourself" - Maneiras distintas de decompor o mesmo problema
+
+
+Como decompor?
+
+Entenda o problema
+			Componentes
+			
+			Identifique
+			
+			Características, dependências
+
+2º Plano - Problema Principal
+
+
+Identificar ou coletar dados
+Agregar os dados
+Funcionalidade
+
+Exemplos
+
+Cozinhar
+
+
+Identificar os ingredientes
+Determinar as etapas (sequencial ou paralelo)
+Executar cada etapa
+Agregar os ingredientes para finalizar(recompor com coerência)
+
+
+Funcionamento de uma bicicleta
+
+Identificar os componentes   >
+Papel de cada componente     > Funcionamento do sistema
+Interdependência das peças   >
+
+
+Criar um App
+
+Finalidade             > Definição        > Desenvolvimento
+Interface	       >  de                 mais eficiente
+Funcionalidades        >  Componentes
+Pré-requisitos         >  e etapas
+
+
+
+Artigo
+
+O que será abordado?        > Definição de componentes e etapas > Sequencial ou paralelo
+Estrutura                   >                                   > Em ordem ou não
+Conteúdo de cada tópico     >
+Textos de conexão
+
+
+
+
+Reconhecimento de padrões
+
+Modelo base
+Estrutura invariante
+Repetição
+
+
+Similaridades e diferenças
+
+Processo utilizado por plataformas diferentes
+Ex: fotos de redes sociais ->METADATA -> Compressão -> Salvar no servidor de dados
+
+
+Seres vivos x padrões
+
+Por que determinar padrões? Maneira de generalizar, com o objetivo de obter resolução para problemas diferentes.
+
+
+
+Classificação de objetos -> Dependem do domínio / tipo de objeto
+
+Categorias ou classes
+
+
+Pelo ser humano -> Grau de similaridade / Grupos conhecidos x objeto desconhecido
+COMPARAÇÃO
+
+Como o computador reconhece padrões?
+
+Representação de atributos
+Aprendizado - conceito associado ao objeto
+Armazenar dados
+Regras de decisão
+
+Extração de características > Abordagem
+Classificação de dados      >
+
+
+Diferentes
+Métodos / Aplicações
+
+
+
+Aplicações
+
+Classificação de dados
+Reconhecimento de imagem
+Reconhecimento de fala
+Análise de cenas
+Classificação de documentos
+
+
+
+ABSTRAÇÃO
+
+Generalização / Abstração
+
+Ato de Abstrair - Observar um ou mais elementos, avaliando características e propriedades em separado.
+
+
+Abstração - Processo intelectual de isolamento de um objeto da realidade.
+
+Generalizar - Tornar geral, mais amplo, extensão
+
+
+Generalização, na lógica, é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou
+fenômenos similares.
+
+
+
+Como classificar os dados?
+
+Características
+Pontos Essenciais
+Generalizar x detalhar
+
+
+REPRESENTAÇÃO
+
+Representação de dados - Estudantes -> Características -> Focar em pontos essenciais
+
+
+Conceitos baseados em abstrações -> Algoritmos (Merge sort, clustering, busca binária)
+				 -> Estrutura de dados (Árvore, Listas, Grafos)
+				 -> Linguagens de Programação
+				 -> Comunicação
+				 -> Arquiteturas
+				 
+Exemplo
+
+Por onde começar a limpar o terreno?
+
+Identificar as características - Distâncias -> Distância percorrida -> Estender outros cenários
+			
+
+
+ALGORITMOS
+
+Computador
+
+Vantagens:
+
+Energia
+Trabalhador
+Eficiência
+Rapidez
+
+
+NÃO OPERA SOZINHO, PRECISA DE INSTRUÇÕES DETALHADAS
+
+
+
+PROCESSAMENTO DE DADOS
+
+O computador recebe, manipula e armazena dados.
+
+Programas -> Instruções
+
+
+Algoritmos
+
+Processo de resoluções de problemas "step by step", utilizando instruções.
+
+
+O que precisa ser feito?
+Qual a ordem de execução?
+
+
+
+Desenvolvimento do Programa
+
+
+- Análise
+Estudo e definição dos dados de entrada e saída
+
+- Algoritmo
+Descreve o problema por meio de ferramentas narrativas, fluxogramas e/ou pseudocódigo.
+
+- Codificação
+O algoritmo é codificado de acordo com a linguagem de programação escolhida.
+
+
+Sequência de passos com objetivo definido
+Execuação de tarefas específicas
+Conjunto de operações que resultam em uma sucessão finita de ações
+
+
+
+Aplicações de algoritmos
+
+Troca uma lâmpada
+Fazer uma receita de bolo
+Trajeto ao trabalho
+
+
+COMO CONSTRUIR UM ALGORITMO?
+
+Compreensão do problema - Pontos mais importantes
+
+Definição de dados de entrada - Dados fornecidos e Cenário
+
+Definir processamento - Cálculos e restrições
+
+Definir dados de saída - Os dados após o processamento
+
+Utilizar um método de construção - Construção de algoritmo
+
+Teste e diagnóstico - Refinamento de algoritmo
+
+
+
+Construção de algoritmos
+
+Narrativa - Utilização de linguagem natural.
+Diversas interpretações possíveis.
+
+Fluxograma - Utilização de símbolos pré-definidos
+Conhecimento prévio da estrutura e símbolos.
+
+
+Pseudocódigo- Portugol -> Passos que serão seguidos
+
+
+Exemplo: Multiplicação de dois números
+
+Passo 1: Recebe os valores
+Passo 2- Multiplica
+Passo 3 - Imprime resultado
+
+
+Média de alunos
+
+Passo 1 - Recebe os valores
+Passo 2- Calcula a média aritmética
+Passo 3 - Imprime resultado
+Passo 4 - Regra de aprovação
+
+Importante: Não é requisito a utilização de todos os pilares para resolver um problema por meio do pensamento computacional.
+
+
+

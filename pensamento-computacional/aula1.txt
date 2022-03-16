@@ -1,0 +1,131 @@
+VISÃO GERAL DO PENSAMENTO COMPUTACIONAL
+
+Apresentação do curso
+
+Visão geral
+
+Pensamento computacional refere-se ao processo de pensamento envolvido na expressão de soluções em passos
+computacionais ou algoritmos que podem ser implementados no computador.
+(Aho, 2001; Lee, 2016)
+
+
+Formulação e resolução de problemas.
+
+Sistemático e eficiente.
+
+Aplicado de maneira que seres humanos e máquinas possam entender.
+
+Habilidade generalista, pode ser aplicada em outras áreas(escrita, leitura, ciências exatas, etc).
+
+
+BASEADO EM 4 PILARES
+
+DECOMPOSIÇÃO
+
+Dividir um problema complexo em subproblemas.
+
+
+
+RECONHECIMENTO DE PADRÕES
+
+Identificar padrões ou tendências.
+
+Similaridades e diferenças entre os problemas.
+
+ABSTRAÇÃO
+
+Extrapolar o conceito do problema para uma forma generalista.
+
+
+DESIGN DE ALGORITMOS
+
+Automatizar
+
+Definir passo a passo a solução do problema.
+
+Entrada -> Operações -> Saída
+
+
+
+PROCESSO CONTÍNUO
+
+Definir uma solução
+Testar a solução
+Aperfeiçoamento da solução encontrada
+
+Refinamento -> Teste -> Análise
+
+
+1 - Abstração - Resolução de problemas
+
+2- Automatização - Expressão de solução
+
+3- Análise - Execução da solução e avaliação (refinamento)
+
+
+Variação dos pilares
+
+Raciocínio Lógico
+Refinamento
+
+Raciocínio Lógico -> Decomposição -> Padrões -> Abstração -> Algoritmos -> Refinamento
+
+Competências
+
+Pensamento sistemático
+Colaboração dentro da equipe
+Criatividade e design
+Facilitador
+
+
+
+Habilidades complementares
+
+
+Raciocínio lógico é uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a 
+resolução de um problema.
+
+
+Classificação: Indução - Fenômeno observado -> Leis e teorias (muito utilizado em Ciências experimentais)
+	       Dedução - Previsões e Explicações (ciências exatas)
+	       Abdução - Conclusão / Premissa (ex: a grama está molhada, logo deve ter chovido) / Diagnósticos / Processo investigativo
+	       
+	       
+	       
+	        			INFERÊNCIA
+	        			
+	        		SINTÉTICA	ANALÍTICA
+	        	
+	        	Abdução  Indução          Dedução
+	        	
+	        	
+Aperfeiçoamento
+
+Melhoramento
+Ato de Aperfeiçoar 
+Aprimoramento
+Refinamento
+
+A partir de uma solução, determinar pontos de melhora e refinamento.
+
+
+Ato de aperfeiçoar              >    Melhor uso de recursos
+Encontrar solução eficiente
+Otimizar processos
+Simplificar linhas de códigos    >   Melhorar códigos e algoritmos
+Funções bem definidas 
+Processo contínuo
+Presente em todas as etapas
+
+
+Vantagens
+Maior compreensão
+Mais eficiência
+Menos tempo
+Menos armazenamento
+
+	  
+	  
+
+
+

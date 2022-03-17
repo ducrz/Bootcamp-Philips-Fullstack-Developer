@@ -1,0 +1,30 @@
+COMO USAR TEXTOS E LINKS EM HTML
+
+Tags para textos
+
+<h1>Título da página</h1>
+
+<h2>Título de Seção</h2>
+
+<h3>Título de artigo</h3>
+
+<p>Conteúdo do artigo.</p>
+
+
+
+Tags para links
+
+<a>Link</a>
+
+<a href="https://www.google.com">Google</a>
+<a href="mailto:email@dominio.com">E-mail</a>
+
+<a target="_blank">Link</a>
+
+Exercício
+
+Adicionar um texto a postagem e um link dentro deste texto.
+
+
+
+Exercício prático

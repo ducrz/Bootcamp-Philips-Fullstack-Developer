@@ -1,0 +1,28 @@
+ENTENDENDO O QUE É SEMÂNTICA
+
+Semântica - Parte 1
+
+<div>
+
+Novos elementos
+
+<section> - Seção Genérica de Conteúdo
+
+<header> - Cabeçalho da página ou de parte da página
+
+<article> - Conteúdo relevante dentro da página
+
+<aside> - Conteúdo relacionado ao conteúdo principal da página.
+
+<footer> - Rodapé da página ou de parte da página.
+
+<h1>-<h6> - Elemento antigo, representa a importância do título dentro da página.
+
+Exercício
+
+Adicionando tags novas.
+
+
+Semântica - Parte 2
+
+Editando index.html

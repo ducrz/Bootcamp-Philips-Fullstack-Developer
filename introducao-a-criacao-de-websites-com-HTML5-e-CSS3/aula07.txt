@@ -1,0 +1,144 @@
+ESTILIZANDO ELEMENTOS, TEXTOS E LISTAS
+
+Estilizando elementos
+
+Padding e Margin
+
+Formas diferentes
+
+padding: 15px 10px;
+
+padding 15px 10px 5px 1px;
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+
+Background
+
+background-color:
+background-image: url("");
+background-position: top;
+
+
+Background:
+
+Background-color: #green;
+background color: #008800;
+background: #008000;
+
+
+Border
+
+Largura: pixels, centímetros, milímetros...
+Cor: blue, #0000ff
+Estilo: sólida, pontilhada, tracejada
+
+
+
+border-top:
+border-right:
+border-bottom:
+border-left:
+
+
+border-width:
+border-color:
+border-style:
+
+border-top-width:
+border-top-color:
+border-top-style:
+
+
+Border-Radius
+
+border-radius: 10px;
+border-radius:50%
+border-radius: 10% 20%
+border-radius: 10% 20% 15% 22%;
+
+Exercício
+
+Usar as propriedades aprendidas.
+
+
+
+Estilizando textos
+
+
+FONT-FAMILY
+
+
+font-family: Verdana, Arial;
+
+
+FONT-SIZE
+
+font-size: 30px;
+
+
+FONT STYLE
+
+font-style: normal;
+
+font-style: italic;
+
+
+FONT-WEIGHT
+
+font-weight: normal;
+
+font-weight: bold;
+
+
+TEXT-TRANSFORM
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+TEXT-DECORATION
+
+text-decoration: underline;
+
+text-decoration: overline;
+
+text-decoration: line-through;
+
+
+Exercícios
+Efetuar mudanças nos textos.
+
+
+
+Estilizando listas
+
+
+LIST-STYLE-TYPE
+
+ul{
+	list-style-type: square;
+}
+ol{
+	list-style-type: upper-roman;
+}
+ul{
+	list-style-type: "\1F44D";
+}
+
+
+LIST-STYLE-IMAGE
+
+ul{
+	list-style-image: url("rocket.png");
+}
+
+
+Exercício
+
+Melhorando a aparência da lista.
+
+

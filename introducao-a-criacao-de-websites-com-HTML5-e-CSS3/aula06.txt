@@ -1,0 +1,53 @@
+INTRODUÇÃO E CONCEITOS BÁSICOS DO CSS3
+
+Introdução ao CSS3
+
+Principal finalidade formatar páginas.
+
+VOcê cria regras de estilo para elementos ou grupo de elementos.
+
+O que são seletores?
+
+a, p, h1, h3 {
+	declarações
+}
+
+
+ID X CLASSE (Podem representar qualquer elemento)
+
+<header id="header" class="header"></header>
+
+<header class="header"></header>
+
+
+No css:
+
+Classe
+.header{
+}
+
+ID
+#header{
+}
+
+Exercício
+
+Adicionar algumas classes e alterar alguns elementos.
+
+
+Conceitos básicos
+
+BOXMODEL
+
+margin - Espaçamento entre elementos
+	border - Circundam o padding e o conteúdo
+		padding - Espaçamento entre a borda e o conteúdo
+			content
+		
+
+Exercício
+
+Adicionar cores e bordas a alguns elementos.
+
+
+Material de apoio

@@ -1,0 +1,25 @@
+DIMENSÃO E ALINHAMENTO
+
+Propriedades de dimensões e alinhamento
+
+
+WIDTH
+HEIGHT
+
+MAX-WIDTH
+MAX-WEIGHT
+
+MARGIN
+
+TEXT ALIGN
+
+
+Exercício
+
+
+Delimitar as dimensões dos elementos e alinhar o conteúdo.
+
+Dica: margin:auto;
+
+FIM DO CURSO
+

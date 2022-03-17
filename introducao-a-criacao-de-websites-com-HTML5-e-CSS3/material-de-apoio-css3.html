@@ -1,0 +1,283 @@
+<div>
+    <h1 style="margin-left:0cm; margin-right:0cm">CSS 3</h1>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Definição e seletores</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Após a criação do HTML a necessidade de formatar as páginas ficou
+        evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A sintaxe é bem simples e pode ser explicada com a frase "você cria
+        regras de estilo para elementos ou grupos de elementos".</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos usar um elemento HTML que vimos anteriormente, a âncora
+        &lt;a&gt;, para exemplificar.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Uma regra CSS é representada por um seletor ou um grupo de seletores,
+        no nosso caso é o &lt;a&gt;, então dentro de um par de chaves adicionamos as declarações, no exemplo acima
+        estamos alterando cor e tamanho da fonte dessa âncora, as declarações são formadas por uma propriedade e um
+        valor.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Percebam que podemos colocar vários seletores em uma regra separando-os
+        por vírgula.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E há um último detalhe nesse exemplo: a pseudo-classe. Elementos HTML
+        sofrem alterações causadas pela interação do usuário, como mover o mouse por cima ou clicar nesse elemento.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O <em>a:hover</em> do exemplo significa que a âncora também terá essa
+        aparência quando o usuário passar o mouse por cima de um <em>hyperlink</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">ID x Classe</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">No exemplo anterior criamos uma regra que altera um elemento HTML
+        diretamente, mas isso significa que todos os elementos &lt;a&gt; ficarão com aquela aparência, e normalmente
+        temos sites mais complexos que precisam de várias regras diferentes para elementos iguais.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Para ficar mais tangível vamos relembrar um pouco o site que começamos
+        a fazer no módulo passado, ele tinha vários elementos header, mas não vamos querer que o header principal tenha
+        a mesma formatação que o header de uma postagem, é aí que entram os IDs e Classes.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O seletor que vimos no primeiro exemplo é um seletor de tipo, pois ele
+        representa um elemento HTML, e com IDs e Classes podemos representar qualquer tipo de elemento mas há algumas
+        diferenças entre eles:</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">ID: é representado pelo símbolo # (hash) seguido de um nome para esse
+        ID.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Classe: a classe é representada de forma parecida do ID, mas é
+        precedida por um ponto em vez do hash.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E a diferença mais importante entre eles é a forma como devem ser
+        usados: o ID só pode ser usado uma vez em uma página HTML enquanto a classe não tem restrições.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Exercício</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos adicionar algumas classes no nosso site e alterar alguns
+        elementos, mas antes precisamos adicionar um arquivo CSS a nossa página.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">No módulo de HTML descobrimos que podemos adicionar CSS de duas formas,
+        com o elemento <em>style</em>, e assim suas regras ficarão no arquivo HTML, ou podemos criar um arquivo CSS e
+        adicioná-lo na página através do elemento <em>link</em>, e é essa forma que usaremos.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Crie um elemento <em>link</em> dentro do head do seu arquivo e adicione
+        os atributos <em>rel="stylesheet"</em> e <em>href="style.css"</em>, o <em>rel</em> denota o tipo de arquivo que
+        estamos incluindo na página e o <em>href</em> é o caminho para o arquivo. E na mesma pasta do arquivo
+        <em>HTML</em> crie um arquivo chamado <em>style.css</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Agora sim vamos ao CSS, adicione um ID #title ao h1 da página, pois
+        queremos que ele seja único, e depois adicione as classes .subtitle e .post_title ao h2 e h3, respectivamente.
+    </p>
+
+    <p style="margin-left:0cm; margin-right:0cm">No arquivo CSS vamos mudar a cor desses três títulos, e depois alterar
+        o tamanho da fonte do título da postagem.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Box-model</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Quando estamos criando o layout de um site o navegador representa cada
+        elemento HTML&nbsp; como uma caixa retangular, isso é o box-model. E com CSS nós alteramos a aparência dessa
+        caixa (largura, altura, cor de fundo, etc.). Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e
+        a margem.</p>
+
+    <ul>
+        <li>As margens (margin) são espaçamentos entre elementos;</li>
+        <li>As bordas (border) ;</li>
+        <li>O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de
+            imagem de fundo funcionam nele;</li>
+        <li>O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo;</li>
+    </ul>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Exercício</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Para enxergamos o box-model vamos adicionar cores e bordas a alguns
+        elementos.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Primeiro adicionaremos uma cor de fundo para a visualização ficar mais
+        fácil, usaremos a propriedade <em>background</em> com o valor <em>#fcfcfc</em> no elemento <em>body</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Depois vamos adicionar uma classe ao &lt;article&gt;, pode ser .post, e
+        então vamos colocar a cor branca de fundo com a propriedade <em>background</em> e o valor <em>#FFF</em>. Agora
+        conseguimos enxergar o <em>content</em> do <em>box-model</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos adicionar um <em>padding</em> de 10 pixels neste mesmo
+        <em>article</em>. Perceberam o espaçamento que surgiu em volta do nosso conteúdo?</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Agora adicionamos um borda mais escura a ele com a propriedade border.
+        Vou falar mais detalhadamente sobre border mais a frente, mas por enquanto vamos deixar essa borda com 3 pixels
+        de largura, o contorno sólido e a cor azul.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E por último vamos adicionar uma margem do lado de fora do post com a
+        propriedade <em>margin</em> e o valor 10 pixels.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E agora inspecionando o nosso elemento conseguimos todas aquelas
+        camadas citadas antes: o conteúdo em azul, o <em>padding</em> em verde, as bordas em marrom e as margens em
+        laranja.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E já que começamos a falar sobre bordas e cor de fundo, no próximo
+        vídeo vamos nos aprofundar nessas propriedades.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Estilizando elementos</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Agora que entendemos o box-model podemos focar em deixar nosso site
+        mais bonito, então vamos repassar pelas propriedades já citadas:</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Padding e Margin</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Anteriormente usamos o <em>padding</em> e o <em>margin</em> da forma
+        mais básica, com apenas um valor, mas eles são mais poderosos que isso. Se quisermos atribuir tamanhos
+        diferentes para cada lado do <em>box</em> nós podemos, e vamos ver três formas de fazer isso.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A primeira é colocando um valor para as partes superior e inferior e
+        depois para os lados esquerdo e direito.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O valor de 10 <em>pixels</em> se refere ao eixo Y, ou partes superior e
+        inferior, e os 5 <em>pixels</em> se referem aos lados esquerdo e direito.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A segunda forma é dando valores para cada lado do <em>box</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Então começamos pelo topo com 15 pixels, passamos o lado direito com 10
+        pixels, depois para a parte inferior com 5 pixels e por último o lado esquerdo com 0, e sempre nessa ordem.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Uma boa dica também é que quando o valor for 0 não precisamos não
+        precisamos colocar a unidade.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A terceira forma é com as propriedades específicas para cada lado, até
+        agora tínhamos visto atalhos para essas propriedades.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o
+        quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para
+        representar o lado diferente.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Background</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">A propriedade <em>background</em> também é um atalho para várias
+        propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Por enquanto veremos apenas como mudar a cor de fundo.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E aqui temos 3 formas de colocar uma cor de fundo, e ainda existem
+        outras.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A primeira é pelo nome da cor em inglês, a segunda é pelo código
+        hexadecimal e a terceira é usando apenas o atalho <em>background</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Border</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vimos que a propriedade <em>border</em> pode ter 3 valores: a largura,
+        a cor e o estilo, mas existem algumas particularidades nisso.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A largura pode ser usada com várias unidades, como px, em e mm. A cor
+        pode ser atribuída pelo nome ou por um código hexadecimal, assim como fizemos com o <em>background</em>, e o
+        estilo é representada por palavras-chave, vamos ver algumas delas:</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>solid</strong>: mostra uma borda simples e reta;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>dotted</strong>: são bolinhas com um pequeno espaçamento entre
+        elas;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>dashed</strong>: forma uma linha tracejada.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E aproveitando que mostrei esse código temos que falar sobre como
+        separar a estilização dos lados de uma borda.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E se você não quiser usar a propriedade <em>border</em> existem as
+        propriedade específicas para cada aspecto de uma borda, são elas <em>border-width</em> para a largura,
+        <em>border-color</em> para a cor e <em>border-style</em> para o estilo.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Aqui temos o mesmo código anterior de duas formas diferentes, a
+        primeira com o atalho <em>border</em> e a segunda com cada propriedade específica.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E depois disso podemos juntar os lados com os aspectos de uma borda e
+        criar uma regra mais específica ainda.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Border-radius</span></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E a última propriedade é o <em>border-radius</em>, ele permite
+        arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a
+        porcentagem.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Colocando apenas um valor mudamos todos os cantos do elemento, mas
+        seguindo aquela mesma ordem que vimos no <em>padding</em> e <em>margin</em> - topo, direita, inferior e esquerda
+        -&nbsp; conseguimos alterar cada canto separadamente.</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm">&nbsp;</h3>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Exercício</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Neste exercício vamos deixar o nosso site um pouco mais bonito usando
+        as propriedades que acabamos de ver.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos aumentar o padding para 15 pixels e colocar uma margem de também
+        de 15 pixels só na parte de baixo do post.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Quando olhamos para os textos percebemos que os espaçamentos estão
+        diferentes do restante do post, então vamos padronizar isso.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">No título do post vamos retirar todas as margens para depois colocar
+        apenas uma margem inferior de 15 pixels. E no corpo do post precisamos adicionar uma classe e remover todas as
+        margens para depois adicionar uma margem superior de 15 pixels.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Podemos manter o background branco, mas vamos diminuir a largura das
+        bordas para 2 pixels e mudar a cor para a mesma do texto - #505050 - e por último adicionaremos um
+        border-radius, 5 pixels são suficientes. Podemos adicionar esse mesmo de valor de border-radius na imagem, para
+        isso vamos acrescentar uma class a imagem antes.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Estilizando textos</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Já sabemos que podemos mudar cor e tamanho de algumas fontes, e agora
+        vamos nos aprofundar nisso.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">font-family</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Com o font-family podemos alterar a fonte dos nossos textos, como uma
+        fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras,
+        chamadas de web safe fonts.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Essas fontes são chamadas assim pois são encontradas em quases todos os
+        sistemas e podem ser usadas sem preocupação.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">font-size</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">O font-size nos ajuda a mudar o tamanho do texto, existem algumas
+        unidades de medida para ele mas por enquanto os pixels são suficientes para nós.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+    <h3 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">font-style</span></h3>
+
+    <p style="margin-left:0cm; margin-right:0cm">Usamos o font-style para tornar um texto itálico, na maioria das vezes
+        você usará apenas o valor <em>italic</em> para ele, mas se precisar tirar o itálico de um texto você pode usar o
+        valor <em>normal</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+</div>

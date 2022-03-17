@@ -1,0 +1,233 @@
+<div>
+    <h1 style="margin-left:0cm; margin-right:0cm">HTML5</h1>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Definição e estrutura básica</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar
+        a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou
+        a base da web.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Com o HTML definimos o significado e a estrutura do conteúdo da web e,
+        além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os
+        elementos HTML.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Um elemento HTML é formado pela tag de abertura e seus atributos, o
+        conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
+    </p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho
+        e forma de fontes e adicionar diferentes mídias ao nossa página na web.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E agora podemos ver como é a estrutura básica de um arquivo HTML.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A primeira linha do documento deve ser o &lt;!DOCTYPE html&gt;, apesar
+        de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os
+        elementos HTML vem logo abaixo.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;html&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A tag html é a raiz do seu documento, todos os elementos HTML devem
+        estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo
+        lang, para o português brasileiro usamos pt-BR.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;head&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A tag head contém elementos que serão lidos pelo navegador, como os
+        metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com
+        a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título
+        da página com a tag title.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;body&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E dentro da tag body colocamos todo o conteúdo visível ao usuário:
+        textos, imagens, vídeos.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm"><span style="color:null">Prática</span></h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Como exercício para esse curso iremos construir um site pessoal, e
+        precisamos começar com a estrutura básica que acabamos de ver.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos criar um arquivo index.html e adicionar o doctype e os elementos
+        html, head e body.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Depois adicionaremos os elementos meta e title, no primeiro adicionamos
+        o atributo charset com o valor UTF-8 para dizer ao navegador qual é a codificação dos caracteres e no segundo
+        podemos colocar nosso nome.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E por último escreveremos nosso nome dentro do elemento body apenas
+        para enxergarmos isso no navegador.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Semântica</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Durante muitos anos o elemento padrão no HTML era a div, construíamos
+        nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários
+        mudanças importantes, como performance e acessibilidade, mas nesse curso introdutório vamos focar na semântica.
+    </p>
+
+    <p style="margin-left:0cm; margin-right:0cm">A semântica nos permite descrever mais precisamente o nosso conteúdo,
+        agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários
+        elementos para ressignificar as divs:</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;section&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Representa uma seção genérica de conteúdo quando não houver um elemento
+        mais específico para isso.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;header&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">É o cabeçalho da página ou de uma seção da página e normalmente contém
+        logotipos, menus, campos de busca.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;article&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Representa um conteúdo independente e de maior relevância dentro de uma
+        página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode
+        conter outros elementos, como header, cabeçalhos, parágrafos e imagens.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;aside&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">É uma seção que engloba conteúdos relacionados ao conteúdo principal,
+        como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
+    </p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;footer&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Esse elemento representa o rodapé do conteúdo ou de parte dele, pois
+        ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um
+        &lt;footer&gt; são informações de autor e <em>links</em> relacionados.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm"><strong>&lt;h1&gt;</strong>-<strong>&lt;h6&gt;</strong></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Eles não foram criados na versão 5 do HTML e nem são específicos para
+        semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo
+        &lt;h1&gt; o mais importante e &lt;h6&gt; o menos. Uma dica: use apenas um &lt;h1&gt; por página, pois ele
+        representa o objetivo da sua página.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Prática</span></h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Dando continuidade ao nosso site iremos montar sua estrutura. Pensei em
+        adicionarmos um cabeçalho com nosso nome, uma lista de posts (como um blog) e um rodapé para nossos contatos.
+    </p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos abrir nosso arquivo index.html e começar pelo cabeçalho: criamos
+        um &lt;header&gt; logo abaixo do &lt;body&gt; e colocamos o título da nossa página dentro de um &lt;h1&gt;.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Depois criaremos a lista de postagens: abrimos um elemento section e
+        dentro dele adicionamos outro &lt;header&gt; contendo um &lt;h2&gt;. Notem que eu posso ter mais de um
+        &lt;header&gt; na página.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Para criar nossa postagem adicionamos um &lt;article&gt; com um
+        &lt;header&gt; e um &lt;h3&gt;.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O último passo desta etapa é criar um rodapé para nossas informações de
+        contato: crie um elemento footer antes de fechar o &lt;/body&gt;.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Não se preocupe com o layout e com conteúdo da página, nós vamos tratar
+        isso mais a frente.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Textos e links</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">A criação do HTML foi motivada pela necessidade de compartilhar textos
+        e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte
+        do conteúdo da web.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Já falamos anteriormente sobre os elementos h1-h6 e, eles são
+        essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para
+        textos maiores e mais densos usamos o elemento p.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O &lt;p&gt; representa um parágrafo, mas ele não suporta apenas texto,
+        podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Um outro elemento interessante e extremamente necessário na web é o
+        &lt;a&gt; - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e
+        páginas na web.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O elemento a tem vários atributos, mas vamos focar em dois, o href e o
+        target.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O href representa o <em>hyperlink</em> para onde sua âncora aponta,
+        pode ser uma página do seu ou de outro site, um e-mail e até mesmo um telefone, os dois últimos precisam dos
+        prefixos mailto: e tel:, respectivamente.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O target neste momento vai servir para nos ajudar a abrir nossos links
+        em outra aba do navegador usando o valor _blank.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Prática</span></h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos adicionar um texto fictício a nossa postagem: logo após o
+        fechamento do &lt;/header&gt; vamos adicionar um elemento p e inserir um texto que vamos retirar do site<a
+            href="https://lipsum.com"> </a><a href="https://lipsum.com"><span
+                style="color:#1155cc">lipsum.com</span></a></p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E em alguma parte deste texto vamos adicionar um <em>hiperlink</em>
+        para outra página e um para nosso e-mail.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Criarei um <em>hyperlink</em> para meu perfil no <em>LinkedIn:</em>
+        adicione o <em>hyperlink</em> no atributo href e o valor _blank no atributo target, assim o <em>link</em> será
+        aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma:
+        &lt;a href="mailto:lucas@vilaboim.com" target="_blank"&gt;lucas@vilaboim.com&lt;/a&gt;</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Imagens</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">A web também é feita de imagens e para representá-las temos o elemento
+        &lt;img&gt;, ele é um daqueles elementos sem tag de fechamento.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O elemento img é bem simples, contendo apenas 2 atributos próprios, o
+        src e o alt.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O src é obrigatório e guarda o caminho para a imagem que você quer
+        mostrar na página.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O alt não é obrigatório mas é altamente recomendado por melhorar a
+        acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo
+        para descrever a imagem para o usuário saber o que ela significa.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Prática</span></h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Vamos adicionar uma imagem ao cabeçalho da página e uma imagem a
+        postagem.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a
+        imagem do cabeçalho eu escolhi uma foto minha com 100 <em>pixels</em> de largura e 100 <em>pixels</em> de altura
+        e para a imagem da postagem eu procurei por <em>html code</em> no site Unsplash, escolhi uma das imagens e
+        deixei ela com 960 <em>pixels</em> de largura por 322 <em>pixels</em> de altura.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Dentro do primeiro &lt;header&gt; da página e antes do &lt;h1&gt;
+        iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e
+        o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei
+        <em>Ilustração do rosto de Lucas Vilaboim</em>.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E dentro do &lt;header&gt; do &lt;article&gt; vamos fazer a mesma
+        coisa, mas agora depois do &lt;h3&gt;, e no atributo alt colocaremos <em>Editor de texto mostrando códigos
+            HTML</em>.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm">Listas</h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Os últimos elementos que veremos neste módulo são os relacionados a
+        listas: &lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Listas servem para agrupar uma coleção de itens, como uma lista de
+        ingredientes ou, como será no nosso caso, uma lista com contatos.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O elemento ul cria uma lista não ordenada, onde a ordem dos elementos
+        não é importante, e é representada com pontos, círculos ou quadrados.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">O &lt;ol&gt; serve para criar lista ordenadas, nessas a ordem importa,
+        portanto elas são representadas com números, algarismos romanos ou letras.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">E o elemento li é um item dentro de uma dessas listas. Um &lt;li&gt;
+        pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.</p>
+
+    <h2 style="margin-left:0cm; margin-right:0cm"><span style="color:#434343">Prática</span></h2>
+
+    <p style="margin-left:0cm; margin-right:0cm">Adicionaremos uma lista de contatos ao rodapé da nossa página, e para
+        isso usaremos também o elemento <em>a</em> que vimos anteriormente.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">Crie um elemento ul e dentro dele adicione um &lt;li&gt; com um
+        elemento a, no atributo href adicione o <em>link</em> de alguma rede social que você mantenha e, no conteúdo da
+        âncora coloque o nome dessa rede.</p>
+
+    <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+</div>

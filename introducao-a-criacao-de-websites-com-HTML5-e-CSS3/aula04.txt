@@ -1,0 +1,16 @@
+COMO INSERIR IMAGENS EM SEU SITE
+
+Tag img
+
+Imagens
+
+<img>
+
+<img src="">
+
+<img alt="Texto Alternativo">
+
+Exercício prático
+
+Adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
+

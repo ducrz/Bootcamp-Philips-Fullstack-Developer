@@ -1,0 +1,27 @@
+COMO ORGANIZAR LISTAS EM HTML
+
+Tags li, ul e ol
+
+LISTAS
+
+Servem para agrupar coleção de itens.
+
+
+<ul> - Lista não ordenada
+item 1
+item 2
+
+<ol> - Lista Ordenada
+1. Item 1
+2. Item 2
+
+<li> - Item da lista
+
+
+Exercício prático
+
+Adicionar uma lista de contatos ao rodapé.
+
+
+
+

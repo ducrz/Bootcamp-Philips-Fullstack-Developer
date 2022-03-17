@@ -1,0 +1,44 @@
+Instrutor Lucas Vilaboim: https://github.com/vilaboim
+
+INTRODUÇÃO AO CURSO DE HTML
+
+Estrutura Básica
+
+DEFINIÇÃO
+
+HTML 1 - 1991
+
+HTML 2 - 1995
+
+HTML 3 - 1997
+
+HTML 4 - 1997
+
+HTML 5- 2014
+
+
+
+Elemento HTML
+
+Tag de Abertura, atributo, conteúdo e tag de fechamento.
+
+<h1 class="titulo">Título</h1>
+
+
+Estrutura Básica
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta>
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+
+
+Exercício
+
+Criação de estrutura básica para um site pessoal.
+
+material-de-apoio.html

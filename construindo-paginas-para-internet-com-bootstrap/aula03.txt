@@ -1,0 +1,18 @@
+CRIE CONTAINERS PERSONALIZADOS PARA O SEU SITE
+
+
+Html Color Codes
+https://html-color-codes.info/Codigos-de-Cores-HTML/
+
+
+Uso do Container e do Container Fluid. No segundo caso ele preenche a página inteira.
+
+
+Uso do Text-center para centralizar texto.
+
+
+Margin - Margem externa.
+
+Padding - Cria espaçamento/margem "interno".
+
+  font: 20px Arial, sans-serif;

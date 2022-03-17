@@ -1,0 +1,38 @@
+INTRODUÇÃO AO BOOSTRAP
+
+Instrutor Rafael Galleani : https://github.com/rafegal
+
+Aprenda sobre o framework Bootstrap
+
+
+Introdução ao HTML5 e CSS3 Utilizando Framework Bootstrap
+
+
+BOOTSTRAP
+
+Trata-se de um framework para desenvolvimento de sites responsivos.
+
+Possui uma vasta biblioteca de componentes que facilita e agiliza o desenvolvimento de páginas web.
+
+É um dos frameworks mais conhecidos e usados para desenvolvimento front-end.
+
+Site Oficial: https://getbootstrap.com
+
+Exemplos: https://getbootstrap.com/docs/5.1/examples/
+
+https://getbootstrap.com/docs/5.1/examples/carousel/
+
+
+Estrutura básica
+
+container
+	row
+		col
+
+
+
+
+Boostrap divide a tela em doze partes.
+
+https://getbootstrap.com/docs/5.1/getting-started/download/
+	

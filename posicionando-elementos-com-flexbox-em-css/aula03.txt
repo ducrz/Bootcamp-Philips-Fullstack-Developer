@@ -1,0 +1,79 @@
+FUNDAMENTOS DO FLEXBOX - PARTE 2
+
+Fundamentos Parte 2 - Flex Items
+
+Estrutura básica e prática com flex grow
+
+Flex-grow
+
+Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+OBS: não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container
+
+
+Poder ser 0 ou 1.
+
+7-flex-grow.html
+
+
+
+Estrutura básica do flex basis
+
+É a propriedade que estabelece o tamanho inicial do item antes das distribuições do espaço restante dentro dele,
+usando como base o conteúdo interno disposto.
+
+Valores Possíveis
+
+auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+
+px,%, em, ...: São valores exatos previamentos definidos.
+
+0(Zero): terá relação com a definição do flex-grow.
+
+
+Prática com flex basis
+
+8-flex-basis.html
+
+Estrutura básica do flex shrink
+
+Flex-shrink
+
+É a propriedade que estabelecer a capacidade de redução ou compressão do tamanho de um item.
+
+Prática com flex shrink
+
+9-flex-shrink.html
+
+
+Estrutura básica e prática com flex
+
+Flex
+Esta propriedade é um atalho ou abreviação de escrita para as
+propriedades: grow, shrink e basis.
+
+
+10-flex.html
+
+Estrutura básica e prática com order
+
+Order
+
+11-order-html
+
+
+Estrutura básica e prática com align self
+
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+Valores possíveis
+
+auto: valor padrão, irá respeitar a definição de align-items do container
+flex-start: ao início do container
+flex-end: ao final do container
+center: relativo ao centro de acordo com o eixo
+stretch: ocupa todo os espaço relativo
+baseline: utiliza a linha base da tipografia
+
+12-align-self.html
+
+

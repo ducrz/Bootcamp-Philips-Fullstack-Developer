@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        .container {
+            height: 350xp;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+
+
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et turpis est. Nullam non commodo
+            erat. Phasellus vel malesuada neque. Proin vel maximus ante.</div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et turpis est. Nullam non commodo
+            erat. Phasellus vel malesuada neque. Proin vel maximus ante.</div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+    <p>Flex Start</p>
+    <div class="container flex-start">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et turpis est. Nullam non commodo
+            erat. Phasellus vel malesuada neque. Proin vel maximus ante.</div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+    <p>Flex End</p>
+    <div class="container flex-end">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et turpis est. Nullam non commodo
+            erat. Phasellus vel malesuada neque. Proin vel maximus ante.</div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+    <p>Space Between</p>
+    <div class="container space-between">
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+    <p>Space Around</p>
+    <div class="container space-around">
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor </div>
+        <div class="item">Lorem ipsum dolor sit amet. </div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+    </div>
+
+</body>
+
+</html>

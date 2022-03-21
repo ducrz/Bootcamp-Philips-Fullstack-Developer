@@ -1,0 +1,70 @@
+Operadores
+
+Instrutora Stephany Nusch: https://github.com/stebsnusch
+
+Apresentação do Curso
+
+Operadores
+
+Variáveis e Tipos
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+
+Aritmética
+Atribuição
+Comparação
+Lógica
+Condicional
+
+
+Atribuição
+
+= (igual)
++= (mais igual)
+*= (multiplicação igual)
+/= (divisão igual)
+%= (módulo igual, retorna o resto)
+
+
+Aritmética
+
++ - Adição
+- - Subtração
+* - Multiplicação
+** - Exponencial
+/ - Divisão
+% - Módulo
+++ - Incrementar
+-- - Decrementar
+
+Comparação
+
+== - igual a
+=== - mesmo valor e mesmo tipo
+!= - diferente
+> - maior que
+< - menor que
+>= - maior ou igual
+<= - menor ou igual
+
+
+Lógica
+
+&& - "e" lógico
+|| - "ou" lógico
+! - "não" lógico
+
+Condicional
+
+Ternário
+
+(condition) ? expression1 : expression 2
+
+
+if(condition)
+	statement;
+else
+	statement;
+
+
+

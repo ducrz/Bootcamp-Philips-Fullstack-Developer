@@ -1,0 +1,123 @@
+Trabalhando com Módulos em JavaScript
+
+Apresentação do Curso
+
+Utilizando Módulos
+
+
+O que são módulos?
+
+Módulos são arquivos Javascript que tem a capacidade de exportar e importar
+informações de outros arquivos do mesmo tipo.
+
+
+Algumas vantagens são:
+- Organização do código;
+- Compartilhamento de variáveis em escopos diferentes;
+- Explicita as dependências dos arquivos.
+
+
+Exportar módulos
+
+Named exports
+
+Quando é necessário exportar mais de uma coisa, mais de um arquivo e quando você exporta elas individualmente.
+Pode ser feito utilizando a palavra reserva export antes da palavra função.
+
+export function nomefuncao(){}
+
+Também é possível fazendo a declaração normalmente da função, utilizando ao final o
+export e entre chaves colocar as funções que deseja exportar.
+
+function nomedaFuncao(){}
+
+export{
+	nomedaFuncao,
+	nomedaFuncao2
+}
+
+
+
+
+
+Default exports
+
+- Só pode existir um por arquivo.
+- Será o retorno padrão do arquivo.
+
+
+
+function nomeFuncao(){}
+
+export{
+	nomeFuncao
+}
+
+export default nomeFuncao;
+
+
+Importar Módulos:
+
+
+Named Exports:
+
+import { funcao, variavel, class} from './arquivo.js'
+
+Default exports
+
+import valorDefault from './arquivo.js'
+
+
+
+Trocando nome de imports
+
+
+import { arquivos as Apelido } from './arquivo.js';
+
+
+Apelido.metodo();
+
+
+Importando todos os dados de um arquivo.
+
+
+import * as INFOS from './arquivo.js';
+
+INFOS.metodoA();
+
+console.log(INFOS.variavel);
+
+
+
+Vinculando ao HTML
+
+<script type="module" src="./main.js"></script>
+
+
+
+Curiosidades
+
+- Módulos sempre estão em "strict mode";
+- Podem ser utilizadas as extensões .js e .mjs;
+- Para testes locais, é necessário utilizar um sevridor;
+- Ao importar, sempre lembre da extensão (.js, .mjs);
+- Ao importar, sempre utilize "./" como ponto de partida.
+
+- 
+
+Atividade Prática
+
+
+Esta atividade tem como objetivo que você veja no console do seu navegador como os módulos funcionam.
+
+Instale a extensão "Live Server" no seu VSCode;
+Crie um arquivo com uma estrutura HTML padrão;
+Crie dois arquivos .js ou .mjs, um chamado funcoes e outro chamado main;
+No arquivo funcoes:
+Crie uma função chamada mostraIdade, que recebe nome e idade e retorna a string: A idade de ${nome} é ${idade};
+Siga o mesmo padrão para outras funções como mostraCidade e mostraHobby;
+Exporte estas funções.
+No arquivo main:
+Importe as funções do arquivo funcoes;
+Faça a chamada de todas elas;
+Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.

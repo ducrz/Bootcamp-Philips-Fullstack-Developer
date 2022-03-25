@@ -1,0 +1,91 @@
+Tipos
+
+Estrutura de dados
+
+Javscript é uma linguagem de tipagem dinâmica.
+
+Ou seja, antes de declarar o valor, você não precisa especificar o tipo dele.
+
+
+Primitivos
+
+Numbers, strings, boolean , null, undefined
+
+
+Compostos / Não Primitivos
+
+Objetos e arrays.
+
+
+STRINGS
+
+- Textos / Frases.
+
+- Valores declarados entre aspas ou crases(interpolação, parte de texto e parte de variáveis).
+
+strings.js
+
+
+Métodos Importantes:
+
+- Concatenação;
+- Propriedade Length;
+- Iterabilidade;
+- Formatação;
+- Index de Letras.
+
+
+Numbers
+
+- Números inteiros ou decimais.
+
+numbers.js
+
+
+Booleans
+
+- Verdadeiro(true) ou falso(false)
+- Muito utilizado para condicionais e validações.
+
+booleans.js
+
+
+Arrays
+- Vetores ou Arrays.
+
+Lista iterável de elementos.
+
+- Índice começa no 0.
+- Iterabilidade - É possível fazer operações em cada um dos elementos do Array.
+
+arrays.js
+
+
+Objetos
+
+Exemplo de objeto em Javascript:
+
+Estrutura do tipo "Chave e Valor".
+Keys and Values
+
+let person ={
+	name: 'Eduardo',
+	age: 32
+};
+
+objetos.js
+
+Empty, undefined e null
+
+São valores que retornam como falso.
+
+Empty - Variável foi declarada, mas não tem valor.
+
+Null - Propositalmente aquele valor não deve existir, não foi inicializado, é nulo.
+
+Undefined - Nem foi declarado, o valor é indefinido.
+
+
+empty-undefined-null.js
+
+

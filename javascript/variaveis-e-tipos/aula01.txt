@@ -1,0 +1,78 @@
+Atribuindo Valores
+
+Apresentação do curso
+
+Explicar as principais estruturas de dados do Javascript, como utiliá-las e suas possibilidades.
+
+
+Variáveis
+
+Case Type
+
+Original Variable as String - some awesome var
+
+Camel Case - someAwesomeVar
+
+Snake Case - some_awesome_var
+
+Kebab Case - some-awesome-var
+
+Pascal Case - SomeAwesomeVar
+
+Upper Case Snake Case - SOME_AWESOME_VAR
+
+
+
+VAR E LET
+
+- Escopos DIferentes
+- Hoisting (atribuir um valor a uma variável, antes de declarar ela, no caso com o var)
+- Redeclaração (var)
+- Reatribuição (var ou let
+- Uso do camelCase
+)
+
+var a=1;
+var b=2
+
+if(a == 1){
+	var a=11; // The scope is global
+	let b = 22; //the scope is inside the if-block
+	
+	console.log(a); //11
+	console.log(b); //22
+
+}
+
+console.log(a); //11
+console.log(b); //2
+
+
+Ideal para uso: LET
+
+CONSTANTES
+
+
+- Declaradas em SNAKE_UPPER_CASE
+- Escopo de BLOCO
+- Não faz hoisting
+- Valor não muda durante o ciclo de vida do código.
+- Não pode ser redeclarada;
+
+
+
+const DAYS_IN_A_WEEK= 7;
+const MY_NAME = "Eduardo";
+
+
+
+                VAR         -       CONST       - LET
+ESCOPO         GLOBAL/LOCAL         Bloco         bloco
+REDECLARAR     sim                  não           não
+REATRIBUIR     sim                  não           sim
+HOISTING       sim                  não           não
+
+
+
+
+

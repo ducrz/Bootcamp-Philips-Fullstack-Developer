@@ -1,0 +1,43 @@
+Atividade Prática
+
+Verificar palíndromo
+
+Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)
+
+
+"Frase ou palavra que se pode ler, indiferentemente da esquerda para a direita
+ou vice-versa."
+
+Atividade 1
+Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo. String contêm somente uma palavra.
+
+Solção mais comum.
+
+if(!string) return;
+
+return string.split("").reverse().join("") === string; //Split e depois junta os elementos. No final compara com a string de origem.
+
+console.log(verificaPalindromo("gato"));
+
+
+palindromo.js
+
+
+
+Substituir números pares
+
+
+Atividade 2
+
+Troque todos os elementos pares e diferentes de zero de um array pelo número 0. Se o array for vazio, retorne -1.
+
+Exemplo: Input -> [1, 3, 4, 6, 80, 33, 23, 90]
+
+Output -> [1, 3, 0, 0, 0, 33, 23, 0]
+
+Input -> []
+
+Output -> -1
+
+substituirPares.js
+

@@ -1,0 +1,47 @@
+Coleções
+
+Coleções Chaveadas
+
+
+
+
+Estrutura, Métodos e Map vs Objeto
+
+
+MAP
+
+
+Estrutura
+
+const myMap = new Map();
+
+Características:
+
+- Uma coleção de arrays no formato [chave, valor];
+- Pode ser iterado por um loop for ... of
+
+
+
+Métodos
+
+Adicionar, ler e deletar.
+
+.set
+.get
+.delete
+.get
+
+
+
+Map vs Objeto
+
+- Maps podem ter chaves de qualquer tipo;
+- Maps possuem a propriedade length;
+- Maps são mais fáceis de iterar;
+- Utilizado quando o valor das chaves é desconhecido;
+- Os valores tem o mesmo tipo.
+
+
+
+
+

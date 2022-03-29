@@ -1,0 +1,55 @@
+Coleções
+
+
+Set
+
+Estrutura, Métodos e Set vs Array
+
+Coleção Chaveada - SET
+
+
+Estrutura
+
+const myArray = [1,1,2,2,3,4,5,6,7,8,2,1]
+const mySet = new Set(myArray);
+
+Sets são estruturas que armazenam apenas valores únicos.
+
+
+Métodos
+
+Adicionar, consultar e deletar.
+
+.add()
+.has()
+.delete()
+
+
+
+Set vs Array
+
+- Possui valores únicos;
+- Em vez da propriedade length, consulta-se o número de registros pela propriedade size;
+- Não possui os métodos map, filter, reduce, etc.
+
+
+
+Atividade prática
+
+Atividade 1: Maps
+
+Crie uma função que retorna o nome dos membros de um Map que tem o papel 'ADMIN' no sistema.
+
+Crie uma função getAdmins que recebe um Map;
+Crie um Map e popule-o com nomes de usuários e seus papeis no sistema. (Ex: 'Luiz' => 'Admin');
+Dentro de getAdmins, utilize o loop for...of para retornar uma lista com os nomes dos usu;arios que são administradores.
+
+maps.js
+
+Atividade 2: Sets
+
+Dado o array [30, 30, 40, 5, 223, 2049, 3034, 5], retorne outro array apenas com valores únicos.
+
+
+sets.js
+

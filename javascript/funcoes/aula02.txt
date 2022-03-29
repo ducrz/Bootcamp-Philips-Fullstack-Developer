@@ -1,0 +1,74 @@
+Parâmetros
+
+Valores padrão e Objeto "arguments"
+
+Pré ES2015.
+
+
+Pós ES2015.
+
+
+
+Objeto "arguments"
+
+
+
+Um array com todos os parâmetros passados quando a função foi invocada.
+
+
+
+function findMax(){
+	let max = -Infinity;
+	
+	for(let i=0; i < arguments.length; i++){
+		if(arguments[i] > max){
+			max = arguments[i];
+		
+		}
+	}
+	
+	return max;
+}
+
+
+function showArgs(){
+	return arguments;
+}
+
+
+Arrays e Objetos
+
+
+Arrays
+
+Spred: uma forma de lidar separadamente com elementos.
+
+
+function sum(x, y, z){
+	return x + y + z;
+}
+
+const numbers = [1,2,3];
+
+console.log(sum (...numbers));
+
+O que era parte de um array torna-se um elemento independente.
+
+
+Rest: combina os argumentos em um array.
+
+
+O que era um elemento independente torna-se parte de um array.
+
+
+
+Objetos
+
+
+Objects Destructuring
+
+Entre chaves {}, podemos filtrar apenas os dados que nos interessam em um objeto.
+
+
+
+

@@ -1,0 +1,70 @@
+Loops
+
+If/else e Switch
+
+
+if(){
+
+} else{
+
+}
+
+Javascript não tem elseif, as palavras sempre estão espaçadas.
+
+
+
+Switch
+
+- Equivale a uma comparação de tipo e valor (===);
+- Sempre precisa de um valor "default"
+- Ideal para quando precisa-se comparar muitos valores.
+
+
+switch(id){
+	case1:
+		return "cão";
+	case 2:
+		return "gato";
+	case 3:
+		return "pássaro";
+	default:
+		return "peixe";
+
+}
+For e While
+
+
+For
+
+Loop dentro de elementos iteráveis (arrays, strings).
+
+
+
+For ... in
+
+Loop entre propriedades enumeráveis de um objeto.
+
+
+
+For ... of
+
+
+Loop entre estruturas iteráveis (arrays, strings)
+
+
+
+
+While
+
+Executa instruções até que a condição torne-se falsa.
+
+
+
+Do ... While
+
+
+Executa instruções até que a condição torne-se falsa.
+
+Porém a primeira execução sempre ocorre.
+
+

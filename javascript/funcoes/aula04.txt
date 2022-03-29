@@ -1,0 +1,38 @@
+This
+
+O que é This?
+
+
+A palavra reservada this é uma referência de contexto.
+
+No exemplo, this refere-se ao objeto pessoa.
+
+
+Seu valor pode mudar de acordo com o lugar no código onde foi chamada.
+
+Contexto                        Referência
+Em um objeto (método)           Próprio objeto dono do método
+Sozinha                         Objeto global (em navegadores, windows)
+Função                          Objeto Global
+Evento                          Elemento que recebeu o evento.
+
+
+
+Manipulando seu valor.
+
+
+Call
+
+É possível passar parâmetros para essa função separando-os por vígulas.
+
+Apply
+
+
+É possível passar parâmetros para essa função dentro de um array.
+
+Bind
+
+
+Clona a estrutura da função onde é chamada e aplica o valor do objeto passado como parâmetro.
+
+

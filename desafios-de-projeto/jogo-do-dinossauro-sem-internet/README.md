@@ -1,4 +1,4 @@
-# Recriando o famoso jogo do dinossauro sem internet
+# Recriando o Famoso Jogo do Dinossauro Sem Internet
 Desafio de Projeto do Bootcamp Philips Fullstack Developer, promovido pela Digital Innovation One.
 
 ## Versão Desenvolvida: 🌎 TERRA VS COVID-19 🦠

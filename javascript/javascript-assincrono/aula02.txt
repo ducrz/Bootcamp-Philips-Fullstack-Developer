@@ -1,0 +1,65 @@
+Consumindo APIs
+
+O que são APIs e Fetch
+
+
+Application Programming Interface
+
+Uma API é uma forma de intermediar os resultados do backend com o que 
+é apresentado no front-end.
+
+Você consegue acessar uma API por meio de URLs.
+
+
+JSON: Javascript Object Notation
+
+É muito comum que APIs retornem seus dados no formato .json, portanto
+precisamos tratar esses dados quando os recebemos.
+
+
+
+Fetch
+Retorna uma promise.
+
+
+fetch(url, options)
+	.then(response => response.json())
+	.then(json => console.log(json))
+	
+
+Operações no banco (POST, GET, PUT, DELETE, etc)
+
+
+fetch('https://endereco-api.com',{
+	method:'GET',
+	cache: 'no-cache',
+
+})
+	.then(response => response.json())
+	.then(json => console.log(json))
+
+
+
+fetch('https://endereco-api.com',{
+	method:'POST',
+	cache: 'no-cache',
+	body: JSON.stringify(data)
+
+})
+	.then(response => response.json())
+	.then(json => console.log(json))
+	
+	
+Atividade prática
+
+Atividade: API "catAPI"
+
+Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+
+Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método fetch();
+
+Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
+
+
+Folder atividade-pratica.
+

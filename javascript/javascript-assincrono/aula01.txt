@@ -1,0 +1,69 @@
+Assincronicidade
+
+Apresentação do curso
+
+Definição, Promises e Async/Await
+
+
+
+Assíncrono
+
+"Que não ocorre ou não efetiva-se ao mesmo tempo".
+
+
+
+O Javascript roda de maneira síncrona.
+
+
+Promises
+
+
+Objeto de processamento assíncrono.
+
+Inicialmente, seu valor é desconhecido. Ela pode então, ser resolvida ou rejeitada.
+
+		RESOLVED
+		-> .then()		PENDING
+PENDING					Promise
+Promise
+		catch()
+		REJECTED
+
+
+Uma promise pode ter três estados:
+
+
+1) Pending
+2) Fulfilled
+3) Rejected
+
+
+
+Estrutura
+
+const myPromise = new Promise((resolve, reject) => {
+	windows.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+	}, 2000);
+});
+
+Manipulação
+
+
+await myPromise
+	.then((result) => result + 'passando pelo then')
+	.then((result) => result + 'e agora acabou!')
+	.catch((err) => console.log(err.message));
+	
+	
+
+Async / Await
+
+Funções assíncronas precisam dessas duas palavras chave.
+
+
+Funções assíncronas também retornam Promises!
+
+
+Pode ser utilizado o try/catch.
+

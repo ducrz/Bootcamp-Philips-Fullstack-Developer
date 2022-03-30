@@ -1,0 +1,81 @@
+Orientação a Objetos em Javascript
+
+
+Protótipos e Classes
+
+OOJS - Javascript Orientado a Objetos.
+
+
+Protótipos
+
+Todos os objetos Javascript herdam propriedades e métodos de um prototype.
+O Objeto  Object.prototype está no topo desta cadeia.
+
+
+Cadeia de protótipos (prototype chain)
+
+-> Object.prototype = null;
+   Object(){} <-
+   	-> Function.prototype.constructor ->
+   	 <- Function <-
+   	 	-> Animal.constructor ->
+			<- Bird <-
+				Crow ->
+				
+				
+
+
+Classes
+
+
+Syntatic Sugar: uma síntaxe feita para facilitar a escrita.
+
+
+var Meal = function(food){
+	this.food = food;
+}
+
+
+Meal.prototype.eat = function(){
+	return '(:';
+}
+OLD
+
+
+class Meal{
+	constructor (food){
+		this.food = food;
+	}
+	
+	eat(){
+		return '(:';
+	}
+
+}
+NEW - ECMASCRIPT6
+
+
+Javascript não possui classes nativamente. Todas as classes são objetos
+e a herança dá-se por protótipos.
+
+
+
+
+Atividade Prática
+
+
+Atividade: Conta Bancária
+
+Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.
+
+Crie a classe ContaBancaria, que possui os parâmetros agencia, numero, tipo e saldo;
+Dentro de ContaBancaria, construa o getter e o setter de saldo;
+Dentro de ContaBancaria, crie os métodos sacar e depositar;
+Crie uma classe-filha chamada ContaCorrente que herda todos esses parâmetros e ainda possua o parâmetro cartaoCredito;
+Ainda em ContaCorrente, construa o getter e o setter de cartaoCredito;
+Ainda em ContaCorrente, faça com que o tipo seja 'conta corrente' por padrão;
+Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
+Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
+Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
+
+

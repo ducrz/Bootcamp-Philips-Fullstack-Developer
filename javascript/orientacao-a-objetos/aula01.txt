@@ -1,0 +1,55 @@
+Compreendendo Orientação a Objetos
+
+
+
+Apresentação do Curso
+
+
+Paradigmas e Pilares
+
+
+Paradigmas
+
+Imperativo - Como os problemas serão resolvidos.
+
+
+Declarativo- O que será feito.
+
+
+POO é um tipo de paradigma imperativo.
+
+
+Os programas são "objetos" que possuem uma série de propriedades.
+
+Pilares:
+- Herança;
+- Polimorfismo;
+- Encapsulamento;
+- Abstração.
+
+
+
+Abstração:
+
+"Processo mental que consiste em isolar uma aspecto determinado de um estado de coissas
+relativamente complexo, a fim de simplificar a sua avaliação, classificação ou para
+permitir a comunicação do mesmo."
+
+
+Herança:
+
+O Objeto filho herda propriedades e métodos do objeto pai.
+
+
+Encapsulamento:
+
+Cada classe tem propriedades e métodos independentes do restante do código.
+
+
+
+Polimorfismo:
+
+Objetos podem herdar a mesma classe pai, mas se comportarem de forma diferente quando
+invocamos seus métodos.
+
+

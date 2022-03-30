@@ -1,0 +1,34 @@
+Tipos de Erros
+
+Apresentação do curso
+
+
+ECMAScript Error e DOMException
+
+
+ECMAScript Error
+
+Erros que ocorrem em tempo de execução.
+
+
+Composto por:
+
+- Mensagem
+- Nome
+- Linha
+- Call Stack
+
+
+Ex: Uncaught ReferenceError: a is not defined ar <anonymous>:1:11
+
+
+
+DOMException
+
+Erros relacionados ao  "DOM - Document Object Model".
+
+
+Ex: String contains an invalid character.  index.js:1
+
+
+

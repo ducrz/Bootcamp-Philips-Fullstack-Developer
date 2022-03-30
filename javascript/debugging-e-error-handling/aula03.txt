@@ -1,0 +1,51 @@
+Criando Erros Personalizados
+
+
+O objeto Error
+
+new Error(message, fileName, lineNumber);
+
+const MeuErro = new Error('Mensagem Inválida');
+
+throw MeuErro;
+
+
+Uncaught Error: Mensagem Inválida at <anonymous>:1:17
+
+
+const MeuErro = new Error('Mensagem Inválida');
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;
+
+
+Uncaught: InvalidMessage: Mensagem Inválida at <anonymous>:3:17
+
+
+Atividade prática
+
+Validação de erros por tipo
+
+O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função. Caso contrário, um erro será lançado.
+
+Crie uma função que recebe um array e um número.
+
+Realize as seguintes validações:
+
+Se os parâmetros não forem enviados, lance um erro do tipo ReferenceError
+Se o array não for do tipo 'object', lance um erro do tipo TypeError
+Se o número não for do tipo 'number', lance um erro do tipo TypeError
+Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo RangeError
+
+Utilize a declaração try...catch
+Filtre as chamadas de catch por cada tipo de erro utilizando o operador instanceof
+
+
+
+Links Auxiliares
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/instanceof
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch
+

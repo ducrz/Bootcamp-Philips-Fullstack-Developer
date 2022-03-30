@@ -1,0 +1,41 @@
+Tratando Erros
+
+
+
+Throw, Try/Catch e Finally
+
+
+
+Throw
+
+if(!string) throw "String Inválida";
+
+
+
+Try/Catch
+
+
+try{
+
+}
+catch(e){
+	console.log(e);
+	
+
+}
+
+
+Finally
+
+- É opcional.
+
+
+try{
+
+}
+catch(e){
+
+}
+finally{
+
+}

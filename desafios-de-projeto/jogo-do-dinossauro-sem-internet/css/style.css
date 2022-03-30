@@ -1,0 +1,82 @@
+body {
+  background: #fafafa;
+  color:545454;
+  font-family: Helvetica;
+}
+a, a.visited{
+  text-decoration:none;
+  color:#000080;
+}
+a:hover{
+  color:#f76c5e;
+}
+h1.title{
+  color:#545454;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h2.instrucoes{
+  color:#545454;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h2.jogar-novamente{
+  text-align: center;
+  color:#545454;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.planeta {
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/terra.gif);
+  width: 60px;
+  height: 60px;
+  display:none;
+}
+
+.virus{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(../img/SARS-CoV-2.png);
+}
+
+.game-over {
+  text-transform: uppercase;
+  text-align: center;
+  color: #545454;
+  margin: 50px 0;
+  font-family: Helvetica;
+  
+}
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('../img/background.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+  display:none;
+}
+img{
+  width:25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+

@@ -1,0 +1,115 @@
+Instrutor Douglas Moura: https://github.com/DouglasdeMoura
+
+
+Como Implementar TypeScript na Prática
+
+
+Exemplo das vantagens do typescript
+
+
+Criando o arquivo index.ts e executando o comando parcel
+
+npm init
+
+npm i parcel bundler
+
+Edição package.json
+
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+npm start
+
+
+
+
+Escrevendo a função soma com typescript
+
+tsc soma.js
+
+
+function soma(a: number, b: number) {
+    return a + b;
+}
+
+soma(7, 8);
+
+
+Como funcionam as interfaces
+
+
+
+Interfaces são usadas para definir "contratos".
+
+
+interface.ts
+
+
+Como funcionam os types
+
+types.ts
+
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+
+
+Tratando a tag input
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement
+
+const input = document.getElementById('input') as HTMLInputElement;
+
+input.addEventListener('input', (event) => {
+    //console.log("Digitação");
+
+    const i = event.currentTarget as HTMLInputElement;
+    console.log(i.value);
+});
+
+
+O que são Generic types
+
+genericTypes.ts
+
+
+Desenvolvendo condicionais a partir de parâmetros
+
+condicionais.ts
+
+Utilizando o caracter "?" para variáveis opcionais
+
+variaveisOpcionais.ts
+
+
+Criando variáveis com propriedade readonly e private
+
+readonlyPrivate.ts
+
+
+Como importar bibliotecas com typescript
+
+typings.d.ts
+
+jquery.ts
+
+tsc --init
+
+npm i --save-dev @types/jquery
+
+
+tsc script.ts
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+https://www.typescriptlang.org
+
+
+Exemplo de como usar Omit e conclusão do curso
+
+omit.ts
+
+https://www.typescriptlang.org/docs/handbook/utility-types.html
+
+

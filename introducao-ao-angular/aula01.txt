@@ -1,0 +1,84 @@
+Instrutor Wesllhey Holanda: https://github.com/wesllhey
+
+Primeiros Passos para Desenvolver com Angular
+
+Utiliza SPA (Single Page Application).
+
+O que veremos na aula
+
+
+Instalando e configurando o ambiente
+
+- Node.js
+https://nodejs.org/en/download/package-manager/
+
+Debian e Ubuntu
+
+https://github.com/nodesource/distributions/blob/master/README.md
+- Angular CLI
+
+sudo npm install -g @angular/cli
+
+ng version
+
+- Visual Studio Code
+
+https://code.visualstudio.com
+
+Criando a primeira aplicação com Angular
+
+ng new course-manager
+
+ng serve
+
+http://localhost:4200/
+
+
+Trabalhando com módulos e componentes
+
+
+ng generate component xyz
+
+
+Módulo é um limitador de contexto. Ex: página de Crud, módulos de login, produto, compra e etc.
+
+
+Componentes são aquilo que será "visual" no módulo, trazendo vida ao módulo.
+
+
+One-Way Binding
+
+  <input [ngModel]='name' name='name' />
+
+Two-way binding
+  <input [(ngModel)]='name' name='name' />
+
+
+
+Importando um módulo
+
+app.module.ts
+
+import { FormsModule } from '@angular/forms';
+
+imports: [
+    BrowserModule,
+    FormsModule
+  ],
+
+
+
+Criando componentes e construindo o projeto
+
+npm install bootstrap
+
+
+Criando componentes com atributos interdependentes
+
+ng serve
+
+Component star Rating
+
+npm install font-awesome
+
+

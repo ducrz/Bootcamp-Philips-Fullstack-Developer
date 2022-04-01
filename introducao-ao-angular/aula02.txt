@@ -1,0 +1,38 @@
+Lidando com Vários Componentes
+
+O que é injeção de dependência
+
+course.service.ts
+
+@Injectable({
+    providedIn: 'root'
+})
+
+Tratando eventos data binding
+
+        <input [(ngModel)]="filter" class="form-control">
+
+
+Transformando datas com Pipes
+
+{{ course.releaseDate | date: 'dd/MM/yyyy' }}
+
+
+Protegendo Rotas com Guards
+
+
+Uso de rotas no Angular.
+
+
+import { RouterModule } from '@angular/router';
+
+
+Ativando Rotas para acessar componentes
+
+<a [routerLink]="['/courses/info', course.id]" class="btn btn-primary mr-2">Edit</a>
+
+
+Trabalhando com formulários e templates
+
+
+Link para o projeto no repositório do GitHub

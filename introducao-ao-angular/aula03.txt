@@ -1,0 +1,42 @@
+Segregando Responsabilidades
+
+Fazendo requisições em HTTP
+
+Usando Node.js
+
+Na pasta src/assets/server:
+
+npm install
+
+node serve.js
+
+
+Trabalhando com delete
+
+Segregando a aplicação em módulos
+
+Conhecendo a pasta shared
+
+Folder Shared
+
+Conhecendo a pasta core
+
+Folder Core
+
+Componentes com regras de negócios maior que os constantes na pasta Shared.
+
+
+
+Tratando erros com Angular
+
+
+
+Recomendações do especialista
+
+
+https://angular.io/docs
+
+
+
+
+

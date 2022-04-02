@@ -1,0 +1,98 @@
+Curso: A Arquitetura de componentes e a gestão da complexidade no front-end
+
+Instrutora: Geovana Ribeiro. https://github.com/Uncodle
+
+Apresentação inicial
+
+A arquitetura de componentes, serviços e injeção de dependência
+
+Príncipios de arquitetura de componentes
+
+O que é um componente?
+
+
+Arquitetura de componentes
+
+A arquitetura de componentes baseia-se na construção de componentes independentes, substituíveis e modulares que auxiliem no gerencianciamento da complexidade e
+encorajem a reutilização.
+
+Seus benefícios incluem:
+
+Escalabilidade
+Manutenção
+Performance
+
+
+Serviços
+
+Responsáveis por organizar e compartilhar lógica de negócios
+Reutilizáveis entre diferentes componentes de um aplicação
+Mandatorios para uma arquitetura modular e reutilizável
+
+
+
+Injeção de dependência
+
+Todo serviço é uma dependência que precisa ser instanciada dentro do componente para ser utilizada pelo mesmo.
+
+No angular, o componente pede para aplicação quais dependências ele precisa e então as injeta dentro de si.
+
+
+
+
+O ciclo de vida do componente
+
+Todo componente possui seu ciclo de vida (normalmente chamado de lifecycle hooks), que começa assim que o Angular o instancializa na aplicação e através deles é possível executar
+diferentes lógicas nos vários estágios de um componente.
+
+Atenção: Use com sabedoria para não comprometer a performance de sua aplicação!
+
+Constructor vs ngOnInit
+
+Constructor
+
+Deve ser utilizado apenas para inicializar serviços injetados via DI (injeção de dependência) ngOnInit
+Deve ser utilizado para todo tipo de lógica que o componente precisar executar após ter sido criado.
+
+
+
+Associando informações entre componentes e template com Data Binding
+
+
+ng g c NewComponent
+
+
+Data Binding
+
+A forma como associamos informações que estão no componente para o template e vice-versa.
+
+String Interpolation: {{ valor }}
+
+associa informação do componente para o template (HTML)
+
+Property Binding: [propriedade]="valor“
+
+associa informação do componente para propriedades do template (HTML)
+
+Event Binding: (evento)="handler"
+
+associa informação do template (HTML) para o componente
+
+Two-Way Data Binding: [(ngModel)]="propriedade]
+
+associa informação entre ambos, ou seja, mantém ambos atualizados (componente e template (HTML).
+
+
+@Input()
+
+Pai → Filho:
+Principal maneira de compartilhar dados do pai para filho:
+
+Compartilhar dados com as propriedades @Input() e @Output()
+
+
+@Output() e EventEmitter
+
+Filho → Pai:
+Principal maneira de compartilhar dados do filho para o pai:
+

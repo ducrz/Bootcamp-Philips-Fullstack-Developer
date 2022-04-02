@@ -1,0 +1,41 @@
+Metodologias específicas para organização de Front-end
+
+A Arquitetura modular SMCSS
+
+SMACSS
+
+SMACSS é uma arquitetura modular e escalável para CSS, dividida em 5 camadas. Sendo elas:
+
+Base: estilização de seletores e pseudo-classes, além de resets
+
+Layout: principais componentes como cabeçalho, rodapé, entre outros.
+
+Module: componentes reutilizáveis como botões e ícones.
+
+State: todo elemento que será modificado ou terá alguma alteração no seu estado inicial.
+
+
+
+Theme: temas específicos para uma mesma aplicação.
+
+
+Block, element, modifier (BEM) CSS
+
+BEM CSS
+
+A sigla BEM significa block, element, modifier (bloco, elemento e modificador) , sendo uma metodologia que segue esses conceitos para definir uma nomenclatura de nomes para
+classes CSS.
+
+
+CSS orientado à objeto (OOCSS)
+
+OOCSS
+
+O OOCSS (CSS orientado à objeto) é uma metodologia que identifica um padrão visual que pode se repetir no projeto e o agrupa em classes, tornando-os reutilizáveis.
+
+Exercício final
+
+folder arquitetura-de-componentes-data-binding
+
+    
+

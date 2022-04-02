@@ -1,0 +1,51 @@
+Gestão de Complexidade no Front-end
+
+Os componentes apresentacionais e os componentes inteligentes
+
+Componentes inteligentes e apresentacionais
+
+Componentes apresentacionais
+
+Parecido com funções puras
+
+Se preocupam apenas com a interface do usuário
+
+Não ficam responsáveis por recuperar dados ou lidar com lógica de negócio
+
+Não causam efeitos colaterais na aplicação
+
+Recebem dados via @Input e emite eventos via @Output
+
+
+Componentes Inteligentes
+
+Parecido com funções impuras
+
+Contém toda a lógica de negócio
+
+São internamente compostos por componentes apresentacionais
+
+Ficam responsáveis por repassar os dados para os componentes apresentacionais apresentaram ao usuário
+
+
+
+Desenvolvimento em módulos com Design Modular
+
+
+Design Modular
+
+
+Divisão da aplicação web em módulos de recursos que representam diferentes funcionalidades de negócios.
+
+Core Module: define serviços singleton, componentes de instância única, configuração e exportação de quaisquer módulos de terceiros necessários no módulo principal
+(App Module).
+
+Shared Module: contém componentes/pipes/diretivas comuns e também exporta módulos do Angular usados com frequência (CommonsModule)
+
+Feature Module: organiza um conjunto de recursos da aplicação num módulo de funcionalidade.
+
+Library: possui código que pode ser reutilizável entre diferentes aplicações.
+
+Angular Element: recurso do angular para criar web components, padrão da web para definir novos elementos HTML de uma maneira independente de estrutura e independente de
+frameworks.
+

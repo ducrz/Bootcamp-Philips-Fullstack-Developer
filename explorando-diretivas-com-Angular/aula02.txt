@@ -1,0 +1,98 @@
+Diretivas Estruturais e mais sobre data binding
+
+A primeira diretiva estrutural - ngIf
+
+<h2 *ngIf="count > 7; else menor">O contador passou de 7!</h2>
+
+Implementando condicionais com ng-template
+
+<ng-template #menor>
+</ng-template>
+
+Trabalhando com ngSwitch
+
+
+<ul [ngSwitch]="count" class="list-group mx-auto col-3">
+  <li class="list-group-item" *ngSwitchCase="3">
+    É IGUAL A 3
+  </li>
+  <li class="list-group-item" *ngSwitchCase="5">
+    É IGUAL A 5
+  </li>
+  <li class="list-group-item" *ngSwitchCase="8">
+    É IGUAL A 8
+  </li>
+  <li class="list-group-item" *ngSwitchDefault>
+    ESSE É O DEFAULT
+  </li>
+</ul>
+
+
+
+Iteração com ngFor
+
+
+<ul [ngSwitch]="count" class="list-group mx-auto col-3">
+  <li class="list-group-item" *ngFor="let pessoa of pessoas">
+  O nome da pessoa é {{ pessoa.nome }} {{pessoa.sobrenome}}
+  </li>
+ 
+</ul>
+
+Como funciona o ngFor por baixo dos panos
+
+
+<ng template ngFor let-pessoa [ngForOf]="pessoas" >
+
+Como enviar dados do typscript para a view e vice-versa
+
+Desenvolvendo um two way data binding
+
+[(ngModel)]
+
+Comando ng generate directive e configurando sua diretiva customizada
+
+Comandos úteis angular CLI
+
+
+Component
+
+ng g component my-new-component
+
+Directive
+
+ng g directive my-new-directive
+
+Pipe
+
+ng g pipe my-new-pipe
+
+
+Service
+
+ng g service my-new-service
+
+Class
+
+ng g class my-new-class
+
+Guard
+
+ng g guard my-new-guard
+
+Interface
+
+ng g interface my-new-interface
+
+Enum
+
+ng g enum my-new-enum
+
+
+Module ng g module my-module
+
+
+
+
+Chamando a diretiva customizada
+

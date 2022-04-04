@@ -1,0 +1,85 @@
+Instrutor Ivo Soares: https://github.com/ivosoares
+
+Introdução e diretivas de atributo
+
+Apresentação inicial e objetivos do conteúdo
+
+O que são diretivas
+
+As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
+
+Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exemplo, NgClass e NgStyle.
+Diretivas estruturais: Modificam o layout adicionando ou removendo elementos do DOM.
+
+Diretivas:
+
+
+Attribute
+
+ngClass
+ngStyle
+
+
+Structural
+
+ngIf
+ngFor
+ngSwitch
+
+
+Custom
+
+Highliter
+Dropdown
+
+Preparando a aplicação Angular
+
+Folder ambiente-angular
+
+ng serve ou npm start
+
+Instalando o bootstrap
+
+https://getbootstrap.com
+
+
+npm install bootstrap
+
+
+Entendendo o método constructor
+
+
+Boa prática: uma classe por componente.
+
+
+CICLO DE VIDA ANGULAR
+
+Constructor
+
+ngOnChange
+ngOnInit
+ngDoCheck
+ngAfterContentInit
+ngAfterContentChecked
+ngAfterViewInit
+ngAfterViewChecked
+ngOnDestroy
+
+
+
+Implementando a lógica de incremento do contador
+
+Alterando dinamicamente uma propriedade CSS com ngStyle
+
+<div [ngStyle]="{background: count < 5 ? 'red' : 'green'}" [ngClass]="{custom: count > 5}">
+
+
+
+Como funciona a ngClass
+[ngClass]=""
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+Introdução a Serviços Assincronos no Angular
+
+Apresentação inicial
+   
+O que é HttpClient
+
+
+O HttpClient é usado para fazer a comunicação entre cliente e servidor usando o  protocolo HTTP.
+
+
+Criando o projeto base
+
+Criando o componente header
+
+ng g component components/header
+
+
+Criando o componente users-list
+
+ng g c pages/users
+
+ng g c pages/users/users-list
+
+
+Desenvolvendo a lista de usuários
+
+Criando o componente user-form
+
+ng g c pages/users/user-form
+
+
+Apresentação do sheet.best
+
+https://sheet.best
+
+Criando a planilha usuarios conectada com sheet.best
+
+https://docs.sheet.best/#quickstart
+
+
+Criando a interface e service user
+
+ng g interface models/user
+
+ng g service services/user
+
+
+Desenvolvendo a classe UserFormComponent
+
+Importar FormsModule e ReactiveFormsModule.
+
+
+Desenvolvendo o método para salvar o usuário no banco
+
+
+Desenvolvendo o método para excluir o usuario no banco
+
+
+Desenvolvendo funções de callback
+
+
+Finalizando o método de listagem e edição de usuário
+

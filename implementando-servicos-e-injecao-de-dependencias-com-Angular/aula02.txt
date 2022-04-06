@@ -1,0 +1,49 @@
+Consumindo APIs
+
+Construindo o código de base para implementar API no projeto
+
+
+ng g component components/list-api
+
+<app-list-api></app-list-api>
+
+
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ListService {
+  apiURL = 'https://rickandmortyapi.com/api/character';
+
+
+  constructor(private httpClient: HttpClient) { }
+
+  getList():Observable<any> {
+    return this.httpClient.get<any>(this.apiURL);
+  }
+}
+
+
+Criando o serviço para acessar a API
+
+Angular http client
+
+app.module.ts
+
+import { HttpClientModule } from '@angular/common/http';
+
+
+imports:{
+HttpClientModule
+},
+
+Listar os dados da API na aplicação
+
+
+
+Dúvidas e comentários finais
+

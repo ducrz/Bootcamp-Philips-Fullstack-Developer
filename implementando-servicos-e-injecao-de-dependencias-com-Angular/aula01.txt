@@ -1,0 +1,74 @@
+Instrutor Ivo Soares: https://github.com/ivosoares
+
+Conceitos e Criação de um Serviço
+
+Apresentação inicial e objetivos do curso
+
+O que são serviços e para que serve
+
+Serviços
+
+Um serviço Angular reutilizável é projetado para encapsular a lógica de negócios e os dados com diferentes componentes do
+Angular. É basicamente uma classe que tem um propósito bem definido para fazer algo. Você pode criar uma classe de serviço para dados ou lógica que não está associada a nenhuma visualização específica para compartilhar entre os componentes.
+
+Para que serve ?
+
+Se você escrever toda a lógica de negócios em componentes, terá os seguintes problemas:
+
+Você não poderá reutilizar essa lógica em nenhum outro lugar e terá que recodificar toda a lógica no componente de
+destino.
+
+A manutenção de seus componentes será difícil, pois você terá que manter duas cópias do mesmo código.
+
+
+
+O que é injeção de dependência
+
+Injeção de Dependência
+
+A injeção de dependência é usada para fornecer aos componentes os serviços que eles podem usar. Para definir uma classe como um serviço no Angular, o decorator @Injectable() é usado.
+
+Ele fornece os metadados que permitem ao Angular injetá-los em um componente como uma dependência.
+
+
+Da mesma forma, o decorator @Injectable() é usado para indicar que um componente ou outra classe (como outro
+serviço, um pipe ou um NgModule) possui uma dependência.
+
+
+Apresentação da projeto de base
+
+folder ambiente-angular
+
+Preparando a estrutura do projeto
+
+
+Construindo um serviço com o comando ng g service
+
+ng g service shared/services/people
+
+
+people.service.ts
+
+
+@Injectable({
+  providedIn: 'root'
+})
+
+app.module.ts
+
+providers: [PeopleService],
+
+
+Desenvolvendo o serviço PeopleService
+
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+
+
+Desenvolvendo o componente listPeople
+
+ng g component shared/components/listPeople
+
+Dúvidas e comentários - Trocando dados entre serviços e componentes
+
+

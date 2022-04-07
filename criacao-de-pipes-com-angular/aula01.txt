@@ -1,0 +1,77 @@
+Criação de Pipes com Angular
+
+Como funcionam os principais pipes do Angular
+
+
+Introdução ao conceito de Angular Pipes
+
+O que são e como funcionam os Pipes.
+
+Pipes são funções simples que você pode usar em expressões nos Templates para aceitar
+um valor de entrada e retornar um valor transformado.
+
+
+
+Valores > Pipes -> Valor Transformado
+
+
+PIPES NATIVOS
+
+DatePipe
+AsyncPipe
+CurrencyPipe
+DecimalPipe
+I18nPluralPipe
+I18nSelectPipe
+JsonPipe
+KeyValuePipe
+LowerCasePipe
+PercentPipe
+SlicePipe
+TitleCasePipe
+UpperCasePipe
+
+
+
+https://angular.io/guide/pipes
+
+Desenvolvimento do componente pipes-example
+
+
+ng generate components pages/pipes-example
+
+
+Pipe para deixar todas as letras maiúsculas
+
+
+
+Tratando números com pipe - Parte 1
+
+
+Tratando números com pipe - Parte 2
+
+
+Encadeando pipes - Parte 1
+
+
+Encadeando pipes - Parte 2
+
+
+Como usar os pipes json e slice
+
+
+Diferentes tipos de pipes
+
+Pipe Puro - São os padrões, só executam os pipes se uma alteração direta ocorrer no valor de entrada.
+Usa funções puras, que não tem efeito colateral.
+
+Pipe Impuro- São executados para cada detecção de alteração.
+
+
+Criando seu próprio pipe
+
+ng g pipe printList
+
+
+Configurando seu pipe como impuro
+

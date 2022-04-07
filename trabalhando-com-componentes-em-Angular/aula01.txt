@@ -1,0 +1,104 @@
+Trabalhando com Componentes em Angular
+
+Passo a passo para trabalhar com componentes
+
+Apresentação inicial
+
+Visão geral sobre componentes
+
+COMPONENTES
+
+Os componentes são blocos que sozinhos tem um sentido, eles podem ser únicos,
+ou um conjunto de vários outros componentes.
+
+Quando nós utilizamos da componentização, temos bastante ganhos, dos quais
+podemos citar: a reutilização de trechos de código, isolamento de contexto,
+legibilidade do código, redução de código e a padronização do projeto.
+
+
+Exemplo de Componentes
+
+BarraFerramentaComponent
+CadastroFromComponent
+TabelaComponent
+
+
+Componentes no contexto do Angular
+
+Metadata: são definições que iremos informar ao Angular que a nossa classe é um Component,
+por meio de decorators, nesse caso @Component.
+
+Classe: assim como em qualquer linguagem de programação que utiliza o paradigma da orientação a objeto,
+possui suas propriedades e métodos.
+
+greet.component.ts
+Import -> import { Component, OnInit } from '@angular/core';
+
+Metadata ->  @Component ({
+		selector: 'app-greet', <- Component Tag
+		templateUrl: './greet.component.html', <- HTML Template File Name and Location
+	      	styleUrls: ['./greet.component.css'] <- CSS File Name and Location
+	      })
+
+Component Class ->  export class GreetComponent implements OnInit{
+			constructor(){}
+			
+			ngOnInit(): void {
+			
+			}
+
+		    }
+
+Preparação do projeto base
+
+Criando o componente todo-list
+
+ng g c pages/todo/todo-list
+
+
+Desenvolvendo a rota do todo
+
+{ path: 'todo', component: TodoListComponent}
+
+
+Implementação do Angular Material
+
+material.angular.io
+
+ng add @angular/material
+
+
+
+Importando componentes do Angular Material
+
+material.angular.io/components/categories
+
+
+
+Desenvolvendo o todo-list - Parte 1
+
+
+Desenvolvendo o todo-list - Parte 2
+
+
+Desenvolvendo o componente todo-item - Parte 1
+
+
+Desenvolvendo o componente todo-item - Parte 2
+
+
+Desenvolvendo o componente todo-item - Parte 3
+
+
+Desenvolvendo o método removeTodo
+
+removeTodo():void{
+	this.remove.emit(this.todo);
+}
+
+
+Gravando e recuperando dados salvos localmente
+
+Salvando no Local Storage.
+
+

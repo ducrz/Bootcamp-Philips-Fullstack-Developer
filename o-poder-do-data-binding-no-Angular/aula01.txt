@@ -1,0 +1,129 @@
+O Poder do Data Binding no Angular
+
+Data Binding na Prática
+
+Apresentação inicial
+
+Data Binding é a forma que o angular trata do transporte de dados.
+
+DOM <- Interpolation: {{ pageTitle}} COMPONENT
+
+DOM <- Property Binding <img [src]='game.imageUrl' /> COMPONENT
+
+DOM Event Binding <button (click)='toggleImage()'> -> COMPONENT
+
+
+DOM Two-Way Binding: <- <input [(ngModel)]='listFilter' /> -> COMPONENT
+
+
+INTERPOLAÇÃO: {{ valor }}
+Associa informação do componente para o template(html).
+
+
+PROPERTY BINDING: [propriedade]="valor"
+Associa informação do componente para o template (html).
+
+EVENT BINDING: (evento)="handler"
+Associa informação do template (html) para o componente.
+
+
+TWO-WAY DATA BINDING: [(ngModel)]="propriedade"
+Associa informação entre ambos, ou seja, mantém ambos atualizados (componente e template (HTML)).
+
+
+                     
+
+O que é Angular Data Binding
+
+Interpolação e property data binding - Parte 1
+
+ng generate component pages/data-binding
+
+
+Interpolação e property data binding - Parte 2
+
+
+Desenvolvendo class binding
+
+
+
+Desenvolvendo style binding
+
+
+Como funciona o two-way data biding
+
+
+Transferindo dados entre componentes - Parte 1
+
+ng g component components/button
+
+
+Transferindo dados entre componentes - Parte 2
+
+
+O ciclo de vida do Angular - Parte 1
+
+constructor
+
+ngOnChanges
+ngOnInit
+ngDoCheck
+	ngAfterContentInit
+	ngAfterContentChecked
+	ngAfterViewInit
+	ngAfterViewChecked
+ngOnDestroy
+
+
+
+
+Angular Lyfe Cicle
+
+O Guia Rápido
+
+Quando cada gancho do Ciclo de Vida é chamado?
+
+constructor
+
+ngOnCHanges
+Uma vez na criação do componente e sempre que houver alteração em uma
+de suas propriedades de entrada.
+
+ngOnInit
+Uma única vez quando o componente é inicializado.
+
+ngDoCheck
+
+A cada ciclo de detecção de alterações (use para alterações que o
+Angular não detecta)
+
+
+ngAfterContentInit
+Depois que o conteúdo externo é inserido no componente.
+Por exemplo, vindo do <ng-content>.
+
+ngAfterContentChecked
+Após a verificação do conteúdo externo
+
+ngAfterViewInit
+Logo após o conteúdo do próprio componente e de seus filhos ser inicializado.
+
+ngAfterViewChecked
+Cada vez que o conteúdo é verificado pelo mecanismo de detecção de alterações do Angular.
+
+ngOnDestroy
+Antes do Angular destruir o componente
+
+Lembre sempre de implementar a interface dos ganchos em uso.
+
+Fonte: https://warcontent.com/guia-angular-lifecycle/
+
+
+ng g component components/life-cycle
+
+export class LifeCycleComponent implements OnInit, OnChanges, DoCheck,
+  AfterContentInit, AfterContentChecked, AfterViewChecked, OnDestroy
+  {
+
+O ciclo de vida do Angular - Parte 2
+

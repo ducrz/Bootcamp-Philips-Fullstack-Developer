@@ -1,0 +1,24 @@
+.btn-primary{
+   background-color: #ffbc0d;
+   border-color: transparent;
+   color:#27251F;
+}
+.btn-outline-secondary{
+    border-color: #ffbc0d;
+   color:#27251F;
+   
+}
+.btn-primary:hover{
+    background-color: #ffbc0d;  
+   
+}
+.btn-outline-secondary:hover{
+    background-color: #ffbc0d;  
+   
+}
+
+.card-img-top{
+    max-width: fit-content;
+    margin:auto;
+    max-height: 300px;
+}

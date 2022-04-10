@@ -1,0 +1,13 @@
+.btn-sm{
+    margin-top:10px;
+        background-color: #ffbc0d;
+        border-color: transparent;
+        color:#27251F;  
+}
+.btn-sm:hover{
+    background-color: #ffbc0d;
+}
+.card-header{
+    background-color: #DA291C;
+    color: #ffbc0d;;
+}

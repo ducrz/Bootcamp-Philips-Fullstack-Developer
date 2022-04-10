@@ -1,0 +1,19 @@
+Instrutora Nathalia Corrêa. Github: https://github.com/naatscs
+
+
+Como criar um front-end de um E-commerce utilizando Angular
+
+
+Estrutura feita: front-end (Em Angular)
+		 backend (Em C#)
+		      
+Alterações Feitas:
+		      
+* Deploy do backend feito em C# pela Instrutora, no Azure: [https://apibookstore20220408185052.azurewebsites.net/api/bookstore]
+* Alteração do nome para MCDonald's Bookstore.
+* Ajuste de rota padrão.
+* Adoção de esquema de cores e alterações de CSS necessárias para funcionamento.
+		    
+
+
+

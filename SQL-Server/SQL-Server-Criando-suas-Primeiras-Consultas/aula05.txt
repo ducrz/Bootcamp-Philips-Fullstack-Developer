@@ -1,0 +1,68 @@
+﻿Normalizando Dados
+
+
+
+O que são chaves primárias e estrangeiras
+
+
+Chave Primária
+
+Uma chave que identifica um registro de forma única.
+
+
+Chave Estrangeira
+
+Uma chave que faz uma relação entre tabelas.
+
+
+5.sql
+
+
+
+As fases de normalização de dados
+
+
+
+Formas Normais
+
+Primeira Forma Normal
+
+Não deve existir um conjunto de colunas repetido ou um conjunto de informações em somente uma propriedade.
+
+Ex: Coluna Endereço com nome da rua, nome da casa e cep. ERRADO.
+
+
+Uma coluna deve ter um valor somente.
+
+
+Segunda Forma Normal
+
+
+Não deve existir informações duplicadas que dependam da chave primária.
+
+
+Terceira Forma Normal
+
+Ex: A coluna Total é dependente, ou é resultado, da multiplicação das colunas Preço e Quantidade, ou seja, 
+a coluna total tem dependência transitiva de colunas que não fazem parte da chave primária, ou mesmo candidata da tabela.
+
+Para que essa tabela passe à Terceira FN o campo Total deverá ser eliminado, a fim de que nenhuma coluna tenha dependência de qualquer outra que não seja exclusivamente chave.
+
+
+
+Clientes                  
+Codigo
+
+ClientesProdutos
+CodigoCliente
+CodigoProduto
+
+Produtos
+Codigo
+
+
+
+
+
+
+6.sql

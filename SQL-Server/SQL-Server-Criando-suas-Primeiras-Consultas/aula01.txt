@@ -1,0 +1,13 @@
+Instrutor Thiago Campos de Oliveira.
+
+SQL SERVER - Criando suas primeiras consultas
+
+O que é o SQL Server?
+
+
+O que é SQL Server
+
+
+SQL SERVER
+
+Representação de um banco de dados relacional e consistência de dados

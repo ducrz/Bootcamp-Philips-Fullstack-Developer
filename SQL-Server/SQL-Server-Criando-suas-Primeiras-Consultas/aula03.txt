@@ -1,0 +1,25 @@
+﻿Instalando o SQL Server Management Studio e criando o primeiro banco de dados
+
+
+
+
+Conceitos iniciais de criação de tabelas
+
+Tipos de dados: int bigint, varchar(máx 4000), char, bit
+
+varchar 'a'
+
+char 'a          '
+
+Not Null(ausência de valor) - Não aceita nulos
+
+
+1.sql
+
+
+
+
+Criando as tabelas para o curso
+
+
+2.sql

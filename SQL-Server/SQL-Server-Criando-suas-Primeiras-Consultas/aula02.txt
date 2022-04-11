@@ -1,0 +1,33 @@
+﻿Instalando o SQL Server
+
+Instalação do SQL Server 2019 Express Edition
+
+
+https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
+
+
+
+
+No Ubuntu
+https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15
+
+
+
+https://docs.microsoft.com/en-us/sql/linux
+
+https://docs.microsoft.com/en-us/sql/tools/visual-studio-code/sql-server-develop-use-vscode?view=sql-server-ver15
+
+
+
+
+
+localhost\SQLEXPRESS;Database=master; Trusted_Connection=True;
+
+
+
+
+Visão geral do Microsoft SQL Server Management Studio
+
+
+
+https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15

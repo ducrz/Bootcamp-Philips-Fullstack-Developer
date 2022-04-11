@@ -1,0 +1,37 @@
+﻿Primeiras instruções SQL
+
+
+
+Comando Insert, Select, Update, Delete
+
+UPDATE SEM WHERE - Nunca pode ocorrer.
+
+3.sql
+
+
+AND - Todas precisam ser verdadeiras ou falsas.
+
+
+V AND V = V
+V AND F= F
+F AND V= F
+F AND F= F
+
+OR - Uma só basta ser verdadeira / falsa.
+
+V OR V = V
+V OR F = V
+F OR V= V
+F OR F= F
+
+
+
+
+
+
+Especificidades do comando Select
+
+
+Dica de atalho para ver estrutura dos dados: ALT+F1
+
+4.sql

@@ -1,0 +1,25 @@
+﻿Trabalhando com Tabelas Relacionadas
+
+
+
+
+Introdução ao comando join
+
+
+Inner Join
+
+
+Left Join
+
+
+Right Join
+
+
+
+
+Aprofundando nos comandos join e group by
+
+
+
+
+7.sql

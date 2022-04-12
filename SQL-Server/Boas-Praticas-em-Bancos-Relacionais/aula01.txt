@@ -1,0 +1,103 @@
+﻿Instrutor Rodrigo Tavares
+
+
+
+
+SQL Server: Boas Práticas em Bancos Relacionais
+
+
+
+
+
+
+Apresentação e objetivos do curso
+
+
+
+
+
+Questões sobre boas práticas com frameworks e consulta de dados
+
+Maior problema no desenvolvimento de software: as consultas aos banco de dados são ocultas
+pelos frameworks ORMs.
+
+
+SQL - Padrão de desenvolvimento.
+
+
+
+
+
+
+Trabalhando com chaves estrangeiras e dados relacionais
+
+
+Evitar que existam registros orfãos.
+
+Dados Relacionais - Dados relacionais com outros dados.
+
+
+
+
+
+
+Como tudo isso funciona no mundo real
+
+
+Database: DioAbril
+
+
+
+
+O funcionamento de um banco de dados - Parte 1
+
+1.sql
+
+
+Tipos de dados: https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
+
+SQL na maioria dos bancos é case insensitive.
+
+
+Nome das tabelas no plural, produtos por exemplo.
+
+
+
+
+
+
+O funcionamento de um banco de dados - Parte 2
+
+1.sql
+
+
+
+
+
+Como criar índices e realizar inserts
+
+
+
+
+
+Realizando inserts em campos específicos
+
+
+
+
+
+Implementando funcionalidades
+
+Criando a tabela ESTOQUE
+
+1.sql
+
+
+
+
+Finalizando alterações nas tabelas segundo boas práticas
+
+
+
+
+1.sql

@@ -1,0 +1,48 @@
+﻿Instrutor Thiago Campos de Oliveira
+
+
+
+Modelando um banco de dados na prática com SQL SERVER
+
+
+
+
+Apresentação do tema, da API e a organização das tabelas
+
+https://swapi.dev
+
+
+Tabelas:
+
+Pilotos
+
+PilotosNaves
+idPiloto
+idNave
+
+Naves
+
+Planetas
+
+
+
+
+Comando Create Table e criação da primeira tabela Planetas
+
+Database EstrelaDaMorte
+
+1.sql
+
+
+
+
+Criação da tabela Naves e a Pilotos
+
+1.sql
+
+
+
+Criação da tabela PilotosNaves e finalizar implementação de foreing keys
+
+
+1.sql

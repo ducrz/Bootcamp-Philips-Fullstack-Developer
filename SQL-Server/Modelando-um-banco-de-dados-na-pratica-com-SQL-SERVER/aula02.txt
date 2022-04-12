@@ -1,0 +1,47 @@
+﻿Implementação da Interface
+
+
+
+Apresentação da estrutura de código API e formulário
+
+2.sql
+
+
+
+Interface de controle de naves e pilotos
+
+String de Conexão:
+
+con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=EstrelaDaMorte;Integrated Security=True;Connect Timeout=30");
+
+
+
+
+Exemplos de sincronia da interface com o banco de dados - Parte 1
+
+
+
+2.sql
+
+
+
+Exemplos de sincronia da interface com o banco de dados - Parte 2
+
+
+
+
+
+Dicas finais sobre boas práticas para criação de tabelas
+
+
+Boas práticas:
+
+Usar plural nos nomes das tabelas.
+
+Nomes claros e objetivos.
+
+Nomes dos Ids com nome da tabela, para facilitar operações futuras.
+
+
+
+

@@ -1,0 +1,53 @@
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.exe
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.deps.json
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.runtimeconfig.json
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.runtimeconfig.dev.json
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ref\ConroleAcesso.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.pdb
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csprojAssemblyReference.cache
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmPrincipal.resources
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.GenerateResource.cache
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.AssemblyInfoInputs.cache
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.AssemblyInfo.cs
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ref\ConroleAcesso.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.pdb
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.genruntimeconfig.cache
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.CopyComplete
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmControleNaves.resources
+C:\Users\thiag\Documents\DIO\SQL Server\ControleAcessoEstrelaDaMorte\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmRegistrarEntradaSaida.resources
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.exe
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.deps.json
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.runtimeconfig.json
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.runtimeconfig.dev.json
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ref\ConroleAcesso.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\ConroleAcesso.pdb
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmControleNaves.resources
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmPrincipal.resources
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.Forms.frmRegistrarEntradaSaida.resources
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.GenerateResource.cache
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.GeneratedMSBuildEditorConfig.editorconfig
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.AssemblyInfoInputs.cache
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.AssemblyInfo.cs
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.CoreCompileInputs.cache
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ref\ConroleAcesso.dll
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.pdb
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.genruntimeconfig.cache
+F:\Modelando-um-banco-de-dados-na-pratica-com-SQL-SERVER\ControleAcessoEstrelaDaMorte\src\ConroleAcesso\obj\Debug\net5.0-windows\ConroleAcesso.csproj.CopyComplete

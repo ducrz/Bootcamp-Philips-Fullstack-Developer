@@ -1,0 +1,15 @@
+Ambiente de Desenvolvimento Windows
+
+Tutorial Completo de Instalação: https://github.com/cami-la/curso-dio-dominando-ides-java
+
+Instalação JDK e Git no Windows
+
+
+Compilando e Executando
+
+javac PrimeiroPrograma.java
+
+java PrimeiroPrograma
+
+
+Instalação IntelliJ e Eclipse no Windows

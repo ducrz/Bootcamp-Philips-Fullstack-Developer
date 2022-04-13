@@ -1,0 +1,90 @@
+Instrutora Camila Cavalcante  https://github.com/cami-la
+
+Dominando IDEs Java
+
+Instrutora Camila Cavalcante
+
+Apresentação do curso
+
+Visão geral do curso
+
+Java linguagem de programação orientada a Objetos desenvolvida na década de 90, na empresa Sun Microsystems e posteriormente
+adquirida pela Oracle em 2008.
+
+
+Java é uma Linguagem Interpretada!
+
+Dieferentemente das linguagens de programação compiladas, onde a compilação do código
+dá-se ainda em tempo de desenvolvimento), a linguagem Java é compilada por um bytecode
+que é interpretado por uma máquina virtual (JVM).
+
+
+Programa.java -> Compilador -> Programa.class -> JVM -> 0101010(linguagem de máquina)
+
+Fases de execução do programa Java
+
+Plataforma x Linguagem
+
+A linguagem de programação Java é a linguagem convencional da Plataforma Java, mas não é sua única linguagem.
+
+Uma grande vantagem da plataforma é a de não estar presa a um único sistema operacional
+ou hardware, pois seus programas rodam através de uma máquina virtual que pode ser emulada.
+
+Java SE (Java Platform, Standard Edition)
+Java EE (Java Platform, Enterprise Edition)
+Java ME (Java Platform, Micro Edition)
+
+FASES DA EXECUÇÃO JAVA
+
+1- Código-fonte, arquivo com a extensão .java;
+2- JDK compila o códig-fonte e gera o bytecode, arquivo com a extensão .class);
+3- Para executar o programa, a JVM(Java Virtual Machine) lê o arquivo compilado(.class) e as bibliotecas padrões
+do Java que estão no JRE.
+
+JDK X JRE
+
+JDK (Java Development Kit)
+
+É um pacote de software que você pode usar para desenvolver aplicativos baseados em Java.
+O Java Development Kit é necessário para desenvolver aplicativos java.
+Inclui o JRE, conjunto de classes de API, compilador Java, Webstart e arquivos adicionais necessários para criar applets e aplicativos Java.
+
+
+JRE (Java Runtime environment)
+
+É uma implementação do Java Virtual Machine* que na verdade executa programas Java.
+O Java Runtime Environment é um plug-in necessário para a execução de programas Java.
+Inclui o JVM, as bibliotecas centrais e outros componentes adicionais para executar aplicativos e applets criados em Java.
+
+JVM (Java Virtual Machine)
+
+Fonte: https://www.java.com/pt-BR/download/help/techinfo_pt-br.html
+
+
+Versões Java
+
+Versões pagas e gratuitas.
+
+
+OpenJDK - Java Open Source sobre uma GNU General Public License.
+
+JDK Oracle - Requer uma licença comercial, contrato de licença de código binário Oracle.
+
+Lançamentos das versões LTS do OpenJDK acontecem pelo menos a cada quatro anos.
+
+https://en.wikipedia.org/wiki/Java_version_history
+
+
+IDE
+
+Ambiente de desenvolvimento integrado.
+
+A JDK faz parte do funcionamento das IDE's.
+
+
+Eclipse IDE
+
+IntelliJ IDEA
+
+
+

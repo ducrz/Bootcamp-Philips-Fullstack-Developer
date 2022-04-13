@@ -1,0 +1,44 @@
+Eclipse
+
+Criando seu primeiro projeto com Eclipse
+
+Projeto primeiro-programa-java
+
+Atalho para Perspectivas: CTRL+3
+
+Atalho para gerar o main: main + CTRL+ SPACE
+
+Atalho System.out.print: sysout + CTRL+ SPACE;
+
+
+Atalhos
+
+Alt+ seta para cima: mudar bloco de lugar
+
+Formatar: CTRL+ SHIFT + F
+
+Importação: CTRL+ SHIFT + O
+
+Git e GitHub
+
+Usando GitHub no Eclipse.
+
+Git
+
+No terminal:
+
+git init
+add .
+git commit -m "Frase do commit"
+git remote add origin https://github.com/enderecocompleto.git
+git push -u origin main
+
+
+
+Debug
+
+Debug ou Depuração
+
+
+
+Últimas observações sobre Eclipse

@@ -1,0 +1,146 @@
+Contextualização de uso Java versão 11
+
+
+Palavras reservadas
+
+abstract
+assert
+boolean
+break
+byte
+case
+catch
+char
+class
+const
+continue
+default
+do
+double
+else
+enum
+extends
+final
+finally
+float
+goto
+if
+implements
+import
+instanceof
+int
+interface
+long
+native
+new
+package
+private
+protected
+public
+return
+short
+static
+strictfp
+super
+switch
+synchronized
+this
+throw
+throws
+transient
+try
+void
+volatile
+
+
+Declarações de classes
+
+Modificador de acesso -> Palavra Reservada class -> Nome da classe
+
+public class Order{
+
+	//atributos
+	private final String code;
+	private final BigDecimal totalValue;
+	
+	//métodos
+	
+	public BigDecimal calculateFee(){
+	
+	}
+}
+
+
+Modificadores de acesso
+
+Tipos de modificadores:
+
+public - Qualquer classe de qualquer pacote poderá acessar o atributo ou método;
+
+protected - Qualquer classe definida no mesmo pacote ou subclasse.
+
+Sem modificador - Apenas classes definidas no mesmo pacote.
+
+private - Apenas a própria classe.
+
+
+Métodos
+
+Métodos são funções que definem o comportamento de uma classe.
+
+
+Tipos de Métodos
+
+Métodos Construtores - Definem como uma classe será instanciada, "construída".
+
+Métodos Comuns - Definem comportamentos que podem ou não estar atribuídas as regras de negócio. 
+Ex: Calcular taxas de um pedido, etc.
+
+
+
+Estrutura de condição
+
+Responsável por fazer o desvio do fluxo de execução do código de acordo com uma dada condição.
+
+Tipos:
+
+if - else
+switch - case
+
+
+if(condicao){
+
+}
+else{
+
+}
+
+
+switch(condicao){
+	case condicao:
+	case condicao2:
+	default:
+		
+
+}
+
+
+
+
+Estrutura de repetição
+
+Responsável por executar repetitivamente uma instrução ou um bloco de 
+instruções até que uma condição esteja sendo satisfeita.
+
+
+Tipos de estrutura de repetição
+
+while
+
+do- while
+
+for
+
+enchanced for
+
+

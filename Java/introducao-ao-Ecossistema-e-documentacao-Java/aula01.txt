@@ -1,0 +1,57 @@
+Introdução ao Ecossistema e Documentação Java
+
+Instrutor Daniel Hatanaka. Github: https://github.com/hatanakadaniel
+
+
+Introdução ao Ecossistema Java
+
+
+.java -> .class -> Java
+
+
+Apresentação do curso
+
+Introdução ao ecossistema Java
+
+
+Entendendo a JVM
+
+
+JVM é uma máquina virtual responsável pela tradução dos ByteCodes oriundos do
+compilador Javac (Java Compiler) em código de máquina de cada sistema operacional.
+
+
+Características:
+
+Execução de pilhas;
+Gerenciamento de memória;
+Gerenciamento de threads;
+Otimização de código (compilação JIT - Just In Time)
+Garbage Collector (GC).
+
+
+
+
+Instalando a JVM
+
+https://github.com/shyiko/jabba
+
+Java Version Manager
+
+jabba ls-remote
+
+jabba install openjdk@1.11
+
+jabba use openjdk@1.1
+
+java -version
+
+
+Executando um programa Java
+
+jabba use openjdk@1.11
+
+javac -d target / -sourcepath src src/com/dio/MyFirstProgram.java
+
+java com.dio.MyFirstProgram
+

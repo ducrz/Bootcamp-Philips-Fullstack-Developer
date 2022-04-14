@@ -1,0 +1,44 @@
+Documentação Java
+
+Comentários em linha
+
+// Comentário
+
+Comentários em bloco
+/**
+	Comentário
+*/
+
+Javadoc
+
+Javadoc é uma ferramenta para documentação no formato HTML que baseia-se
+nos comentários do código-fonte.
+
+Os comentários precisam conter tags para que a documentação fique legível.
+
+
+Tags Javadoc
+
+
+@author - Especifica o autor da classe ou do método
+
+@deprecated - Identifica classes ou métodos obsolentos.
+
+@link - Possibilita a definição de um link para um outro documento local
+ou remoto através de uma URL.
+
+@param - Descreve um parâmetro que será passo a um método.
+
+@return - Descreve qual o tipo de retorno de um método.
+
+@see - Associa a outras classes ou métodos.
+
+@since - Descreve desde quando uma classe ou método foi adicionado.
+
+@throws - Descreve os tipos de exceções que podem ser lançadas por u método.
+
+@version - DEscreve a versão da classe ou método.
+
+
+
+javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio

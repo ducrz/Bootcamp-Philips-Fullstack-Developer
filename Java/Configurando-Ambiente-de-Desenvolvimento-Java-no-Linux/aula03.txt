@@ -1,0 +1,46 @@
+Usando o IntelliJ para desenvolvimento Java
+
+
+Usando Intellij para desenvolvimento Java
+
+O que é uma IDE?
+
+Uma IDE (Integrated Development Environment) ou ambiente de desenvolvimento integrado é um programa que combina diversas ferramentas essenciais para o desenvolvimento de software dentre elas: editor de código fonte, automatizador de compilação local, depurador, versionador de código, etc.
+
+Exemplos:
+
+Intellij
+IDE’s da Jetbrains (PhpStorm, WebStorm, DataGrip, CLion, etc)
+NetBeans
+Visual Studio
+Code::Blocks
+Android Studio
+Xcode
+
+
+Instalando o Intellij
+
+Baixar o Intellij Community: https://www.jetbrains.com/pt-br/idea/download/#section=linux
+
+
+Importando um projeto
+
+Clicar no menu “File” > “Open…”
+Selecionar a pasta do projeto
+
+
+Executando um projeto
+
+Executar o projeto:
+
+Abrir a classe principal do projeto: "com/dio/BankApi.java"
+Clicar com o botão direito em cima do nome da classe ou do método "main" e clicar na opção "Run 'BankAPI.main()'".
+
+
+Executar o projeto em modo Debug:
+
+Abrir a classe principal do projeto: "com/dio/BankApi.java"
+Clicar com o botão direito em cima do nome da classe ou do método “main” e clicar na opção "Debug 'BankAPI.main()'".
+
+
+

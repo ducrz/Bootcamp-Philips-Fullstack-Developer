@@ -1,0 +1,109 @@
+Utilizando Java 11
+
+Recursos Presentes no Java 11
+
+
+Default methods
+Lambdas
+Method references
+Streams
+Datas
+
+Default methods
+
+
+Dentro de uma interface
+
+
+public interface StatementService{
+	List<Statement> findAllByUser(final User user);
+
+	default User findUser(final Statement statement){
+		return statement.getUser();
+	}
+}
+
+
+Lambdas
+
+statementUserA.forEach(statement) -> {
+	System.out.println(statement)
+});
+
+
+Method references
+
+statementUserA.forEach(System.out::println);
+
+
+Streams
+
+public List<Statement> findAllByUser(final User user){
+
+	return statements.stream(){
+	.filter(statement -> statement.getUser().getCod().equals(user;getCod())))
+	.collect(Collector.toList()};
+}
+}
+
+Datas
+
+statementUserA.forEach(statement -> {
+	final LocalDateTime createdAt = statement.getCreatedAt();
+	System.out.println("Data do Extato + 1 dia: "+createdAt.plusDays(1));
+	System.out.println("Dia do Ano do Extrato: "+createdAt.getDayOfYear());
+	System.out.println("Dia do mês do Extrato: "+createdAt.getDayOfTheMonth());
+});
+
+
+
+Novidades do Java 11
+
+
+Manipulação de Strings
+
+System.out.println("---"+userA.getName().trim()+"---");
+System.out.println("---"+userB.getName().trim()+"---");
+
+Variáveis por inferência
+
+final var userA = new User(UUID.randomUUID(), "Usuário 1");
+final var userB = new User(UUID.randomUUID(), "Usuário 2");
+final var statementService = new StatementServiceImpl(userA, userB);
+
+final List<Statement> statementUserA = statementService.findAllByUser(userA);
+final var statementsUserB = statementService.findAllByUser(userB);
+
+statementsUserB.forEach(System.out::println);
+
+Manipulação de arquivos
+
+public static void main (String[] args) throws IOException{
+	final String content = Files.readString(Paths.get("README.md"), StandardCharsets.UTF_8);
+	System.out.println(content);
+
+}
+
+Novidades no Garbage Collector (GC)
+
+Z Garbage Collector (ZGC)
+Epsilon Garbage Collector (No-Op GC)
+
+
+Z Garbage Collector (ZGC)
+
+java -XX:+UnlockExperimentalVMOptions -XX:+UseZGC --Xlog:gc* com.dio.BankApi
+
+Epsilon Garbage Collector (No-Op GC)
+
+java -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC --Xlog:gc* com.dio.BankApi
+
+
+Http Client padronizado
+
+Http Client padronizado (chamada síncrona)
+
+Http Client padronizado (chamada assíncrona)
+
+
+

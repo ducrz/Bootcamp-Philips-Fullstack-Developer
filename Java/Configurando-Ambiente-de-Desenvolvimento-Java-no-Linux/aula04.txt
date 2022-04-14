@@ -1,0 +1,38 @@
+Empacotando Aplicações
+
+
+Empacotando aplicações
+
+Conhecendo um JAR
+
+O que é um JAR?
+
+Jar (Java Archive) é um arquivo compactado que reúne todas as classes compiladas (Bytecodes) e metadados necessários para execução de um programa.
+
+Composição básica de um arquivo JAR:
+
+Classes compiladas (.class)
+Arquivo /META-INF/MANIFEST.MF que contém os metadados necessários para execução do programa. Ex:
+"Main-Class: com.dio.BankApi" - definição da classe que contém o método "main".
+
+
+
+Criando o JAR
+
+Comando JAR:
+
+jar [OPTION ...] [ [--release VERSION] [-C dir] files] …
+
+
+Criando arquivo JAR
+
+javac -d target/ -sourcepath src/main/java src/main/java/com/dio/BankApi.java
+
+cd target/
+
+jar cfmv BankApi.jar ../manifest.mf .
+
+Executando o JAR
+
+java -jar BankApi.jar
+

@@ -1,0 +1,22 @@
+Conversões (casting)
+
+Conversões (casting)
+
+"É a transformação de uma determinada variável de tipo menos específico para um tipo
+mais específico ou vice-versa."
+
+
+Tipos
+
+Upcast (implícito)
+Menor capacidade para tipo de maior capacidade
+
+Downcast (explícito)
+Maior capacidade para tipo de menor capacidade
+
+
+Encerramento
+
+Exercitando
+
+Aula04.java

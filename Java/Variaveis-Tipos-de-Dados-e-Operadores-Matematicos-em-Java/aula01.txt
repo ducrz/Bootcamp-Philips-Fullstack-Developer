@@ -1,0 +1,59 @@
+Instrutor Thiago Leite. Github: github.com/thiagoleitecarvalho
+				github.com/tlcdio
+
+Variáveis, Tipos de Dados e Operadores Matemáticos em Java
+
+Conceituação e Criação
+
+
+
+Introdução
+
+
+Conceituação e criação
+
+Variáveis
+
+"Um espaço na memória do computador, onde pode-se guardar valores."
+
+Existem 4 tipos:
+
+Instância: objeto.
+Classe: classe.
+Local: dentro de métodos.
+Parâmetro: na assinatura do método.
+
+Criação
+
+Padrão de definição:
+
+<?visibilidade?><?modificador?>tipo nome<?=valorInicial?>;
+
+V: "public","protected" e "private"
+M: "static" e "final"
+T: tipo de dado
+N: nome que é fornecido à variável
+VI: um valor inicial, caso seja desejado
+
+Convenções e Regras:
+
+Não devem começar com números;
+Embora permitido, "$" e "_" devem ser evitados;
+São case-sensitive;
+Sem espaços;
+Não podem ser as palavras reservadas do Java.
+
+
+Boras práticas
+
+Sempre começar com letra minúscula;
+Nomes expressivos;
+Usar CamelCase;
+Quando constante(final), maiúscula e separada por "_";
+
+
+
+
+Exercitando
+
+Aula01.java

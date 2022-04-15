@@ -1,0 +1,51 @@
+Tipos de Dados
+
+Tipos de dados
+
+"São os valores e consequentemente operações que as variáveis
+podem assumir e sofrer, espectivamente."
+
+Tipificação:
+
+Estática(forte) vs Dinâmica(fraco)
+
+Primitivo vs Composto
+
+
+Opções de Tipos:
+
+Textual
+Numeral
+Lógico
+Objeto
+
+
+Exemplo numeral:
+
+byte - valor default: 0
+short- valor default: 0
+int- valor default: 0
+long- valor default: 0L
+float- valor default: 0.0f
+double- valor default: 0.0d
+
+
+Textual
+
+char- valor default: '\u0000'
+String - valor default: null
+
+Lógico
+
+boolean- valor default: false
+
+
+Boas práticas
+
+Usar de forma adequada cada tipo de dado para cada informação.
+
+
+
+Exercitando
+
+Aula02.java

@@ -1,0 +1,35 @@
+Operadores Aritméticos
+
+Operadores Aritméticos
+
+"São símbolos especiais quais são capazes de realizar ações específicas
+em um, dois ou mais operandos e, em seguida, retornar um resultado."
+
+Tipos
+
+Pós-fixado: exp++ ou exp--
+
+Prefixado: ++exp ou --exp
+
+Aritmético: +, 0, *, / e %
+
+Atribuição: =, +=, -=, *=, /= e %=
+
+
+
+Ordem de Execução: 
+
+Precedências
+
+Pós-fixado - exp++, exp--
+Prefixado: - ++exp, --exp
+Multiplicativo - *, /, %
+Aditivo - +, -
+Atribuição: +, -
+Atribuição: =, +=, -=, *=. /=, %=
+
+
+
+Exercitando
+
+Aula03.java

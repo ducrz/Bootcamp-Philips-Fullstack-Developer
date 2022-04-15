@@ -1,0 +1,49 @@
+Retornos
+
+Funcionamento, considerações, uso de retornos e apresentação do exercício
+
+Retorno - É uma instrução de interrupção
+Simbologia: return
+
+O continue e o break também são instruções de interrupção, mas estão mais atrelados a laços de repetição e o retorno está atrelado a métodos.
+
+
+
+Funcionamento
+
+
+O método executa seu retorno quando:
+
+Completa todas suas instruções internas
+Chega a uma declaração explícita de retorno
+Lança uma exceção
+
+O que ocorrer primero deste três casos, faz o método finalizar. Assim, a execução do programa volta para o ponto onde o método foi chamado, ou seja, foi passada uma mensagem para ele.
+
+
+Considerações
+
+
+O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+O tipo de dado do return deve ser compatível com o do método;
+Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
+
+
+Naquele padrão é o R e fica logo antes do nome do método. Já foi dito que pode ser um TP ou um O. Neste caso, o retorno deve ser compativel com o definido no método. Se não for, gera um erro de compilação. 
+Se precisar, o método pode não retornar nada. Usa-se o void. Mas se ainda precisar, pode usar o "return puro e sem valor" para abortar no momento desejado a execução do método.
+
+
+
+
+}
+Exercitando
+
+
+Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores.
+
+
+Resolução do exercício
+
+ 
+Encerramento do curso
+

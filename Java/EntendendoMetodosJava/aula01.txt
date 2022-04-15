@@ -1,0 +1,160 @@
+Instrutor: Tiago Leite
+
+Github: github.com/thiagoleitecarvalho
+
+Entendendo Métodos Java
+
+
+Criação
+
+Introdução ao Curso
+
+
+Conceituação de métodos
+
+"É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição
+ a ele. São responsáveis por definir e realizar um
+ determinado comportamento."
+
+
+Ou seja, é método  que é responsável por realmente fazer a aplicação funcionar. É nele que iremos definir os códigos que irão manipular os dados. Como dito, um método deve ser chamado para executar, pois não funciona sozinho. Esta chamada é através de uma classe ou objetos.
+
+
+Definição
+
+Padrão de definição:
+
+<?visibilidade?> <?tipo?> <?modificador?> retorno nome (<?parâmetros?>) <?exceções?> corpo
+
+A criação de um método deve seguir o seu padrão de definição. A regra a seguir determina o que um método deve ter minimamente e opcionalmente.
+Neste caso, <??> indicam a opcionalidade. No slide a seguir explico o que é cada um destes itens.
+
+
+Onde:
+
+V: "public", "protected" ou "private"
+T: concreto ou abstrato
+M: "static" ou "final"
+R: tipo de dado ou "void" // nao retorna nada só 
+N: nome que é fornecido ao método//  padrao 
+P: parâmetros que pode receber // se o metodo for usado deficar dendro do parametro ou paramenrtro vasio
+E: exceções que pode lançar
+C: código que possui ou vazio
+
+
+V: são as visibilidades. Assim como as variáveis, os métodos tb podem definir as visibilidades. 
+T: se é concreto ou abstrato. Este conceito é mais fácil de explorar em um curso de OO. Aqui vamos sempre utilizar métodos concretos.
+M: se é estatico, não estático ou final. Este conceito é mais fácil de explorar em um curso de OO. Aqui vamos sempre utilizar métodos estaticos.
+R: é o tipo da informação que o método pode ou não retornar. Se retornar, pode ser qualquer um dos tipos de dados já apresentados, além de objetos(que são explorados no devido curso). Se não retornar nada, usa-se a palavra reservada "void". Vazio em inglês.
+N: nome que é fornecido ao método//  padrao 
+P: são os parâmetros que o método pode receber pra manipular e gerar novos valores.
+E: Lista de exceções que pode lançar.
+C: códigos que pode possuir. Se não tiver código, termina com ";".  
+
+É válido ressaltar que os itens sublinhados são digamos os mais "comuns de usar" e os que exploraremos neste curso.
+
+Existe tb considerações sobre T e M. Existem alguma combinações entre estes que não são validas. Mais uma vez, em OO conseguimos explorar isso.
+
+Exemplos
+
+Abaixo temos  alguns exemplos de métodos válidos e mais comuns, no que diz respeito à utilização das possibilidades apresentadas. Cada método terá sua necessidade e usará os itens de seu padrão de definição.
+
+public String getNome() { … } // retorna um Nome
+public double calcularTotalNota() {…} 
+public int verificarDistancia(int cordenada1, int cordenada2) {…} 
+public abstract void executar() ; // corpo vasio do metodo
+public void alterarFabricante(Fabricante fabricante) { … }
+public Relatorio gerarDadosAnaliticos(Cliente cliente, List<Compra> compras) {…} // como passar mais de um paramentros
+
+public static R N(P) {…} forma que vamos utilizar neste curso
+R = RETORNO, N = NOME, P = PAR METROS
+
+Utilização
+
+Passa-se uma mensagem através de uma classe ou objeto.
+
+nome_da_classe.nome_do_metodo(); ou  nome_da_classe.nome_do_metodo(...);
+
+nome_do_objeto.nome_do_metodo(); ou nome_do_objeto.nome_do_metodo(...);
+
+Para chamar uma classe
+
+Math.random(); ou  Math.sqrt(4);
+
+Para chamar uma objeto
+
+usuario.getEmail(); ou usuario.alterarEndereco(
+endereco);
+
+Conceitos Inerentes aos métodos e boas práticas na sua criação
+
+Particularidades
+
+Assinatura: é a forma de identificar unicamente o método
+
+Ass = nome + parâmetros  
+               
+Nome()      Obs:  tb é uma assinatura, é uma lista vazia 
+
+Método:
+
+public double calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3) {...}
+
+Assinatura:
+
+calcularTotalVenda(double precoItem1,double precoItem2, double precoItem3)
+
+
+Construtor e Destrutor: são métodos especiais usados na Orientação a Objetos. 
+
+Os construtores criam objetos a partir de classes. O destrutores auxiliam na destruição de objetos. 
+
+Mensagem: é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+É o que faz o software de fato funcionar. São as execuções dos métodos, as mensagens que são passadas para eles para que eles executem seus processamentos (códigos) internos. Nesse momento apenas passaremos mensagens a métodos através de uma classe.
+
+
+Passagem de Parâmetros
+Por valor (cópia) 
+Por referência (endereço)
+
+Boas Práticas
+
+Nomes devem ser descritivos, mas curtos
+Notação CamelCase
+
+Deve possuir entre 80 e 120 linhas 
+Evite lista de parâmetros longas
+Visibilidades adequadas
+
+Esse é o grande desafio! Criar nomes que transmitam a ideia do comportamento que o método define, mas sem ficar grande demais. Via de regras preposições como "de", "do", "da" são evitadas, assim como artigos. Na maioria das vezes verbos e substantivos conseguem suprir tal necessidade.
+
+Métodos muito grandes são difíceis de entender e manter. Então evitar isto ajuda na manutenção do mesmo. Essas valores não são uma regra, mas existem estudos que aconselhem a este valor entre 80 e 120 linhas. Sendo 150 a exceção o máxima. Sempre que possível a criação e reúso de métodos deve ser feita, assim evita-se também a repetição de códigos.
+
+Lista de parâmetros muito longas geram um forte acoplamento. Listas curtas são mais fáceis de manter. Acoplamento é um conceito um pouco mais avançado, mas tenha em mente que listas longas geram forte acoplamento. 
+
+Definir a visibilidade adequada de um método é importantíssimo. Agora tudo será público(public) por facilidade de explicação. Mas na verdade a visibilidade deve ser bem pensada. 
+
+
+
+Apresentação do exercício
+
+Cria uma aplicação que resolva as seguintes situações:
+Calcule as 4 operações básicas: soma, subtração, multiplicação e divisão. Sempre 2 valores devem ser passados.
+A partir da hora do dia, informe a mensagem adequada: Bom dia, Boa tarde e Boa noite.
+Calcule o valor final de um empréstimo, a partir
+     do valor solicitado. Taxas e parcelas influenciam.
+     Defina arbitrariamente as faixas que influenciam
+     nos valores.
+
+Observações:
+Tente ao máximo criar métodos que trabalhem sozinhos ou em conjunto
+Pode chamar um método dentro de outro
+Pode passar como parâmetro, a chamada de um outro método
+
+
+
+Exercício prático
+
+
+

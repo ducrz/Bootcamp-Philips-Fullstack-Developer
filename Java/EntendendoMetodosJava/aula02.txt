@@ -1,0 +1,48 @@
+Sobrecarga
+
+Como criar sobrecargas, usá-las e exercício prático
+
+"É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome. "
+
+Definição um pouco abstrata. Mas isso quer dizer que na sobrecarga, conseguimos criar vários métodos com o mesmo nome, mas que poderão se comportar diferente(contexto) de acordo com sua lista de parâmetros. Ou seja, esse lista pode mudar.
+
+Obs: quando os parâmetros são completamente iguais devemos alterar o tipo de dado, por exemplo tipo de dado double uma dou parâmetros que estão iguais deverá ser alterado para float.
+
+Criação
+
+Alterar a assinatura do método:
+
+Ass = nome + parâmetros
+
+Sobrecarga é Mudar a lista de parâmetros e manter o nome do método.
+
+
+converterParaInteiro(float f);
+
+converterParaInteiro(double d);
+
+converterParaInteiro(String s);
+
+converterParaInteiro(float f, RoundType rd); 
+
+converterParaInteiro(double d, RoundType rd);
+
+converterParaInteiro(String s, RoundType rd);
+
+converterParaInteiro(RoundType rd, String s);
+
+converterParaInteiro(); 
+
+Sobrecarga x Sobrescrita
+
+Embora sejam dois conceitos relacionados á metodos, estas são completamente diferentes. O sobrecarga, como disse tem relação ao mesmo método com parametros diferentes. Já a sobrescrita, tem relação com herança, qual é um assunto relacionado a orientação a objeto. Então não confunda. Ambos tem relação com método mas tem formas diferentes de definição, uso, além de comportamentos diferentes.
+
+Exercitando
+
+Cria uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio.
+
+Obs: Use sobrecarga.
+
+
+
+Resolução do exercício prático

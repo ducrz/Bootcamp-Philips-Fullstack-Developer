@@ -1,0 +1,31 @@
+Blocos
+
+
+Blocos, tipos e uso
+
+"É um grupo de 0 ou mais códigos quais trabalham em conjunto para
+executar uma operação."
+
+Tipos:
+
+Locais: dentro de métodos;
+Estáticos: dentro de classes;
+Instância: dentro de classes.
+
+Criação
+
+
+Tipos:
+
+Locais 
+
+{
+...
+
+}
+
+
+
+Encerramento do curso
+
+

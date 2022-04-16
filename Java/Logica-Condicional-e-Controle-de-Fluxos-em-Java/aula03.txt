@@ -1,0 +1,135 @@
+Controle de Fluxo
+
+O que é Controle de Fluxo
+
+"São estruturas que tem a capacidade de direcionar o fluxo de execução do código."
+
+
+Tipos:
+
+Decisão: if, if-else, if-else-if, switch e operador ternário.
+
+Repetição: for, while, do while
+
+Interrupção: break, continue e return.
+
+
+
+Criando estruturas de Controle de Fluxo
+
+Tipos:
+
+
+Decisão: estrutura que avalia uma condição booleana ou variável para 
+direcionar o fluxo de execução.
+
+Opções: if(se), switch(escolha) e operador ternário.
+
+
+Decisão: if, if-else, if-else-if
+
+if(condicao){
+
+}else{
+
+}
+
+
+if(condicao){
+
+}
+else if(condicao){
+
+}
+else{
+
+}
+
+Exemplo
+
+
+if(idade > 18){
+
+}
+
+if(aprovado){
+
+}else{
+
+}
+
+if(casado && temFilhos){
+
+} else if(casado && semFilhos){
+
+}else{
+
+}
+
+Tipos:
+Decisão: operador ternário
+
+condicao ? exp1 : exp2
+
+
+condicao ? true: false;
+
+ligado? desligar: ligar;
+
+condicao ? true: null;
+
+emMovimento ? freia: null;
+
+
+
+Tipos:
+
+Decisão: escolha
+
+Variável:
+byte
+short
+char
+int
+Enum
+String
+
+Switch
+
+switch(variável){
+case 1:
+	break;
+case 2:
+	break;
+default:
+	break;
+}
+
+
+Exemplo:
+
+switch(olhos){
+	case "AZUIS":
+		break;
+	case "VERDES":
+		break;
+	case "CASTANHOS":
+		break;
+	default:
+		break;
+}
+
+
+
+
+Boas práticas
+
+Switch é para valores exatos e if para expressões booleanas;
+Evitar usar o default do switch para "cases genéricos";
+Evitar o efeito "flecha" dos If's;
+Evitar muitos IF's aninhados;
+Usar a boa prática da aula 2 para diminuir o tamanho do If.
+
+
+
+Exercício de Controle de Fluxo

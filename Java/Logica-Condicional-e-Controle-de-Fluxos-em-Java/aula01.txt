@@ -1,0 +1,47 @@
+Instrutor: Thiago Leite
+
+Lógica Condicional e Controle de Fluxos em Java
+
+
+Operadores Relacionais
+
+
+Apresentação do curso
+
+O que são Operadores Relacionais
+
+"São símbolos especiais quais são capazes de realizar comparações
+entre determinados operandos e, em seguida, retornar um resultado."
+
+Tipos:
+
+Similaridade: igual, diferente.
+Tamanho: maior, maior igual, menor, menor igual.
+
+Utilizando Operadores Relacionais
+
+
+Similaridade:
+Igualdade: determina se um operando é igual ao outro.
+Diferença: determina se um operando não é igual ao outro.
+
+Simbologia
+Igualdade: ==
+Diferença: !=
+
+Tamanho
+Maior: determina se um operando é maior do que o outro.
+Maior igual: determina se um operando é maior ou igual a outro.
+
+Simbologia
+Maior: >
+Maior Igual: >=
+
+
+
+
+Exercício de exemplo
+
+
+
+Resolução do exercício

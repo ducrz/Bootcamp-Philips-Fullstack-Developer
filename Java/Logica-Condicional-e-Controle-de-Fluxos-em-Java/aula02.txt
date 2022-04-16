@@ -1,0 +1,122 @@
+Operadores Lógicos
+
+O que são Operadores Lógicos
+
+"São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos
+lógicos ou expressões e, em segunda, retonar um resultado."
+
+Tipos:
+Conjunção
+Disjunção
+Disjunção Exclusiva
+Negação.
+
+
+
+Como utilizar Operadores Lógicos
+
+Tipos:
+
+Conjunções: operação lógica que só é verdadeira quando ambos
+os operandos ou expressões envolvidas são verdade.
+
+Simbologia
+&&
+
+Terminologia
+and(e)
+
+O-E          O-E      R
+V             V       V
+V             F       F
+F             V       F
+F             F       F
+
+
+O - Operando  E- Expressão  R- Resultado
+
+
+
+
+Tipos:
+Disjunção: operação que só é falsa quando ambos os operandos ou expressões
+envolvidas são falsos.
+
+Simbologia:
+||
+
+Terminologia:
+or(ou)
+
+O-E          O-E      R
+V             V       V
+V             F       V
+F             V       V
+F             F       F
+
+
+O - Operando  E- Expressão  R- Resultado
+
+
+Tipos:
+
+Disjunção exclusiva: operação que só é verdade quando ambos os operandos
+ou expressões são opostos.
+
+
+Simbologia:
+^
+Terminologia:
+xor
+
+
+O-E          O-E      R
+V             V       F
+V             F       V
+F             V       V
+F             F       F
+
+
+O - Operando  E- Expressão  R- Resultado
+
+
+Tipos:
+Negação: operação que inverte o valor lógico de um operando ou expressão.
+
+Simbologia:
+!
+
+Terminologia:
+Inversão
+
+O-E       R
+V         F
+F         V
+
+O - Operando  E- Expressão  R- Resultado
+
+Exemplos, Boas práticas e Exercitando
+
+Curiosidades
+
+Operações com bits
+
+Operadores bitwise: & e |
+Operadores shift: ~,>>,>>>,<<
+
+
+Boas Práticas
+
+Crie variáveis auxiliares para guardar resultados intermediários.
+
+(salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)
+
+pode ser
+(salarioBaixo)&&(muitosDependentes)
+
+
+boolean recebeAuxilio=(salarioBaixo) && (muitosDependentes);
+
+
+
+Resolução do exercício

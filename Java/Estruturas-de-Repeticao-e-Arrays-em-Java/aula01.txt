@@ -1,0 +1,115 @@
+Instrutora Camila Cavalcante.
+Apresentação e Visão Geral
+
+
+
+Apresentação
+
+Visão Geral
+
+
+Estruturas de Repetição e Arrays em Java
+
+O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes.
+Cada repetição é chamada laço (loop) é um dos conceitos básicos da programação estruturada.
+
+Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas
+condições sejam satisfeitas.
+
+Essas condições são representadas por expressões lógica.
+
+
+As estruturas de repetição podem ser classificadas em:
+
+Repetição com teste no início (while)
+Repetição com teste no final (do-while)
+Repetição contada (for)
+O comando break é utilizado para terminar de forma abrupta uma repetição.
+Quando comando continue é executado, os comandos restantes da repetição são ignorados e programa volta a testar
+novamente ou não.
+
+
+OPERADORES DE INCREMENTO E DECREMENTO
+
+Pré-Fixado
+
+Somar uma unidade ao valor da variável: ++numero
+
+Subtrair uma unidade do valor da variável: --numero
+
+Pós-Fixado
+
+Soma um ao valor da variável, retornando o valor original. numero++
+
+Subtrai um do valor da variável, retornando o valor original. numero--
+
+
+OPERAÇÕES ARITMÉTICAS
+
+Somar k unidades ao valor da variável: numero += k;
+Subtrair k unidades do valor da variável: numero -= k;
+Multiplicar o valor da variável por k: numero *= k;
+Dividir o valor da variável por k: numero /=k;
+
+Arrays
+
+Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+Permanecem com o mesmo tamanho depois de criados.
+
+Posição do Array inicia em 0.
+
+
+Array Unidimensional 
+
+array c[0]
+Índice do elemento
+
+Array Multidimensional
+
+array a [0][0]
+
+Índice de coluna e índice de linha
+
+
+Conhecendo o Repositório
+
+EXERCÍCIOS ESTRUTURAS DE REPETIÇÃO
+memo WHILE
+small_orange_diamondNome e Idade: Faça um programa que leia conjuntos de dois valores, o primeiro representando o nome do aluno e o segundo representando a sua idade. (Pare o programa inserindo o valor 0 no campo nome)
+
+small_orange_diamondNota: Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+
+memo DO-WHILE
+small_orange_diamondMaior e Média: Faça um programa que leia 5 números e informe o maior número e a média desses números.
+
+small_orange_diamondPar e Ímpar: Faça um programa que peça N números inteiros. Calcule e mostre a quantidade de números pares e a quantidade de números impares.
+
+memo FOR
+small_orange_diamondTabuada: Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+
+Tabuada de 5:
+5 X 1 = 5
+5 X 2 = 10
+...
+5 X 10 = 50
+
+small_orange_diamondFatorial: Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
+Ex.: 5!=5.4.3.2.1=120
+
+
+EXERCÍCIOS ARRAYS
+memo ARRAYS UNIDIMENSIONAIS
+small_blue_diamondOrdem Inversa: Faça um Programa que leia um vetor de 5 números inteiros e mostre-os na ordem inversa.
+
+small_blue_diamondConsoantes: Faça um Programa que leia um vetor de 6 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+small_blue_diamondNúmeros Aleatórios: Faça um Programa que leia 20 números inteiros aleatórios (entre 0 e 100) armazene-os num vetor. Ao final, mostre os números e seus sucessores.
+
+link Lista de Exercícios Arrays Unidimensionais - Possíveis soluções
+
+memo ARRAYS MULTIDIMENSIONAIS
+small_blue_diamondArray Multidimensional: Gere e imprima uma matriz M 4x4 com valores aleatórios entre 0-9. Após isso determine o menor número da matriz e a sua posição(linha, coluna).
+
+link Lista de Exercícios Arrays Multidimensionais
+
+

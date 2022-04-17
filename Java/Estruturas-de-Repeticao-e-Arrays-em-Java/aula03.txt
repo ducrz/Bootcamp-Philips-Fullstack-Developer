@@ -1,0 +1,19 @@
+Exercício Resolvidos: Arrays
+
+Ordem Inversa
+
+Ex1OrdemInversa.java
+
+Consoantes
+
+Ex2Consoantes.java
+
+Numeros Aleatórios
+
+Ex3NumerosAleatorios.java
+
+Array Multidimensional
+
+Ex4ArrayMultidimensional.java
+
+

@@ -1,0 +1,26 @@
+Exercícios Resolvidos: Estruturas de Repetição
+
+Nome e Idade
+
+Ex1NomeEIdade.java
+
+Nota
+
+Ex2Nota.java
+
+Maior e Média
+
+Ex3MaiorEMedia.java
+
+Par e Impar
+
+Ex4ParEImpar.java
+
+Tabuada
+
+Ex5Tabuada.java
+
+Fatorial
+
+Ex6Fatorial.java
+

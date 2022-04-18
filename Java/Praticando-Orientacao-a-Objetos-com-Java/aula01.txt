@@ -1,0 +1,173 @@
+Instrutor: Rodrigo Tavares
+
+Praticando Orientação a Objetos com Java
+
+Desenvolvendo sua programação orientada a objetos
+
+Apresentação inicial
+
+Orientação a Objetos traz uma representação do mundo real para o computador.
+
+
+Diferenças entre programação estruturada e POO
+
+
+PROGRAMAÇÃO ESTRUTURADA
+
+Programação estruturada é linear e estruturada como o próprio nome diz,
+ou seja, as tomadas de decisões são feitas de forma ordenada, por meio de
+verificações condicionais e interações, utilizando como recursos variáveis e
+rotinas para o desenvolvimento dos programas.
+
+PROBLEMAS
+Quando utilizada para programas complexos, a organização de códigos torna-se
+um desagio, justamente pela estrutura não oferecer uma forma simples
+para agrupar os dados e protegê-los, deixando a cargo do programador todo o trabalho.
+
+
+MITOS DA POO
+
+Dizer que simplesmente o uso de uma linguagem orientada a objetos faz o seu
+programa ser automaticamente orientado a objetos é um mito, pois, é possível e
+muito comum em termos de programas em linguagens com suporte a POO que utilizam
+componentes POO e a implementação é totalmente estruturada.
+
+
+SIMULA 67
+Primeiroa Linguagem Orientada a Objetos
+
+Desenvolvida nos anos 60 pelos noruegueses Ole-Johan Dahl e Kristen Nygaard.
+
+O Simula 67 continha muitos dos conceitos das principais linguagens OO de hoje, como:
+
+Classes e Objetos;
+Subclasses;
+Métodos Virtuais;
+Frameworks;
+Concorrência;
+Gerenciamento de Memória.
+
+
+
+O que é função utilitária e conceitos básicos
+
+Aprendizado Tradicional da Orientação a Objetos
+
+Chamamos de objetos a representação programática de algo, como por exemplo
+um carro, onde temos atributos e ações que podem ser executadas por ele.
+
+Representação da Classe Carro
+
+
+Um carro tem: altura, largura, combustível, cilindradas, número de passageiros
+e velocidade máxima.
+Ele pode: ligar, desligar, parar, andar e acelerar.
+
+
+Carro
++altura: Numérico
++largura: Numérico
++cor: Cores
++combustível: Combustíveis
++cilindradas: inteiro
++passageiros: inteiro
++velocidadeMaxima: Numérico
+______________________________________________
++ligar(): void
++desligar(): void
++parar(): void
++andar(): void
++acelerar(): void
++velocidadeAtual(): Numérico
++estaParado(): Booleano
++estaAndando(): Boleano
+
+
+Aplicação no dia a dia
+
+O problema da utilização desse tipo de exemplo para o aprendizado é que ele
+demonstra por analogia como fazer a representação de um objeto concreto em uma classe,
+mas geralmente o programador que está iniciando com a POO tem dificuldade para transpô-la
+para um cenário que possa ser realmente aplicado.
+
+
+Os padrões atuais da POO são muito mais do que simplesmente transpor objetos do mundo 
+real para o seu código. Esses padrões novos demonstram como componentizar
+suas aplicações de forma a aumentar o reuso de código e facilitar a manutenção futura.
+
+
+
+Funções Estáticas Utilitárias
+
+Funções utilitárias são a programação estruturada dentro da POO.
+
+
+Como identificar uma função utilitária?
+
+1 - Ela consegue resolver-se por ela mesma, sem dependências externas?
+
+2 - Os parâmetros de entrada são simples e diretos?
+
+3- O resultado de saída também é simples e direto?
+
+Exemplo de função utilitária
+
+Validação de CPF ou CNPJ
+
+- Entrada Simples
+- Não depende de recursos externos (ex: Banco de dados).
+- Saída simples(boolean).
+
+
+
+CONCEITOS BÁSICOS DA ORIENTAÇÃO A OBJETOS
+
+
+CLASSE E OBJETO
+Uma representação de dados em objetos ou entidades para o processamento
+de outos objetos.
+
+
+ASSOCIAÇÃO DE CLASSES
+Quando utilizamos uma classe dentro de uma classe.
+
+
+HERANÇA
+É a utilização de uma classe base, fazendo com que uma nova classe
+tenha todos os atributos e funções da classe pai, mais as suas próprias.
+
+
+ENCAPSULAMENTO
+É a possibilidade de proteger alguns dados ou funcionalidades da classe,
+não permitindo que seus consumidores possam acessá-la.
+
+
+POLIMORFISMO
+Aqui podemos criar funções que terão o mesmo nome, mas que podem ter
+diferentes processamentos, implementações, ou na mesma classe o mesmo nome
+e diferentes entradas.
+
+
+
+O que é classe e objeto e primeiros passos no código
+
+Projeto PatricandoOrientacaoAObjetosComJava
+
+
+
+Qual a necessidade de encapsulamento
+
+
+Implementando encapsulamento na classe
+
+
+
+O que é Herança
+
+Em Java toda classe extends Object.
+
+
+
+Como aplicar polimorfismo
+
+

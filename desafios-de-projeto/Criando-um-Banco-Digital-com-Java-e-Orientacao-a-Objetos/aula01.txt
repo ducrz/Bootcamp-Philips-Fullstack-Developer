@@ -72,7 +72,8 @@ Ajustes feitos:
 * Adoção do padrão MVC.
 * Adoção do Pacote Javax swing.
 * Inclusão de menu para navegação entre as funções.
-* Geração do Javadocs.
+
+
 
 
 

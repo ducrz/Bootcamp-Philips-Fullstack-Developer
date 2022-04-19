@@ -18,12 +18,19 @@ da própria instituição)."
 * Adoção do Pacote Javax Swing.
 * Inclusão de menu principal para navegação entre as operações bancárias.
 
+
 ### Prints das Telas do Programa em Execução
 ![Tela de Inserção do Nome do Cliente](./src/com/dio/view/assets/tela1.png)
+
 ![Menu Principal com Todas as Operações Bancárias Disponíveis](./src/com/dio/view/assets/tela2.png)
+
 ![Confirmação de Depósito Efetuado com Sucesso](./src/com/dio/view/assets/tela3.png)
+
 ![Confirmação de Transferência para a Poupança Efetuada com Sucesso](./src/com/dio/view/assets/tela4.png)
+
 ![Extrato de Conta Corrent](./src/com/dio/view/assets/tela5.png)
+
 ![Extrato Poupança](./src/com/dio/view/assets/tela6.png)
+
 ![Tela de Encerramento do Programa](./src/com/dio/view/assets/tela7.png)
 

@@ -1,4 +1,4 @@
-# Desafios de Código Iniciais Java Js - Philips Developer - DIO
+# Desafios de Código Iniciais Java - Philips Developer - DIO
 
 ## Multiplicação Simples
 

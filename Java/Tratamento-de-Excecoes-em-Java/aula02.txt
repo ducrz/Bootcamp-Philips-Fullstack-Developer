@@ -1,0 +1,15 @@
+Unchecked exception
+
+Unchecked Exception e Checked Exception
+
+Errors e RuntimeExceptions são considerados uncheked, portanto o compilador não obriga que exista tratamento para eles.
+
+Unchecked Exception
+
+Herdam da classe RuntimeException ou da classe Error.
+O compilador não verifica o código para ver se a exceção foi capturada ou declarada.
+Se uma exceção não-verificada ocorrer e não tiver sido capturada, o programa terminará ou executará com resultados inesperados.
+Em geral, podem ser evitadas com uma codificação adequada.
+
+
+

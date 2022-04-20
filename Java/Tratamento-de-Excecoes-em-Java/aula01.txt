@@ -1,0 +1,59 @@
+Instrutora: Camila Cavalcante
+Tratamento de Exceções em Java
+
+Apresentação
+
+Visão Geral
+
+Tratamento de Exceções
+
+Exceção é um evento que interrompe o fluxo normal do processamento de uma classe.
+O uso correto de exceções torna o programa mais robusto e confiável.
+Com o tratamento de exceções, um programa pode continuar executando depois de lidar com um problema.
+Importante: Incorpore sua estratégia de tratamento de exceções no sistema desde o princípio do processo do projeto.
+Pode ser difícil incluir um tratamento de exceções eficiente depois que um sistema foi implementado.
+
+Error: Usado pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução impossível de continuar.
+
+Unchecked (Runtime): Exceptions que PODEM ser evitados se forem tratados e analisados pelo desenvolvedor.
+
+Checked Exception: Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar.
+
+
+try, catch, finally: Cada uma dessas palavras, juntas, definem blocos para o tratamento de exceções.
+
+throws: Declara que um método pode lançar uma ou várias exceções.
+
+throw: Lança explicitamente uma exception.
+
+try - catch - finally
+
+Bloco try:
+Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção.
+Caso ocorra uma exceção em algum ponto, o restante do código contido no bloco try não será executado.
+O bloco try não pode ser declarado sozinho, por tanto, precisa estar seguido de um ou vários blocos catch e/ou de um bloco finally.
+
+Bloco catch:
+Região onde se encontra o possível tratamento da exceção. Isso significa que só será executado caso o bloco try apresentar alguma exceção.
+Recebe como argumento a classe ou subclasse da possível exceção.
+No seu escopo ficam as instruções de como tratar essa exceção.
+Pode haver mais de um bloco catch, porém, será executado apenas o primeiro bloco que identificar a exceção.
+
+Bloco finally:
+Este bloco é opcional, mas caso seja construído, quase sempre será executado. (A menos que seja forçado, por exemplo, com um System.exit(0), no catch).
+Dentro do bloco finally, poderá conter outros blocos try, catch, bem como outro finally.
+
+throw e throws
+
+Cláusula throw:
+Para lançar exceções explicitamente, use a cláusula throw.
+Usada principalmente para lançar exceções personalizadas.
+Caso um tratador adequado não seja encontrado no bloco onde a exceção foi lançada, ela é propagada para o nível mais externo.
+A propagação contínua até que algum tratador seja encontrado ou	até chegar ao nível da	JVM.
+Pode ser utilizada tanto para exceções checked ou unchecked.
+
+Cláusula throws:
+O throws quando declarado no método, servirá apenas para informar ao compilador que estamos cientes da possibilidade de apresentar alguma Exception neste método. 
+Para que um método possa disparar uma exceção é necessário colocar a cláusula throws na definição do mesmo, indicando quais tipos de exceção o mesmo pode retornar.
+A responsabilidade de tratar o método lançado fica no código que chamou o método, podendo tratá-la ou lançá-la novamente.
+

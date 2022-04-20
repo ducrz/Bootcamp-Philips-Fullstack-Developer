@@ -1,0 +1,14 @@
+Checked exception
+
+Checked exception parte 1
+
+Checked Exception
+
+Costumam indicar que uma condição necessária para a execução de um programa não está presente.
+
+Checked Exception
+As exceções que são herdadas da classe Exception, mas não de RuntimeException.
+O compilador impõe um requisito do tipo ‘capturar ou declarar’.
+O compilador verifica cada chamada de método e declaração de método para determinar se o método lança (throws) exceções verificadas. Se lançar, o compilador assegura que a exceção verificada é capturada ou declarada em uma cláusula throws. Caso não capturada nem declarada, ocorre um erro de compilação.
+
+Checked exception parte 2

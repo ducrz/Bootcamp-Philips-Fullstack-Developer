@@ -1,0 +1,19 @@
+Exception Personalizada
+
+Exception Personalizada 1
+
+Exception Personalizada
+
+
+Checked Customizada
+
+Assim como qualquer objeto, em Java também é possível criar suas próprias exceções.
+
+Exception Personalizada:
+Programadores podem achar útil declarar suas próprias classes de exceção.
+Essas Exceptions são específicas aos problemas que podem ocorrer quando outro programador empregar suas classes reutilizáveis.
+Uma nova classe de exceção deve estender uma classe de exceção existente que assegura que a classe pode ser utilizada com o mecanismo de tratamento de exceções, logo essas Exceções customizadas são derivadas da classe Exception.
+
+
+
+Exception Personalizada 2

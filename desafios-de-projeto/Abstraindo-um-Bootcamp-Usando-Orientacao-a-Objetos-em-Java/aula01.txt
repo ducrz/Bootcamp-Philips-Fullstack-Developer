@@ -1,0 +1,89 @@
+Instrutora: Camila Cavalcante
+
+Abstraindo um Bootcamp Usando Orientação a Objetos em Java
+
+DESCRIÇÃO
+
+Desmistifique a Programação Orientada a Objetos (POO) com Java e pratique esse conceito fundamental nesse desafio. Para isso, os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Com isso, você poderá desenvolver sua capacidade de abstração com um problema real e implementar as evoluções que achar interessantes ;-)
+
+
+Apresentação e visão geral de POO - Programação Orientada a Objetos
+
+POO
+
+Paradigma: Modelo, exemplo a ser seguido.
+
+Programação: Desenvolvimento de uma aplicação.
+
+Orientada: Aquilo que é regido; segue uma orientação.
+
+Objeto: Um molde que representa uma determinada classe.
+
+
+Paradigma de Programação Orientado a Objetos:
+É um modelo de desenvolvimento de aplicações, sendo este modelo  construído acerca do conceito de objetos.
+
+
+Linguagem vs Paradigma
+
+Linguagem de Programação: É uma linguagem formal que, através de uma série
+de instruções, permite que um programador escreva um conjunto de ordens, ações consecutivas,
+dados e algoritmos para criar programas.
+
+Podem ser classificadas:
+
+Níveis de abstração;
+Paradigma de programação;
+Arquitetura de aplicação;
+Tipo de execução.
+
+
+Paradigma de Linguagem de Programação: É um conjunto de característias
+que podem ser utilizados para categorizar determinado grupo de linguagens.
+Um paradigma pode oferecer técnicas apropriadas para uma aplicação específica.
+
+Paradigmas Principais e seus Subparadigmas:
+
+Paradigma Imperativo:
+	Paradigma Estruturado;
+	Paradigma Concorrent;
+	Paradigma OO.
+
+Paradigma Declarativo
+	Paradigma Funcional;
+	Paradigma Lógico.
+
+
+
+
+Configuração do Ambiente
+
+https://www.toptal.com/developers/gitignore
+
+Abstração e Encapsulamento
+
+Herança e Polimorfismo, parte 1
+
+Herança e Polimorfismo, parte 2
+
+Concluíndo a criação das classes do domínio
+
+Interligando as classes de Domínio
+
+
+Entendendo o Desafio
+
+Descrição do Desafio
+
+Desmistifique a Programação Orientada a Objetos (POO) com Java e pratique esse conceito fundamental nesse desafio. Para isso, os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Neste desafio, você poderá desenvolver sua capacidade de abstração com um problema real e implementar as evoluções que achar interessantes wink
+
+Dica: você pode dar um "fork" no Repositório do GitHub para organizar suas alterações e evoluções, mantendo uma referência direta ao código original.
+
+
+Alterações efetuadas:
+
+* Cadastro de todos os cursos constantes no Bootcamp;
+* Cadastro de todas as mentorias;
+* Progressão de todos os cursos.
+
+

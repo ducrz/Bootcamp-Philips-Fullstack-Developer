@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Problem {
+public class Twittando {
     public static void main(String[] args) throws IOException {
     	Scanner leitor = new Scanner(System.in);
     	String T = leitor.nextLine();

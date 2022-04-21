@@ -1,0 +1,25 @@
+Injeção de Dependências
+
+Entendendo a Injeção de dependências
+
+O que é Injeção de Dependência?
+
+É uma forma de aplicar inversão de controle em uma classe que utiliza funcionalidades de outras classes
+
+Proxies Setter
+
+
+Autowired
+
+Propriedades
+Construtores
+Métodos
+
+
+Suporte a CDI
+
+CDI
+
+O CDI é a especificação Java que define a injeção de dependência e inversão de controle para aplicações JavaEE.
+
+

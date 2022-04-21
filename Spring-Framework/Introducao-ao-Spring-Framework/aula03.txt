@@ -1,0 +1,35 @@
+Spring Beans
+
+Entendendo o Spring Beans
+
+Spring Bean
+
+É qualquer objeto gerenciado pelo Spring Ioc.
+
+
+Stereotypes
+
+Anotações Spring Bean
+
+@Repository
+@Service
+@Controller/@RestController
+@Configuration
+@Component
+
+@Controller(Apresentação) -> 
+@Service(Serviços) ->                        @Component
+@Repository(Persistência) ->
+
+Escopos e ciclo de vida
+
+Bean Scopes
+
+Singleton
+Prototype
+Request
+Session
+Application
+WebSocket
+
+

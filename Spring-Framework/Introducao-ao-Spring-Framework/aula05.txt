@@ -1,0 +1,24 @@
+Projeto com Spring
+
+Projeto com Spring
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent
+
+Iniciando um projeto
+
+1. Maven
+2. Spring Initializr: https://start.spring.io
+
+Revisão
+
+
+Para saber mais:
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html
+
+https://mkyong.com/tutorials/spring-boot-tutorials/
+
+https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html
+
+
+

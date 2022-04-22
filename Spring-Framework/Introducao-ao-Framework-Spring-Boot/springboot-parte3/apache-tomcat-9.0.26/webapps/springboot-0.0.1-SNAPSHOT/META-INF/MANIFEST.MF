@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven WAR Plugin 3.3.2
+Build-Jdk-Spec: 11
+Implementation-Title: springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.digitalinnovationone.springboot.SpringbootApplication
+Spring-Boot-Version: 2.6.7
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Spring-Boot-Layers-Index: WEB-INF/layers.idx
+

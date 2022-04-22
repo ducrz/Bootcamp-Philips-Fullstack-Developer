@@ -1,0 +1,201 @@
+Trabalhando com Profiles e Configurações
+
+Importância dos Profiles
+
+Múltiplos Ambientes
+
+Ambientes para desenvolvimento, teste e produção.
+
+- Banco de dados para cada ambiente.
+- Execução de testes unitários em ambiente local.
+- Suíte de testes completas em ambiente de teste.
+- Simulação do ambiente real em staging.
+- Deploy simplificado em produção.
+
+
+Spring Boot Profiles
+
+Configurações próprias para cada ambiente.
+
+Ambientes com sua configuração: dev, production.
+
+Ex:
+
+application.properties
+application-dev.properties
+application-release.properties
+
+
+
+Configurações com Properties
+
+Spring Boot Properties
+
+@Configuration
+@ConfigurationProperties("spring.datasource")
+@SuppressWarnings("unused")
+
+public class DBConfiguration{
+
+	private String driverClassName;
+	private String url;
+	private String username;
+	private String password;
+	
+
+}
+
+
+@Profile("dev")
+@Bean
+public String devDatabaseConnection(){
+	System.out.println("DB connection for DEV - H2");
+	System.out.println(driverClassName);
+	System.out.println(url);
+	return "DB Connection for DEV -H2";
+
+}
+
+@Profile("prod")
+@Bean
+public String devDatabaseConnection(){
+	System.out.println("DB connection to RDS_PROD - High Perfomance");
+	System.out.println(driverClassName);
+	System.out.println(url);
+	return "DB Connection to RDS_PROD - Hith Perfomance Instance";
+
+}
+
+Exercício
+
+Projeto com spring.initializr e importar na IDE.
+
+Arquivos application.properties para Dev e Prod.
+
+Classe de configurações de BD e anotar com @Configuration.
+
+Mapear propriedades com @ConfigurationProperties.
+
+Criar métodos para instanciar Beans de cada env.
+
+Criar classe anotada com @RestController.
+
+Injetar propriedade appMessage com @Value.
+
+Criar método que retorna a mensagem acima.
+
+Executar projeto no Browser.
+
+cd springbootconfig/
+
+mvn spring-boot:run
+
+
+
+Configurações com YAML e command line
+
+Configurações com YAML
+
+
+Troca no formato de configurações: formato .YML.
+
+application.properties
+
+basic.value: true
+basic.message: Dynamic Message
+basic.number: 100
+
+application.yaml
+
+basic:
+	value: true
+	message: Dynamic Message YAML
+	number: 100
+
+Exercício
+
+Migrar app.properties do profile dev para YML.
+
+Executar o projeto pelo terminal.
+
+
+
+mvn spring-boot:run
+
+
+Uso de Command Line
+
+Propriedades do arquivo de configuração na linha de comando.
+
+Sobrescreve as propriedades definidas no arquivo de configuração padrão.
+
+Valores passados como argumento na execução do projeto.
+
+Ex:
+
+server.port: 8081
+spring.application.name=SampleApp
+
+mvn spring-boot:run -Dserver.port=8081
+
+
+Exercício
+
+Passar como argumento a propriedade server.port=8085.
+
+Executar o projeto no terminal com o argumento.
+
+Abrir o browser no endereço http://localhost:8085
+
+mvn spring-boot:run -Dserver.port=8085
+
+
+
+Configurações com variáveis de ambiente
+
+
+Variáveis de ambiente
+
+Variável de ambiente pode ser injetada através da anotação @Value no projeto.
+
+Linux e Mac: export comum de variável.
+
+export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+
+
+Windows: padrão de variável de ambiente.
+
+
+
+Injeção com anotação @Value ({NOME_VARIAVEL})
+
+Definição de valor default quando não há variável.
+
+@Value("${ENV_DB_URL:NENHUMA}")
+private String dbEnvironmentVariable;
+
+
+Exercício
+
+Injetar a variável com @Value em AppController.
+
+Definição de valor default junto com a anotação @Value.
+
+Criar método para chamada do novo método e exibir o valor.
+
+Executar o projeto no terminal e exibir no browser.
+
+
+mvn spring-boot:run
+
+localhost:8080/envVariable
+
+export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+
+mvn spring-boot:run
+
+localhost:8080/envVariable
+
+A seguinte variável de ambiente foi passada: jdbc:h2:mem:db
+
+Exemplos da aula: https://github.com/rpeleias-v1/springbootprofile_digital_innovation_one

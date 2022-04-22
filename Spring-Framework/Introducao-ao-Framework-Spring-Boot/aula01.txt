@@ -1,0 +1,249 @@
+Instrutor Rodrigo Peleias. Github: https://github.com/rpeleias-v1
+
+Introdução ao Framework Spring Boot
+
+O que é e quais problemas resolvem o Spring Boot?
+
+Problemas do Spring
+
+Configurações de beans em arquivos xml ou via anotação Java.
+
+Dispatcher Servlet e view resolver em web.xml ou no spring beans mvc.
+
+Setup manual de banco de dados.
+
+Muito tempo gasto em configuração.
+
+Perda de foco em valor.
+
+
+
+O Que é Spring Boot?
+
+Criado pela Spring Source em 2012.
+
+Facilita setuo de projetos Spring.
+
+Sem necessidade de criar arquivos de configuração.
+
+Foco em produtividade.
+
+Maior tempo no desenvolvimento de valor.
+
+Spring Boot
+Spring LDAP
+Spring Web Services
+Spring Session
+Spring Integration
+Spring Data
+Spring Batch
+Spring Security
+Spring Social
+Spring Kafka
+More...
+
+Web, Data - Spring Framework - AOP, Core
+
+Quais problemas resolve?
+
+Produtividade: setup simplificado de projeto
+
+Spring initializr: https://start.spring.io
+
+
+Starters: dependências auto configuráveis pelo Spring Boot.
+
+Execução simplificada: sem deploy em servidor externo
+
+Configuração: arquivo externo para configuração.
+application.properties
+
+pom.xml
+
+Valor: maior tempo em desenvolvimento.
+
+Exercício
+
+Criação de um projeto: https://start.spring.io
+
+Importação na Ide.
+
+Adicionar spring-boot-starter-mvc no pom.sml
+
+Adicionar classe HelloController e o método hello();
+
+Executar o projeto através do terminal.
+
+
+cd springboot
+mvn spring-boot:run
+
+
+Auto Configuration
+
+Configuração manual
+
+Múltiplos arquivos XML.
+
+Configuração manual do Spring MVC: Dispatcher Servlet, web.xml, spring-mvc.xml.
+
+Configuração manual dos beans Spring.
+
+Aplicado também ao Spring Data, Spring Security, etc.
+
+Auto Configuration
+
+Starters: dependências simplificadas e auto configuráveis.
+
+Identificação e configuração automática da dependência.
+
+
+spring-boot-starter-data-jpa
+
+spring-boot-starter -> spring-boot-autoConfigure
+
+spring-boot
+
+
+Spring Boot detecta as dependências e faz as configurações necessárias.
+
+Projeto simplificado e pronto para foco no valor!
+
+Exercício
+
+Adicionar propriedade debug=true no application.properties.
+
+Executar projeto no terminal e analisar o log.
+
+Identificar e visualizar o auto configuration do spring mvc.
+
+Visualizar a dependência do auto configuration do projeto.
+
+
+
+mvn spring-boot:run
+
+
+
+FatJar/ UberJar
+
+
+Antes do Spring Boot
+
+Spring Tradicional: war precisa de servidor de aplicação.
+
+
+Web Application -> Package -> War ->   Deploy -> Web Server
+- Html pages                 (web.xml)
+- JSP Pages
+- Servlets
+- Resources
+- Source File
+
+
+Dependência de um container web ou servidor de aplicação.
+
+Complexidade para configurações.
+
+Atualizações frequentes, junto com versão do projeto.
+
+Gerenciamento manual de configurações.
+
+
+FatJar / UberJar
+
+Artefato de projeto pronto para execução.
+
+Container web embutido na geração e execução (TomCat).
+
+Deploy embarcado com outros containers são opcionais.
+
+Dependências principais do projeto embarcado.
+
+
+
+Skinny  ->            App
+
+Thin ->               App Dependencies
+
+Fat/Uber ->
+
+Hollow ->              App Runtime
+
+
+Execução direta através de um único java -ar!
+
+mvn package && java -ar target/spring-boot-example-0.1.0.jar
+
+
+Podemos também gerar o war tradicional
+
+Gradle: build.gradle:
+
+apply plugin: 'war'
+war{
+	baseName = 'myapp',
+	version = '0.5.0'
+}
+
+Maven:
+<packaging>war</packaging>
+
+
+Exercício
+
+Fazer o build do projeto.
+
+Explorar conteúdo do arquivo .jar gerado.
+
+Executar o projeto no terminal com java -jar.
+
+Trocar o formato do artefato para .war e executar no TomCat.
+
+
+Empacotando:
+
+mvn clean package
+
+cd target
+
+-springboot-0.0.1-SNAPSHOT.jar
+
+
+java -jar springboot-0.0.1-SNAPSHOT.jar
+
+
+jar tf springboot-0.0.1-SNAPSHOT.jar | less
+
+
+Empacotando .war e executando dentro de um tomcat
+
+pom.xml > 	<packaging>war</packaging>
+
+
+mvn clean package - gerando war
+
+cd target
+
+-springboot-0.0.1-SNAPSHOT.war
+
+
+No outro projeto, springboot-parte 3
+
+Copiar springboot-0.0.1-SNAPSHOT.war para o projeto parte 3, apache-tomcat-9.0.26/webapps
+
+-springboot-0.0.1-SNAPSHOT.war
+
+Subir o tomcat
+
+cd apache-tomcat-9.0.26/bin
+./startup.sh
+
+
+localhost:8080/springboot
+
+Exemplos da aula: https://github.com/rpeleias-v1/springboot_digital_innovation_one
+
+
+
+

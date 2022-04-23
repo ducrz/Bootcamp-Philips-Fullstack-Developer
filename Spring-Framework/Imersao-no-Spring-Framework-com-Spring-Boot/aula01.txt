@@ -1,0 +1,161 @@
+Instrutor: Gleyson Sampaio. Github: https://github.com/glysns/
+
+Imersão no Spring Framework com Spring Boot
+
+Apresentação Inicial
+
+Abertura
+
+Visão geral do Curso
+
+Spring Framework
+
+Spring Framework Fundamentos
+
+
+O que é Spring Framework
+
+Spring Versus Java EE
+
+Conceito de Inversão de Controle
+
+Injeção de Dependências
+
+Beans \ Autowired \ Scopes
+
+
+Spring Framework?
+
+Framework open source desenvolvido para a plataforma Java, baseado nos padrões
+de projetos de inversão de controle e injeção de dependência.
+
+Sua estrutura é composta por módulos afins de reduzir a complexidade no desenvolvimento
+de aplicações simples ou corporativas.
+
+Spring Módulos
+
+Spring Framework Runtime -
+
+Data Acess / Integration
+JDBC
+ORM
+OXM
+JMS
+Transactions
+
+Web (MVC / Remoting)
+
+Web
+Servlet
+Portlet
+Struts
+
+AOP
+Aspects
+Instrumentation
+
+Core Container
+Beans
+Core
+Context
+Expression Language
+
+Test
+
+
+Spring versus Java EE
+
+
+Inversão de Controle
+
+Inversion of control ou IoC, trata-se do redirecionamento do fluxo
+de execução de um código retirando parcialmente o controle sobre ele 
+e delegando-o para um container.
+
+O principal propósito é minimizar o acoplamento do código.
+
+
+
+Sem - IoC
+
+App -> Create Object -> Use Object
+    -> Create Object -> Use Object
+
+
+Com IoC
+
+App ---> Container -> Create Object -> Use Object
+
+
+Injeção de Dependências
+
+Injeção de dependência é um padrão de desenvolvimento com a finalidade
+de manter baixo o nível de acoplamento entre módulos de um sistema.
+
+
+App -> Cotainer -> Real Object
+     
+     -> Interface
+     
+Beans
+
+Objeto que é instanciado (criado), montado e gerenciado por um
+container através do princípio da inversão de controle.
+
+Scopes
+
+Singleton
+Prototype
+
+Spring Bean Scope
+
+HTTP
+	Request
+	Session
+	Global
+	
+Singleton
+
+O container do Spring IoC define apenas uma instância do objeto para toda a aplicação.
+
+Prototype
+
+Será criado um novo objeto a cada solicitação ao container.
+
+HTTP - Request
+
+Um bean será criado para cada requisição HTTP.
+
+Os objetos existirão enquanto a requisição estiver em execução.
+
+Http - Session
+
+Um bean será criado para a sessão de usuário.
+
+Precisamos acessar a mesma solicitação duas vezes para testar
+os escopos específicos da web.
+
+HTTP - Global
+
+Ou Application Scope cria um bean para o ciclo de vida do contexto
+da aplicação.
+
+Objetos compartilhados por toda a aplicação.
+
+
+Autowired
+
+Uma anotação (indicação) onde deverá ocorrer uma injeção automática de dependência.
+
+byName : É buscado um método set que corresponde ao nome do Bean.
+
+byType: É considerado o tipo da classe para a inclusão do Bean.
+
+byConstructor: Usamos o construtor para incluir a dependência.
+
+
+
+
+
+
+

@@ -1,0 +1,282 @@
+Projeto Spring Boot
+
+
+Conhecendo o Springboot
+
+Spring Framework
+
+Projeto Springboot
+
+O que é Springboot ?
+
+Configurações manuais
+
+Starters
+
+Principais Starters
+
+Configuração de fábrica
+
+
+Springboot
+
+Enquanto que o Spring Framework é baseado no padrão de injeção de dependências, o Springboot foca na configuração automática.
+
+Antes do Springboot
+
+Desafios com a configuração do projeto.
+
+Dependência individual
+Verbosidade
+Incompatibilidade de versões
+Complexidade de gestão
+Configurações complexas e repetitivas
+
+
+Dado que a maior parte das configurações necessárias para o início de um projeto são sempre as mesmas, por que não iniciar um projeto com todas estas configurações já definidas?
+
+Starters
+
+Benefícios
+
+Coesão
+Versões compatíveis
+Otimização do tempo
+Configuração simples
+Foco no negócio
+
+Alguns Starters
+
+Listagem de alguns starters mais utilizados
+
+Spring-boot-starter-*
+
+data-jpa: Integração ao banco de dados via JPA - Hibernate.
+
+data-mongodb: Interação com banco de dados MongoDB.
+
+web: Inclusão do container Tomcat para aplicações REST.
+
+web-services: Webservices baseados na arquitetura SOAP. 
+
+batch: Implementação de JOBs de processos.
+
+test: Disponibilização de recursos para testes unitários como JUnit
+
+openfeign: Client HTTP baseado em interfaces
+
+actuator: Gerenciamento de monitoramento da aplicação. 
+
+
+Primeiros passos
+
+Criando um projeto com initializr
+importando o projeto maven no IntelliJ
+Conhecendo a estrutura spring boot
+Bean e CommandLineRunner
+
+
+Beans versus Components
+
+Quem são eles?
+
+Quando usar @Bean ?
+
+Quando usar @Component?
+
+Implementar a IoC e DI
+
+
+Scopes - Singleton ou Prototype
+
+Quantos irei precisar?
+
+Conceito de Scope
+
+Configurando objeto Singleton
+
+Configurando objetos Prototype 
+
+
+Properties Value
+
+Nem tudo é =
+
+O poderoso application.properties
+
+@Value
+
+Default value 
+
+
+Configuration Properties
+
+É sério isso ?
+
+O poderoso application.properties
+
+@ConfigurationProperties (prefix)
+
+
+Conceito de ORM e JPA
+
+Java Persistence API
+
+
+ORM e JPA
+
+O que é ORM ?
+
+Java Persistence API
+
+Mapeamentos
+
+
+O que é ORM?
+
+Object-Relational Mapping, Em português, mapeamento objeto-relacional, é um recurso para aproximar o paradigma da orientação a objetos ao contexto de banco de dados relacional.
+
+O uso de ORM é realizado através do mapeamento de objeto para uma tabela por uma biblioteca ou framework.
+
+JPA
+
+JPA é uma especificação baseada em interfaces, que através de um framework realiza operações de persistência de objetos em Java.
+
+
+JPA - Implementações
+
+Hibernate
+
+Eclipse Link
+
+Top Link
+
+Open Jpa
+
+
+Mapeamento
+
+Vamos conhecer os aspectos das anotações de mapeamento do JPA
+Identificação
+Definição
+Relacionamento
+Herança
+Persistência
+
+Mapeamento na prática
+
+EntityManager
+
+
+Spring Data JPA
+
+https://spring.io/projects/spring-data-jpa
+
+Conexão com Postgres
+
+https://www.postgresql.org
+
+Banco: dio_db
+
+application.properties:
+
+#Opcional
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+#Obrigátorio de acordo com o seu banco de dados
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/dio_db
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+pom.xml:
+		<!-- POSTGRES -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+
+JPA Repository
+
+Repository Pattern
+
+Repository é um padrão de projeto similar ao DAO (Data Access Object) no sentido
+de que seu objetivo é abstrair o acesso a dados de forma genérica a partir do seu modelo.
+
+
+Spring Data Jpa
+
+O projeto Spring Data Jpa facilita a implementação do padrão Repository através de AOP 
+(Aspect Oriented Programming - programação orientada a aspectos).
+
+Utilizando-se apenas de uma interface, o Spring irá "gerar" dinamicamente a implementação
+do método de acesso a dados. Estender a interface JpaRepository é opcional, mas 
+a vantagem é que ela já vem com vários métodos genéricos de CRUD e você não precisa
+redefinir todos eles.
+
+O repositório seria uma classe para buscar informações no banco de dados ou no local onde as
+informações foram persistidas. Mas no caso do JpaRepository ele provê a ligação a  determinada
+classe do Model com possibilidade de persistir no banco de dados.
+
+Principais métodos que já são disponibilizados pelo framework.
+
+sabe: Insere e atualiza os dados de uma entidade;
+findById: Retorna o objeto localizado pelo seu ID;
+existById: Verifique a existência de um objeto pelo ID informado, retornando um boolean;
+findAll: Retorna uma coleção contendo todos os registros da tabela no banco de dados;
+delete: Deleta um registro da respectiva tabela mapeada do banco de dados;
+count: retorna a quantidade de registro de uma tabela mapeada do banco de dados.
+
+E a implementação? O Spring Data JPA se encarrega de realizar a implementação através do padrão CRUD.
+
+
+Consultas Customizadas
+
+Existem duas maneiras de realizar consultas customizadas, uma é conhecida como QueryMethod
+e a outra é QueryOverride.
+
+Query Method
+
+O Spring Data JPA se encarrega de interpretar a assinatura de um método (nome + parâmetros),
+para montar a JPQL correspondente.
+
+Um exemplo de entidade que possui um endereço de e-mail e sobrenome e gostaria de filtrar por estes
+dois atributos:
+
+public interface UserRepository extends Repository<User, Long>{
+	List<User> findByEmailAddressAndLastname(String emailAddress, String lastname);
+
+}
+
+
+Conforme a documentação oficial do Spring Data JPA, abaixo estão algumas instruções possíveis para
+montar JPQL via métodos.
+
+Keyword        Sample
+
+Distinct         findDistinctByLastnameAndFirstname
+And              findByLastnameAndFirstName
+Or               findByLastnameOrFirstname
+Is, Equals       findBytFirstname, findByFirstnameIs, findByFirstnameEquals
+Between          findByStartDateBetween
+LessThan         findByAgeLessThan
+LessThanEqual    findByAgeLessThanEqual
+GreaterThan      findByAgeGreaterThan
+GreaterThanEqual findByAgeGreaterThanEqual  
+
+JPQL - SQL no contexto de entidades.
+
+
+Query Override
+
+//Query Override - Retorna a lista de usuários contendo a parte do nome
+@Query("SELECT u FROM User WHERE u.name LINK %:name%");
+List<User> filtrarPorNome(@Param("name") String name);
+
+
+
+

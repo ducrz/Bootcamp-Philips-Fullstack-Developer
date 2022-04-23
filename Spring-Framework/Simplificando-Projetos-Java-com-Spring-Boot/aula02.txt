@@ -1,0 +1,110 @@
+Spring Framework
+
+Por que Spring?
+
+O que é o Spring?
+
+Spring nada mais é que uma plataforma com diversos recursos para construção de aplicativos Java, facilitando assim o desenvolvimento em Java EE com módulos que facilitam a construção de softwares reduzindo o tempo de desenvolvimento.
+
+Data Acess / Integration
+
+JDBC / ORM / OXM / JMS / Transactions
+
+
+Web
+
+WebSocket / Servlet / Web / Portlet
+
+AOP / Aspects / Instrumentation / Messaging
+
+Core Container
+
+Beans / Core / Context / SpEL
+
+Test
+
+
+Beans
+
+Um bean se trata de um objeto que é instanciado, montado e gerenciado por um container do Spring através de Inversão de Controle (IoC) e Injeção de Dependências (DI).
+
+
+Core Container
+
+Beans / Core / Context / SpEL
+
+Ciclo de vida de um Bean
+
+Container é iniciado
+-> Bean é instanciado
+-> Dependências são injetadas
+-> Chamada de método de inicialização
+-> Bean é utilizado
+-> Bean é descartado
+
+Configurando Beans
+
+É possível configurar um Bean de duas formas por arquivos XML ou através de anotações.
+
+Em XML seria preciso definir a tag <bean> dentro de uma tag principal <beans> passando o path da classe assim o Spring saberá quais classes gerenciar a criação de instâncias e a injeção de dependências.
+
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	xsi:schemaLocation="http://www.springframework.org/schema/beans 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"> 
+
+<bean id="..." class="...” /> 
+
+</beans> 
+
+
+BeanFactory ou ApplicationContext?
+
+
+BeanFactory fornece um mecanismo de configuração avançada capaz de gerenciar objetos de qualquer natureza. 
+ApplicationContext se baseia na BeanFactory (é uma subinterface) e adiciona outras funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação de recursos de mensagem (para uso na internacionalização), propagação de eventos e contextos específicos da camada de aplicativo, como o WebApplicationContext para uso em aplicativos da web.
+
+
+
+Sprint Tools 4 for Eclipse: https://spring.io/tools
+
+mvn -U clean install
+
+
+
+Debug do código - Beans
+
+Inversão de Controle (IoC)
+
+Inversão de Controle (ou IoC - Inversion of Control) é um processo onde se inverte o fluxo de comando de um programa. É uma ideia desacoplar ou remover dependências do objeto e fornecer controle para outra camada. Este objeto delega a tarefa de construir dependências para um contêiner IoC.
+
+
+Class A <-(Passe para)         IoC Container    (Cria)    -> Class B
+
+
+Desafio
+
+Implemente a inversão de controle em um programa simples, seguindo as orientações da aula.
+
+https://github.com/Re04nan/dio-experts-spring-boot-java
+
+
+Debug do código - IoC
+
+Injeção de Dependências (DI)
+
+A Injeção de Dependência (ou DI - Dependency Injection) define quais classes serão instanciadas e onde serão injetadas quando for necessário. Existem três formas de aplicar o DI, por injeção de construtor, setter e interface. O Spring Framework aplica a IoC quando necessário também utilizando o DI.
+
+Class A <- (Injetando Dependência) Class B
+
+Desafio
+
+Implemente a injeção de dependência em um programa simples, seguindo as orientações da aula.
+
+https://github.com/Re04nan/dio-experts-spring-boot-java
+
+
+Debug do código - DI
+
+
+

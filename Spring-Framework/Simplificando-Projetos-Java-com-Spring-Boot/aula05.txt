@@ -1,0 +1,55 @@
+Spring Boot Test
+
+
+Visão Geral
+
+Spring Boot Test
+
+O Spring Boot facilita o desenvolvimento de testes de unidade e integração com o Spring Boot Test, um recurso bastante utilizado no desenvolvimento de aplicações java para testar comportamentos do código e regras do negócio.
+
+Para utilizarmos precisamos usar spring-boot-starter-test , que importa os módulos de teste Spring Boot, bem como JUnit Jupiter, AssertJ, Hamcrest e várias outras bibliotecas úteis.
+
+Importância do Teste
+
+Em desenvolvimento de software, os erros podem aparecer em qualquer etapa do ciclo de vida do projeto. Com isso, o teste de software se torna essencial e não pode ser visto como uma atividade opcional, pois oferece os métodos e ferramentas necessárias para garantir a qualidade de qualquer desenvolvimento.
+
+
+Testes Unitários
+
+Os testes unitários é a base da pirâmide de testes onde são realizados o maior número de testes ou deveria para garantir a fidelidade do código e regras do negócio.
+
+Desafio
+
+Utilize o Spring Boot Test para realizar um pequeno teste unitário em um projeto Spring Boot, seguindo as orientações da aula.
+
+https://github.com/Re04nan/dio-experts-spring-boot-java
+
+
+Explorando o @SpringBootTest
+
+@SpringBootTest
+
+A anotação @SpringBootTest é utilizada em uma classe de teste e diz ao Spring Boot para procurar uma classe de configuração principal, por exemplo, o @SpringBootApplication, e usá-la para iniciar um contexto de aplicativo Spring.
+
+import or.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringboottestApplicationTests{
+
+	@Test
+	void contextLoads(){
+	
+	}
+	
+
+}
+
+
+
+Desafio
+
+Utilize o Spring Boot Test para realizar um pequeno teste de integração em um projeto Spring Boot, seguindo as orientações da aula.
+
+https://github.com/Re04nan/dio-experts-spring-boot-java
+

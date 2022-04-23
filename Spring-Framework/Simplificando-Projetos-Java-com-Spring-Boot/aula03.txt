@@ -1,0 +1,88 @@
+Spring Boot
+
+O que é o Spring Boot?
+
+Spring Boot
+
+O Spring Boot é uma extensão do Spring, que utiliza do Spring Framework para iniciar uma aplicação de forma simples e rápida, 
+sem se preocupar com configurações complexas como, por exemplo, o Tomcat.
+
+Componentes base do Spring Boot:
+Spring Boot Starter;
+Spring Boot Auto-Configuration;
+Spring Boot Actuator;
+
+Como o Spring Boot Funciona?
+
+Em resumo o Spring Boot é como um template pré-configurado para desenvolvimento e execução de aplicações baseadas no Spring.
+Onde, temos uma arquitetura baseada no Spring Core, que traz os componentes-base do Spring, como o mecanismo de DI/IoC, a Spring Expression Language (SpEL) e alguns módulos-base do Spring AOP (módulo para implementação de programação orientada a aspectos no Spring).
+
+O Spring Boot permite adicionar a estrutura-base o que é chamado de módulo.
+Um módulo é na verdade uma biblioteca ou ferramenta do ecossistema Spring que pode ser adicionada a uma aplicação Spring convencional.
+
+
+Spring Boot = Spring Framework + Servidor Embutido   - XML <bean> Configuration ou @Configuration
+                                 (Tomcat ou Jetty)
+
+
+Dependências base do Do Spring Boot
+
+<dependencies>
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+	</dependency>
+		
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+	</dependency>
+
+</dependencies>
+
+
+
+Motivação do Spring Boot
+
+https://spring.io/projects/spring-boot
+
+Motivação do Spring Boot
+
+Resumidamente o Spring Boot veio para facilitar a vida do desenvolvedor java e melhorar a produtividade do desenvolvimento de softwares. O Spring Boot facilita todo esse processo, fazendo com que o desenvolvedor se concentre mais na parte realmente importante que envolve as regras do negócio e código.
+
+
+
+Spring Initializr
+
+O Spring Initializr fornece uma API extensível para gerar projetos baseados em JVM (Java Virtual Machine),
+é onde podemos criar um projeto Spring Boot de forma rápida e fácil, através do site:
+
+https://start.spring.io/
+
+https://github.com/spring-io/initializr
+
+Desafio
+
+Crie seu primeiro projeto web com Spring Boot com Spring Initializr, seguindo as orientações da aula.
+
+https://github.com/Re04nan/dio-experts-spring-boot-java
+
+
+Auto-configuration
+
+@SpringBootApplication
+
+
+O Auto-configuration ou configuração automática do Spring Boot configura automaticamente a aplicação Spring com base nas dependências jar que adicionamos ao projeto.
+
+Para habilitar o recurso existe a anotação @EnableAutoConfiguration, mas essa não é usada porque está contida no @SpringBootApplication. A anotação @SpringBootApplication é a combinação de três anotações.
+
+
+@SpringBootApplication = @ComponentScan + @EnableAutoConfiguration + @Configuration
+
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication

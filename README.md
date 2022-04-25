@@ -9,7 +9,7 @@ O bootcamp **Philips Fullstack Developer**  é um programa gratuito para quem de
 
 **Conclusão do Bootcamp:**  25/04/2022.
 
-![Certificado de Conclusão](../Bootcamp-Philips-Fullstack-Developer/certificados-dio/certificado-bootcamp-philips-developer.png)
+![Certificado de Conclusão](/certificados-dio/certificado-bootcamp-philips-developer.png)
 
 
 

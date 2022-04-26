@@ -1,0 +1,157 @@
+Definição do ambiente e introdução ao PLSQL
+
+Live do dia 25/04/2022: https://www.youtube.com/watch?v=RE6ssVNKvYw
+
+https://github.com/denilsonbonatti/plsql-philips
+
+Introdução ao PL/SQL
+
+Definição do Ambiente
+
+
+
+github.com/denilsonbonatti/plsql-philips
+
+O que é um banco de dados?
+
+Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente
+em um sistema de computador. Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (SGBD).
+
+
+Os dados nos tipos mais comuns de banco de dados em operação atualmente são modelados em linhas e colunas em uma série de tabelas
+para tornar o processamento e a consulta de dados eficientes.
+
+Os dados podem ser facilmente acessados, gerenciados, atualizados, controlados e organizados.
+
+
+Qual a diferença entre um banco de dados e uma planilha?
+
+Banco de dados e planilhas (como o Microsoft Excel) são modos convenientes de armazenar informações.
+As principais diferenças entre os dois são:
+
+Como os dados são armazenados e manipulados;
+Quem pode acessar os dados;
+Quantos dados podem ser armazenados.
+
+As planilhas foram originalmente projetadas para um usuário e susas características refletim isso.
+São ótimas para um único usuário ou um pequeno número de usuários que não precisam fazer manipulações de dados
+extremamente complicadas.
+
+Banco de dados, por outro lado, são projetados para conter coleções muito maiores de informações organizadas,
+quantidades enormes, ás vezes.
+Os banco de dados permitem que vários usuários, ao mesmo tempo, acessem e consultem com rapizem e segurança os dados
+usando a lógica e linguagem altamente complexas.
+
+
+
+O que é um SGBD?
+
+Sistema Gerenciador de Banco de Dados.
+
+Um sistema de Gerenciamento de Banco de Dados (SGBD) é o conjunto de programas de computador (softwares)
+responsáveis pelo gerenciamento de uma base de dados.
+O SGBD disponibiliza uma interface para que os clientes do banco de dados possam incluir, alterar ou consultar
+dados previamente armazenados.
+
+
+Exemplos de SGBD: Oracle, Mysql, SQL Server, PostgreSQL, MongoDB e etc.
+
+
+SQL
+
+SQL é uma linguagem de programação usada por quase todos os banco de dados relacionais,
+para consultar, manipular e definir dados e fornecer controle de acesso.
+O SQL foi desenvolvido pela primeira vez na IBM nos anos 1970,
+com a ORACLE como principal contribuinte, o que levou a implementação do padrão SQL ANSI.
+Embora o SQL ainda seja amplamente usando hoje em dia, novas linguagens de programação estão começando
+a aparecer.
+
+
+
+Exemplos:
+
+SELECT * FROM clientes;
+SELECT nome, cidade FROM clientes;
+SELECT * FROM clientes WHERE cidade="Jaboticabal";
+
+
+Limitações do SQL
+
+O SQL é uma linguagem sequencia.
+Com o SQL não é possível criar uma programação estruturada.
+Por isso, todo SGBD acabou criando a sua própria linguagem estruturada.
+
+
+
+
+Oracle 21c XE:
+
+https://www.oracle.com/br/database/technologies/xe-downloads.html
+
+
+Necessário Oracle JDK instalado.
+
+
+Oracle SQL Developer
+
+O Oracle SQL Developer é um ambiente de desenvolvimento integrado para trabalhar com SQL/PLSQL em banco
+de dados Oracle.
+A Oracle Corporation fornece este produto gratuitamente.
+Ele usa o Java Development Kit.
+
+https://www.oracle.com/br/database/technologies/appdev/sqldeveloper-landing.html
+
+
+Alter variável de sessão
+
+alter session set "_ORACLE_SCRIPT"=true;
+
+
+
+Criando Usuário e alterando Quota
+
+CREATE USER plsql IDENTIFIED BY plsql;
+GRANT connect, resource TO plsql;
+ALTER USER plsql QUOTA UNLIMITED ON users;
+
+Diferenças entre o SQL e o PL/SQL
+
+SQL
+
+Linguagem Declarativa
+Linguagem Padrão. Pode ser utilizada por qualquer SGBD do mercado.
+
+PL/SQL
+
+Linguagem imperativa. Possibilita até a criação de aplicações complexas e completas.
+Linguagem proprietária. Só pode ser utilizada pelo SGDB Oracle.
+
+Por que utilizar o PL/SQL?
+
+Se uma empresa trabalha com o SGBD Oracle, a principal  vantagem de se criar programas em PL/SQL é,
+sem dúvida, o fato de a linguagem tornar possível a construção de aplicações eficientes
+para a manipulação de grandes volumes de dados.
+
+Como o programa PL/SQL é executado dentro do Oracle, os dados manipulados não precisam entrar ou sair do
+SGBD, ou seja, trafegar pela rede.
+
+
+
+Estrutura Básica de um Programa PL/SQL
+
+DECLARE
+	Definição de Objetos (Variáveis, constantes, etc)
+
+BEGIN
+	Comandos de Execução.
+
+END;
+
+
+
+
+
+
+
+
+

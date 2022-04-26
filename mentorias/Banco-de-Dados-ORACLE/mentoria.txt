@@ -1,0 +1,219 @@
+Mentoria #4: Banco de Dados ORACLE
+
+Live do dia 26/04/2022: https://www.youtube.com/watch?v=-s1QatEylrE&feature=youtu.be
+
+Instrutor: William Kreuch
+
+Host: Carolina Faria
+
+Banco de Dados ORACLE
+
+É um SGBD.
+
+Um banco de dados é uma coleção organizada de informações;
+
+SQL(Structured Query Language) é uma linguagem de programação para consultar,
+manipular dados e controlar.
+
+PLSQL(Procedural Language / Structured Query Language) utilizado dentro do banco de dados
+Oracle.
+
+DML - Data Manipulation Languague e objetos do banco.
+
+
+Fechamento de Pedido
+
+categorias
+id INT
+descricao VARCHAR(45)
+
+fornecedores
+id INT
+nome VARCHAR(45)
+
+produtos
+id INT
+descricao VARCHAR(45)
+qtd INT
+ativo TINYINT
+id_categoria INT
+id_fornecedor INT
+
+pedido
+id INT
+id_produto INT
+qtd INT
+date DATE
+
+
+
+DML - Data Manipulation Language
+
+Linguagem de Manipulação de Dados.
+
+SELECT - para buscar registros
+
+INSERT - para criar registros
+
+UPDATE - para atualizar registros
+
+DELETE - para deletar registros
+
+
+criacaotabela.sql
+
+
+
+SELECT
+
+Buscar registros das tabelas do banco de dados;
+
+SELECT [expressions]
+FROM [tables]
+[WHERE conditions];
+
+Expressions - são valores a ser retornados;
+Tables - são de onde vamos buscar essa informação;
+WHERE conditions - são condições que criamos para buscar os registros;
+
+
+Operadores de Comparação
+
+=
+<>
+!=
+>
+>=
+<
+<=
+IN()
+NOT
+BETWEEN
+IS NULL
+IS NOT NULL
+LIKE
+REGEXP_LIKE
+EXISTS
+
+
+select.sql
+
+
+
+
+INSERT
+
+Adicionar registros na tabela do banco de dados.
+
+
+INSERT INTO table
+(column1, column2, ... column_n)
+VALUES
+(expression)
+
+Table - é a tabela que será inserido os dados;
+Column - são as colunas da tabela;
+Expressions
+
+insert.sql
+
+
+
+Cada valor vai ser inserido conforme a sequência de colunas e separados por ','.
+
+
+UPDATE
+
+Atualizar os registros em uma tabela do banco de dados.
+
+UPDATE table
+SET column1 = expression1, column2 = expression 2
+WHERE conditions;
+
+Table - é a tabela que receberá a atualização do registro;
+Column - são as colunas da tabela
+Expressions - são os valores atualizados
+WHERE conditions - são as condições para atualizar os registros;
+
+
+update.sql
+
+
+
+Importante: Fazer um comando sem WHERE é para todos os registros.
+
+
+
+DELETE
+
+Deletar os registros de uma tabela do banco de dados.
+
+DELETE FROM table
+WHERE conditions;
+
+
+Table- é a tabela que será excluido o registro
+
+delete.sql
+
+
+
+
+Importante: Fazer um comando sem WHERE é para todos os registros.
+
+
+Objetos do Banco de Dados
+
+FUNCTIONS - Retorna um registro.
+
+PROCEDURES - executa um bloco de código para um processo.
+
+VIEW - um conjunto de SELECT.
+
+TRIGGER - Executar algum processo quando executado um comando INSERT/UPATE/DELETE.
+
+
+FUNCTIONS
+
+functions.sql
+
+PROCEDURES
+
+procedures.sql
+
+Commit - Salva de fato no banco de dados, mesmo após o fim da sessão atual.
+
+
+VIEW
+
+views.sql
+
+
+TRIGGER
+
+triggers.sql
+
+
+
+
+
+IF-ELSE
+
+if-else.sql
+
+
+LOOP
+
+loop.sql
+
+
+
+LINKS
+
+https://livesql.oracle.com
+
+https://www.oracle.com/br/database/technologies/appdev/plsql.html
+
+https://www.w3schools.blog/plsql-tutorial
+
+https://www.techonthenet.com/oracle/index.php

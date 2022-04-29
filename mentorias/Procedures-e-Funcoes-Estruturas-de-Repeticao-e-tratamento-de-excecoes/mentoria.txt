@@ -1,0 +1,49 @@
+ExpertTalk
+
+Instrutor: Denilson Bonatti. Github: https://github.com/denilsonbonatti
+
+Live do dia 28/04/2022: https://www.youtube.com/watch?v=WDhqZUsFViM
+
+Procedures e Funções, estruturas de repetição e tratamento de exceções.
+
+Procedures e Funções
+
+O que é uma PROCEDURE?
+
+Procedure é uma biblioteca de comandos em SQL ou PL/SQL para utilização junto ao banco de dados.
+
+Ela armazena tarefas repetitivas e aceita parâmetros de entrada para que a tarefa
+seja efetuada de acordo com a necessidade individual.
+
+
+Uma procedure pode reduzir o tráfego na rede, melhorar a perfomance, criar tarefas agendadas, 
+diminuir riscos, criar rotinas de processamento, etc.
+
+inserir.php
+
+select.php
+
+cloud.sql
+
+insert.php
+
+cloud.sql
+
+insert2.php
+
+
+FUNCTIONS
+
+O que é uma FUNCTION?
+
+Uma function é um bloco PL/SQL muito semelhante a uma procedure,
+onde a principal diferença é que com uma function eu consigo ter o retorno de uma chamada.
+
+
+cloud.sql
+
+
+
+Procedure não tem retorno, já com a função sempre tem o retorno.
+
+
